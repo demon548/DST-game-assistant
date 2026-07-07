@@ -25,7 +25,11 @@ from langchain_core.prompts import ChatPromptTemplate
 # ---- LLM & Embedding ----
 api_key = os.getenv("DEEPSEEK_API_KEY")
 base_url = os.getenv("DEEPSEEK_BASE_URL")
-llm = ChatOpenAI(model="deepseek-chat", api_key=api_key, base_url=base_url)
+llm = ChatOpenAI(
+    model="deepseek-chat",
+    api_key=api_key, base_url=base_url,
+    temperature=0.15,  # 低温度减少幻觉
+)
 
 embeddings = HuggingFaceEmbeddings(
     model_name="BAAI/bge-small-zh-v1.5",
@@ -36,6 +40,7 @@ embeddings = HuggingFaceEmbeddings(
 # ---- 高级组件 ----
 from agent_workflow import Agent, AgentStep, is_chinese, translate
 from context_memory import ConversationMemory
+from input_validator import validate as validate_input
 
 # ============================================================
 # 知识库构建
@@ -160,12 +165,24 @@ class EnhancedRAGAssistant(RAGAssistant):
         """
         import time as _t
 
+        # ---- ⓪ Input Validator ----
+        ok, err_msg = validate_input(question)
+        if not ok:
+            yield {"type": "token", "text": err_msg}
+            yield {"type": "done"}
+            return
+
         if not self.vector_store:
             yield {"type": "token", "text": "❌ 知识库尚未构建"}
             yield {"type": "done"}
             return
 
         t_start = _t.time()
+
+        # ---- ⓪ Input Validator（日志） ----
+        validate_log = [AgentStep(
+            "🛡️ 输入验证", "输入有效，进入 RAG 流程", 0
+        )]
 
         # ---- ① 上下文改写 (Agent 核心能力) ----
         t_rw = _t.time()
@@ -198,8 +215,8 @@ class EnhancedRAGAssistant(RAGAssistant):
         self.log = result.log
         retrieved = result.retrieved_docs
 
-        # 合并日志：改写在前，process 日志在后
-        full_initial_log = rewrite_log + result.log
+        # 合并日志：验证 → 改写 → process
+        full_initial_log = validate_log + rewrite_log + result.log
 
         # 先发日志
         yield {"type": "thinking", "log": [
@@ -213,7 +230,7 @@ class EnhancedRAGAssistant(RAGAssistant):
         )
         history_text = self.memory.get_recent(5)
 
-        prompt_template = """你是饥荒联机版(DST)游戏专家助手。
+        prompt_template = """你是饥荒联机版(DST)游戏专家助手。你只能依据下面的「参考数据」回答。
 
 ## 对话历史
 {history}
@@ -224,12 +241,24 @@ class EnhancedRAGAssistant(RAGAssistant):
 ## 用户当前问题
 {question}
 
-## 回答规范
-- 参考对话历史理解上下文。如上一轮讨论了"巨鹿"，本轮"它"就是指巨鹿
-- 用自然的中文回答，跟老玩家交流一样
+## 严格回答规范（必须遵守）
+
+### 数据边界
+- 只能依据「参考数据」中的信息回答
+- 参考数据中没有的信息 → 必须回答："知识库中没有找到相关信息，无法确认"
+- 禁止根据游戏经验推测、禁止编造游戏机制、禁止补充未经检索的信息
+- 用户使用不认识的术语时，直接说明"饥荒中没有这个物品/概念"
+
+### 完整性
+- 一次性完整回答，列出所有条件/步骤/数值
+- 不要反问用户，不要说"你想了解哪个"、"如果需要我可以继续介绍"
+
+### 格式
 - 关键事实用 [1] [2] 标注来源
-- 用户使用不认识的术语时，直接说明游戏中没有，不要猜测
-- 参考数据中没有的信息诚实说明，不编造
+- 用自然的中文，跟老玩家交流一样
+
+### 自检
+生成回答后，在心里确认：回答中每一条事实都能在「参考数据」中找到原文。如果某条找不到，删除它。
 
 ## 回答
 """
@@ -251,8 +280,8 @@ class EnhancedRAGAssistant(RAGAssistant):
 
         gen_ms = (_t.time() - t_gen) * 1000
 
-        # ---- ⑥ 更新日志（保留改写步骤！）----
-        full_log = rewrite_log + list(result.log)
+        # ---- ⑥ 更新日志（验证 → 改写 → process → 流式）----
+        full_log = validate_log + rewrite_log + list(result.log)
         full_log.append(AgentStep("🎤 流式生成", f"生成 {len(self._full_answer)} 字", gen_ms))
         total_ms = (_t.time() - t_start) * 1000
         full_log.append(AgentStep("✅ 完成", f"总计 {total_ms/1000:.1f}s", 0))

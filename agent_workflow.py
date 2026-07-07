@@ -157,19 +157,47 @@ class Agent:
                     result.append(k)
         return result
 
-    def search(self, query: str, vector_store, k: int = 4) -> list:
+    RETRIEVAL_K = 8  # 扩大召回范围（原 4）
+
+    def search(self, query: str, vector_store, k: int = None) -> list:
+        if k is None:
+            k = self.RETRIEVAL_K
         return vector_store.similarity_search(query, k=k)
 
-    def search_with_fallback(self, query: str, vector_store, k: int = 4) -> list:
-        """检索 + 关键词兜底"""
+    def rerank_by_keyword(self, query: str, docs: list, top_k: int = 4) -> list:
+        """
+        轻量 rerank：按关键词命中密度重新排序 top-K chunks。
+        不需要额外模型，零依赖。
+        """
+        kws = self.extract_keywords(query)
+        if not kws or len(docs) <= top_k:
+            return docs[:top_k]
+
+        scored = []
+        for d in docs:
+            text = d.page_content[:500]
+            score = sum(1 for kw in kws if kw in text)
+            # 奖励短文本密度
+            density = score / max(len(text), 1)
+            scored.append((d, density))
+
+        scored.sort(key=lambda x: x[1], reverse=True)
+        return [d for d, _ in scored[:top_k]]
+
+    def search_with_fallback(self, query: str, vector_store, k: int = None) -> list:
+        """检索(k=8) + 关键词兜底 + rerank → 返回 top-4"""
+        if k is None:
+            k = self.RETRIEVAL_K
+
         docs = self.search(query, vector_store, k)
         all_text = ' '.join(d.page_content[:200] for d in docs)
         kws = self.extract_keywords(query)
         matched = [kw for kw in kws if kw in all_text]
         if not matched and len(kws) >= 2:
-            fb_docs = self.search(' '.join(kws[:5]), vector_store, k)
-            return fb_docs if fb_docs else docs
-        return docs
+            docs = self.search(' '.join(kws[:5]), vector_store, k)
+
+        # rerank：从 top-8 中选出关键词最密集的 top-4
+        return self.rerank_by_keyword(query, docs, top_k=4)
 
     # ================================================================
     # 主流程
@@ -219,7 +247,7 @@ class Agent:
             all_docs = []
             for i, sq in enumerate(subs):
                 t_s = _time.time()
-                docs = self.search_with_fallback(sq, vector_store, k=3)
+                docs = self.search_with_fallback(sq, vector_store, k=self.RETRIEVAL_K)
                 all_docs.extend(docs)
                 result.log.append(AgentStep(
                     f"🔎 检索子问题{i+1}",
