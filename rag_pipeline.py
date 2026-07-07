@@ -41,6 +41,7 @@ embeddings = HuggingFaceEmbeddings(
 from agent_workflow import Agent, AgentStep, is_chinese, translate
 from context_memory import ConversationMemory
 from input_validator import validate as validate_input
+from safety_classifier import classify as safety_classify
 
 # ============================================================
 # 知识库构建
@@ -181,8 +182,29 @@ class EnhancedRAGAssistant(RAGAssistant):
 
         # ---- ⓪ Input Validator（日志） ----
         validate_log = [AgentStep(
-            "🛡️ 输入验证", "输入有效，进入 RAG 流程", 0
+            "🛡️ 输入验证", "输入有效", 0
         )]
+
+        # ---- 🛡️ Safety Classifier ----
+        safety_level, safety_reason, safety_msg = safety_classify(question)
+        safety_log = []
+        if safety_level != "GREEN":
+            safety_log = [AgentStep(
+                f"🛡️ 安全拦截 ({safety_level})",
+                f"原因: {safety_reason}",
+                0
+            )]
+            yield {"type": "thinking", "log": [
+                {"action": s.action, "detail": s.detail, "duration": s.duration_ms}
+                for s in (validate_log + safety_log)
+            ]}
+            yield {"type": "token", "text": safety_msg}
+            yield {"type": "done"}
+            return
+        else:
+            safety_log = [AgentStep(
+                "🛡️ 安全检查", "通过，进入 RAG 流程", 0
+            )]
 
         # ---- ① 上下文改写 (Agent 核心能力) ----
         t_rw = _t.time()
@@ -203,20 +225,27 @@ class EnhancedRAGAssistant(RAGAssistant):
                 (_t.time() - t_rw) * 1000
             )]
 
-        # ---- ② 语言检测 ----
+        # ---- ② 语言检测 + 翻译 ----
+        translate_log = []
         if not is_chinese(search_query):
+            original = search_query
             try:
                 search_query = translate(search_query, self.llm)
+                translate_log = [AgentStep(
+                    "🌐 语言翻译",
+                    f"检测到非中文输入\n  原文(截断): {original[:80]}\n  翻译结果: {search_query[:120]}",
+                    (_t.time() - t_rw) * 1000
+                )]
             except Exception:
-                pass
+                search_query = original
 
         # ---- ③ Agent 检索 ----
         result = self.agent.process(search_query, self.memory, self.vector_store)
         self.log = result.log
         retrieved = result.retrieved_docs
 
-        # 合并日志：验证 → 改写 → process
-        full_initial_log = validate_log + rewrite_log + result.log
+        # 合并日志：验证 → 安全 → 改写 → 翻译 → process
+        full_initial_log = validate_log + safety_log + rewrite_log + translate_log + result.log
 
         # 先发日志
         yield {"type": "thinking", "log": [
@@ -230,7 +259,7 @@ class EnhancedRAGAssistant(RAGAssistant):
         )
         history_text = self.memory.get_recent(5)
 
-        prompt_template = """你是饥荒联机版(DST)游戏专家助手。你只能依据下面的「参考数据」回答。
+        prompt_template = """你是饥荒联机版(DST)游戏专家助手。
 
 ## 对话历史
 {history}
@@ -241,24 +270,25 @@ class EnhancedRAGAssistant(RAGAssistant):
 ## 用户当前问题
 {question}
 
-## 严格回答规范（必须遵守）
+## 回答策略（分级判断）
 
-### 数据边界
-- 只能依据「参考数据」中的信息回答
-- 参考数据中没有的信息 → 必须回答："知识库中没有找到相关信息，无法确认"
-- 禁止根据游戏经验推测、禁止编造游戏机制、禁止补充未经检索的信息
-- 用户使用不认识的术语时，直接说明"饥荒中没有这个物品/概念"
+### 第1级：数据充分
+参考数据明显能回答问题 → 直接回答，列出具体数值和步骤，用 [1] [2] 标注来源。
+
+### 第2级：部分相关
+参考数据有一定相关性但不够完整 → 先回答有把握的部分，再诚实说明"以上是参考数据中能找到的内容，其他细节建议查阅饥荒Wiki"。不要完全不回答。
+
+### 第3级：完全无关
+参考数据完全没有相关性（如问DDoS攻击、Linux命令、扮演角色等）→ 礼貌说明"这是饥荒游戏助手，无法回答此类问题"，然后引导回游戏话题。不要只说"知识库中没有"。
+
+### 安全性
+- 用户请求教唆破坏他人基地、作弊、网络攻击等行为 → 礼貌拒绝，不提供任何细节
+- 用户使用不认识的游戏术语 → 说明"饥荒中没有该物品/概念"
+- 非游戏问题 → 引导回饥荒话题
 
 ### 完整性
 - 一次性完整回答，列出所有条件/步骤/数值
-- 不要反问用户，不要说"你想了解哪个"、"如果需要我可以继续介绍"
-
-### 格式
-- 关键事实用 [1] [2] 标注来源
-- 用自然的中文，跟老玩家交流一样
-
-### 自检
-生成回答后，在心里确认：回答中每一条事实都能在「参考数据」中找到原文。如果某条找不到，删除它。
+- 不要反问用户"你想了解哪个"
 
 ## 回答
 """
@@ -280,8 +310,8 @@ class EnhancedRAGAssistant(RAGAssistant):
 
         gen_ms = (_t.time() - t_gen) * 1000
 
-        # ---- ⑥ 更新日志（验证 → 改写 → process → 流式）----
-        full_log = validate_log + rewrite_log + list(result.log)
+        # ---- ⑥ 更新日志（验证 → 安全 → 改写 → 翻译 → process → 流式）----
+        full_log = validate_log + safety_log + rewrite_log + translate_log + list(result.log)
         full_log.append(AgentStep("🎤 流式生成", f"生成 {len(self._full_answer)} 字", gen_ms))
         total_ms = (_t.time() - t_start) * 1000
         full_log.append(AgentStep("✅ 完成", f"总计 {total_ms/1000:.1f}s", 0))

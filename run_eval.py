@@ -355,11 +355,11 @@ report += f"""## 📝 总结
 """
 
 # ======== 保存 ========
-with open("test_cases/eval_report.md", "w", encoding="utf-8") as f:
+with open("test_cases/eval_report_v2.md", "w", encoding="utf-8") as f:
     f.write(report)
 
 print("\n" + "=" * 60)
-print(f"报告已保存: test_cases/eval_report.md")
+print(f"报告已保存: test_cases/eval_report_v2.md")
 print(f"PASS: {pass_count} | PARTIAL: {partial_count} | FAIL: {fail_count} | MANUAL: {manual_count}")
 print(f"总耗时: {total_time}s")
 print("=" * 60)
