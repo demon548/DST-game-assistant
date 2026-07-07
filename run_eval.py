@@ -114,10 +114,10 @@ for i, tc in enumerate(test_cases):
 
     print(f"[{i+1:02d}/20] {tid} | {cat}")
 
-    # ---- Step 1: RAG 回答 ----
+    # ---- Step 1: RAG 回答（所有输入都进入 validator）----
     t0 = time.time()
     try:
-        answer = assistant.ask(q) if q.strip() else ""
+        answer = assistant.ask(q)
         elapsed = time.time() - t0
     except Exception as e:
         answer = f"[ERROR] {e}"
@@ -355,11 +355,11 @@ report += f"""## 📝 总结
 """
 
 # ======== 保存 ========
-with open("test_cases/eval_report_v2.md", "w", encoding="utf-8") as f:
+with open("test_cases/eval_report_v3.md", "w", encoding="utf-8") as f:
     f.write(report)
 
 print("\n" + "=" * 60)
-print(f"报告已保存: test_cases/eval_report_v2.md")
+print(f"报告已保存: test_cases/eval_report_v3.md")
 print(f"PASS: {pass_count} | PARTIAL: {partial_count} | FAIL: {fail_count} | MANUAL: {manual_count}")
 print(f"总耗时: {total_time}s")
 print("=" * 60)

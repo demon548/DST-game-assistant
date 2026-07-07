@@ -42,6 +42,7 @@ from agent_workflow import Agent, AgentStep, is_chinese, translate
 from context_memory import ConversationMemory
 from input_validator import validate as validate_input
 from safety_classifier import classify as safety_classify
+from query_expansion import expand as expand_query
 
 # ============================================================
 # 知识库构建
@@ -225,7 +226,18 @@ class EnhancedRAGAssistant(RAGAssistant):
                 (_t.time() - t_rw) * 1000
             )]
 
-        # ---- ② 语言检测 + 翻译 ----
+        # ---- ② Query Expansion（同义词扩展） ----
+        expanded_query = expand_query(search_query)
+        expansion_log = []
+        if expanded_query != search_query:
+            expansion_log = [AgentStep(
+                "🔀 查询扩展",
+                f"原始: {search_query[:80]}\n扩展: {expanded_query[:120]}",
+                (_t.time() - t_rw) * 1000
+            )]
+            search_query = expanded_query
+
+        # ---- ③ 语言检测 + 翻译 ----
         translate_log = []
         if not is_chinese(search_query):
             original = search_query
@@ -244,8 +256,8 @@ class EnhancedRAGAssistant(RAGAssistant):
         self.log = result.log
         retrieved = result.retrieved_docs
 
-        # 合并日志：验证 → 安全 → 改写 → 翻译 → process
-        full_initial_log = validate_log + safety_log + rewrite_log + translate_log + result.log
+        # 合并日志：验证 → 安全 → 改写 → 扩展 → 翻译 → process
+        full_initial_log = validate_log + safety_log + rewrite_log + expansion_log + translate_log + result.log
 
         # 先发日志
         yield {"type": "thinking", "log": [
@@ -310,8 +322,8 @@ class EnhancedRAGAssistant(RAGAssistant):
 
         gen_ms = (_t.time() - t_gen) * 1000
 
-        # ---- ⑥ 更新日志（验证 → 安全 → 改写 → 翻译 → process → 流式）----
-        full_log = validate_log + safety_log + rewrite_log + translate_log + list(result.log)
+        # ---- ⑥ 更新日志（验证 → 安全 → 改写 → 扩展 → 翻译 → process → 流式）----
+        full_log = validate_log + safety_log + rewrite_log + expansion_log + translate_log + list(result.log)
         full_log.append(AgentStep("🎤 流式生成", f"生成 {len(self._full_answer)} 字", gen_ms))
         total_ms = (_t.time() - t_start) * 1000
         full_log.append(AgentStep("✅ 完成", f"总计 {total_ms/1000:.1f}s", 0))
