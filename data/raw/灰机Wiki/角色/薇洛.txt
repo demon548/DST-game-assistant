@@ -1,0 +1,137 @@
+# 薇洛
+来源: 灰机Wiki搜索
+
+联机版
+单机版
+角色信息
+所有的一切终将沐浴在最美的火焰中。
+—— 薇洛
+薇洛（
+Willow
+饥荒：联机版
+中的可用
+之一，她是一个略显暴躁的年轻女子，对火焰有着有些病态的迷恋。
+背景故事
+灯火阑珊处
+薇洛觉得被带到永恒领域是一个新的开始。毕竟这让她可以抛下从前的所有。从小到大，薇洛总是厄运缠身：自小就成了孤儿，在福利院长大，看护者严厉苛刻。她很快就发现，她在夜晚能看到
+可怕的景象
+……这些生物只有在她忠实的泰迪熊伯尼的帮助下才能被控制住。但当她的看护人认为她的行为不当，拿走伯尼惩罚她时，薇洛就只能自生自灭了。当暗影再来找她，她学会了用熊熊燃烧的火焰抵挡黑暗。没有什么比看着自己的烦恼被点燃，一点点烧成灰烬更让人欣慰了……这不会是薇洛最后一次烧掉一切重新开始了。
+特殊能力
+打火机
+主条目：
+薇洛的打火机
+薇洛可以在角色专属制作栏制作
+薇洛的打火机
+。相当于一个范围较小使用时间更长的
+；薇洛可以用它
+物品。
+主条目：
+薇洛可以在角色的专属制作栏制作伯尼，并可以将其转化为
+伯尼！
+薇洛不会受到
+火焰伤害
+薇洛靠近火时会逐渐恢复理智。火越大，恢复理智的速度就越快。装备带火的工具（打火机，火把等）也能为她提供 +0.5
+/分钟的理智回复。
+有趣的是，
+暗夜灯
+的火焰也算火焰，因此薇洛仍可通过靠近暗夜灯的方式来回复理智值。
+薇洛为
+营地火源
+添加燃料时，与其他角色相比，燃料值提高了 50% 。
+薇洛徒手扑灭闷烧的物品更快，且不会因此受到伤害。
+薇洛在火上烹饪食物的耗时只有其他角色（1秒）的一半（ 0.5 秒）。
+薇洛的理智值上升下降都比其他角色快 10% ，如黄昏夜晚时分，亦或建筑，光环，装备带来的理智变化。
+薇洛自带 30 点隔热值，使她在炎热环境中过热需要更长时间。过热时，薇洛只会受到 2/3 的伤害（ -0.83
+/秒）。
+薇洛自带 -30 点保暖值，使她更容易受到冻伤的影响。冻伤时，薇洛会受到双倍的伤害（ -2.5
+/秒），并且还会额外每秒失去
+1.83
+实为 1.66 * 1.1
+薇洛的冰冻抗性为 3，低于其它角色（4）。
+薇洛的
+最喜欢的食物
+辣椒炖肉
+技能树
+{"metainfo":{"imgs":{"Selectable_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Selectable_over.png","Willow_background":"https://huiji-public.huijistatic.com/dontstarve/uploads/5/59/Willow_background.png","Locked_skill":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/ae/Locked_skill.png","Unlocked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/85/Unlocked_over.png","Frame_octagon":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Frame_octagon.png","Unlocked":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/31/Unlocked.png","Skilltree_backgroundart":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Skilltree_backgroundart.png","Button_carny_long_down":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/13/Button_long_down.png","Button_carny_long_hover":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Button_long_hover.png","Unselected":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c4/Unselected.png","Selected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/ee/Selected_over.png","Button_carny_long_normal":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/68/Button_long_normal.png","Locked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/46/Locked_over.png","Selected":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fa/Selected.png","Unselected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/d8/Unselected_over.png","Skill_icon_textbox_white":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/79/Skill_icon_textbox_white.png","Selectable":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/23/Selectable.png","Frame":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c5/Frame.png"}},"defs":{"willow_allegiance_lock_1":{"onactivate":true,"connects":["willow_allegiance_shadow_fire","willow_allegiance_shadow_bernie"],"root":true,"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"Eq":{"left":{"CountTags":"lunar_favor"},"right":0}},"pos":[180,174],"desc":"找到并击败远古织影者。\\n没有月亮阵营的技能。"},"willow_allegiance_shadow_fire":{"locks":["willow_allegiance_lock_1","willow_allegiance_lock_3"],"tags":["allegiance","shadow_favor"],"group":"allegiance","desc":"女王会馈赠给你暗焰的能力来奖励你的忠诚。\\n召唤出多个燃烧暗黑火焰的卷须来追击敌方目标。","title":"暗焰纵火犯","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/35/Willow_allegiance_shadow_fire.png","onactivate":true,"icon":"willow_allegiance_shadow_fire","pos":[214,109]},"willow_bernieregen_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/18/Willow_bernieregen_2.png","onactivate":true,"title":"二级打补丁","tags":["bernie","bernie4","bernie8"],"group":"bernie","pos":[-44,127],"icon":"willow_bernieregen_2","desc":"加快伯尼回血速度。"},"willow_berniesanity_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/39/Willow_berniesanity_2.png","connects":["willow_bernieai"],"title":"二级理智小熊","tags":["bernie","bernie4","bernie8"],"group":"bernie","pos":[0,127],"icon":"willow_berniesanity_2","desc":"伯尼活起来的理智阈值进一步提高。"},"willow_bernieai":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/22/Willow_bernieai.png","onactivate":true,"title":"头脑发热","tags":["bernie","bernie4","bernie8"],"group":"bernie","pos":[0,88],"icon":"willow_bernieai","desc":"无论薇洛的理智高低，伯尼都会激活并攻击敌对的月亮和暗影阵营的生物。"},"willow_controlled_burn_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/39/Willow_controlled_burn_3.png","onactivate":true,"title":"烈火斗士","tags":["lighter"],"group":"lighter","pos":[-218,98],"icon":"willow_controlled_burn_3","desc":"随着时间的推移，你的火焰会对生物造成更多伤害。"},"willow_berniespeed_1":{"connects":["willow_berniespeed_2"],"tags":["bernie","bernie4","bernie8"],"group":"bernie","desc":"伯尼移动地稍微快一点。","title":"一级加速剂","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/71/Willow_berniespeed_1.png","onactivate":true,"root":true,"icon":"willow_berniespeed_1","pos":[44,166]},"willow_burnignbernie":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/15/Willow_burnignbernie.png","onactivate":true,"title":"燃烧伯尼","tags":["bernie","bernie4"],"group":"bernie","pos":[43,49],"icon":"willow_burnignbernie","desc":"点燃伯尼会在短时间内给他带来火焰光环。\\n攻击被点燃的伯尼的敌人会受到反伤。"},"willow_berniehealth_1":{"connects":["willow_berniehealth_2"],"tags":["bernie","bernie8"],"group":"bernie","desc":"伯尼的总生命值得到一点提高。","title":"一级坚硬填料","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cd/Willow_berniehealth_1.png","onactivate":true,"icon":"willow_berniehealth_1","pos":[-45,49]},"willow_bernie_lock_2":{"onactivate":true,"connects":["willow_burnignbernie"],"root":true,"tags":["lock"],"group":"bernie","lock_open":{"GreaterOrEqThan":{"left":{"CountTags":"bernie8"},"right":8}},"pos":[43,84],"desc":"学习至少8项伯尼技能后解锁。"},"willow_berniespeed_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/61/Willow_berniespeed_2.png","onactivate":true,"title":"二级加速剂","tags":["bernie","bernie4","bernie8"],"group":"bernie","pos":[44,127],"icon":"willow_berniespeed_2","desc":"伯尼移动地快很多。"},"willow_allegiance_lock_2":{"onactivate":true,"connects":["willow_allegiance_shadow_bernie"],"root":true,"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"GreaterOrEqThan":{"left":{"CountTags":"bernie"},"right":6}},"pos":[146,144],"desc":"学习6项伯尼技能后解锁。"},"willow_controlled_burn_1":{"connects":["willow_controlled_burn_2"],"tags":["lighter"],"group":"lighter","desc":"你放的火不会蔓延，可燃烧的战利品只会冒烟。\\n火把和薇洛的打火机等物品有100。","title":"可控燃烧","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/ac/Willow_controlled_burn_1.png","onactivate":true,"root":true,"icon":"willow_controlled_burn_1","pos":[-218,176]},"willow_lightradius_1":{"connects":["willow_lightradius_2"],"tags":["lighter"],"group":"lighter","desc":"略微增加打火机的亮度。","defaultfocus":true,"title":"一级明亮打火机","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/12/Willow_lightradius_1.png","root":true,"icon":"willow_lightradius_1","pos":[-147,176]},"willow_allegiance_lock_3":{"onactivate":true,"connects":["willow_allegiance_shadow_fire"],"root":true,"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"GreaterOrEqThan":{"left":{"CountTags":"lighter"},"right":7}},"pos":[214,144],"desc":"学习7项打火机技能后解锁。"},"willow_berniehealth_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/67/Willow_berniehealth_2.png","onactivate":true,"title":"二级坚硬填料","tags":["bernie","bernie8"],"group":"bernie","pos":[-45,14],"icon":"willow_berniehealth_2","desc":"伯尼的总生命值得到大量提高。"},"willow_bernie_lock":{"onactivate":true,"connects":["willow_berniehealth_1"],"root":true,"tags":["lock"],"group":"bernie","lock_open":{"GreaterOrEqThan":{"left":{"CountTags":"bernie4"},"right":4}},"pos":[-45,84],"desc":"学习至少4项伯尼技能后解锁。"},"willow_controlled_burn_2":{"connects":["willow_controlled_burn_3"],"tags":["lighter"],"group":"lighter","desc":"延长生物的燃烧时间。","title":"燃烧周期","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/e3/Willow_controlled_burn_2.png","onactivate":true,"icon":"willow_controlled_burn_2","pos":[-218,137]},"willow_attuned_lighter":{"connects":["willow_embers"],"tags":["lighter"],"group":"lighter","desc":"通过用打火机吸收火焰（包括冒烟的状态）来灭火。","title":"饥饿打火机","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6b/Willow_attuned_lighter.png","root":true,"icon":"willow_attuned_lighter","pos":[-155,95]},"willow_fire_ball":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fb/Willow_fire_ball.png","title":"火球术","tags":["lighter"],"group":"lighter","pos":[-182,13],"icon":"willow_fire_ball","desc":"使用余烬制造一个火球，产生光和热。"},"willow_allegiance_lock_4":{"onactivate":true,"connects":["willow_allegiance_lunar_fire","willow_allegiance_lunar_bernie"],"root":true,"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"Eq":{"left":{"CountTags":"shadow_favor"},"right":0}},"pos":[180,73],"desc":"找到并击败天体英雄。\\n没有暗影阵营的技能。"},"willow_allegiance_lunar_bernie":{"locks":["willow_allegiance_lock_4","willow_allegiance_lock_6"],"tags":["allegiance","lunar_favor"],"group":"allegiance","desc":"祈求月亮加强伯尼的位面攻击和防御力，特别是针对暗影敌人。","title":"月亮伯尼","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/af/Willow_allegiance_lunar_bernie.png","onactivate":true,"icon":"willow_allegiance_lunar_bernie","pos":[146,8]},"willow_lightradius_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/ff/Willow_lightradius_2.png","title":"二级明亮打火机","tags":["lighter"],"group":"lighter","pos":[-147,137],"icon":"willow_lightradius_2","desc":"大量增加打火机的亮度。"},"willow_fire_burst":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/42/Willow_fire_burst.png","title":"自燃术","tags":["lighter"],"group":"lighter","pos":[-226,13],"icon":"willow_fire_burst","desc":"使用余烬点燃你附近的生物。"},"willow_embers":{"connects":["willow_fire_burst","willow_fire_ball","willow_fire_frenzy"],"tags":["lighter"],"group":"lighter","desc":"收集并使用余烬来释放多种意念控火术上。\\n你可以用打火机从被烧焦的生物上收集余烬\\n使用余烬来为打火机充能。","title":"余烬照料者","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/9/96/Willow_embers.png","onactivate":true,"icon":"willow_embers","pos":[-155,56]},"willow_fire_frenzy":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/b/b5/Willow_fire_frenzy.png","title":"狂热焚烧","tags":["lighter"],"group":"lighter","pos":[-138,13],"icon":"willow_fire_frenzy","desc":"60秒内，攻击燃烧目标时增加25%的武器伤害。"},"willow_allegiance_lock_5":{"onactivate":true,"connects":["willow_allegiance_lunar_fire"],"root":true,"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"GreaterOrEqThan":{"left":{"CountTags":"lighter"},"right":7}},"pos":[214,43],"desc":"学习7项打火机技能后解锁。"},"willow_berniesanity_1":{"connects":["willow_berniesanity_2"],"tags":["bernie","bernie4","bernie8"],"group":"bernie","desc":"伯尼会在更高的理智阈值下活起来。","title":"一级理智小熊","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/de/Willow_berniesanity_1.png","root":true,"icon":"willow_berniesanity_1","pos":[0,166]},"willow_allegiance_lock_6":{"onactivate":true,"connects":["willow_allegiance_lunar_bernie"],"root":true,"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"GreaterOrEqThan":{"left":{"CountTags":"bernie"},"right":6}},"pos":[146,43],"desc":"学习6项伯尼技能后解锁。"},"willow_allegiance_lunar_fire":{"locks":["willow_allegiance_lock_4","willow_allegiance_lock_5"],"tags":["allegiance","lunar_favor"],"group":"allegiance","desc":"神秘创始人会馈赠给你月焰的配方来奖励你的好奇心。\\n使用余烬来发射冰冷的月焰。","title":"月焰纵火犯","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/30/Willow_allegiance_lunar_fire.png","onactivate":true,"icon":"willow_allegiance_lunar_fire","pos":[214,8]},"willow_allegiance_shadow_bernie":{"locks":["willow_allegiance_lock_1","willow_allegiance_lock_2"],"tags":["allegiance","shadow_favor"],"group":"allegiance","desc":"利用黑暗加强伯尼的位面攻击和防御力，特别是针对月亮敌人。","title":"暗影伯尼","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/ec/Willow_allegiance_shadow_bernie.png","onactivate":true,"icon":"willow_allegiance_shadow_bernie","pos":[146,109]},"willow_bernieregen_1":{"connects":["willow_bernieregen_2"],"tags":["bernie","bernie4","bernie8"],"group":"bernie","desc":"伯尼会缓慢回血。","title":"一级打补丁","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/24/Willow_bernieregen_1.png","onactivate":true,"root":true,"icon":"willow_bernieregen_1","pos":[-44,166]}}}
+打火机
+伯尼！可以被薇洛的打火机、火把、火焰投掷、自燃术点燃；而火魔杖、火焰笔无法强化伯尼。其中，火魔杖和火焰笔虽然可以通过强制攻击伯尼！来发射火焰弹，但不会对伯尼！造成任何效果。
+由于暗焰/月焰技能本身应用角色的伤害倍率，因此暗焰/月焰对月亮/暗影阵营生物实际造成的伤害为 1.2
+可以充分利用薇洛靠近火焰可以恢复
+理智值
+的特性，丢出大量的可燃物进行点燃，如一组木头。站在成组燃烧的可燃物上可以快速恢复理智值。但不要忘记在物品烧为灰烬之前使用打火机将火焰熄灭，以避免资源的浪费，利于反复使用。
+技能树中的火球术也是恢复
+理智值
+的强力手段。可以在同一个位置叠加放置多个火球，站在火球里可以帮助自己和队友快速回复理智值。通常巨兽拥有疯狂光环，会快速降低近距离玩家的理智值，叠加火球是应对疯狂光环的有效手段。
+可以装备
+梦魇护符
+绝望石盔甲
+绝望石头盔
+骨头头盔
+等装备来生成
+暗影生物
+，在伯尼！的协助下刷取大量
+噩梦燃料
+薇洛理智值上限较低，建议非战斗场景维持高理智值，减少打影怪的时间，可以做更多其他的事情。
+薇洛在骑乘
+皮弗娄牛
+时，可以使用除了月焰外的所有余烬技能。在攻击点燃的目标时，薇洛骑乘中的皮弗娄牛也会受到狂热焚烧的伤害提升，并且免疫火焰伤害。
+月焰的高频攻击可以与
+启迪之冠
+配合，显著提高利用该技能打出的伤害。
+薇洛使用火焰投掷可以直接将
+吸热火坑
+的燃料添加到 100%。而饥饿打火机的吸火会使
+吸热火坑
+直接熄灭。
+即使学习了“可控燃烧”技能，被火球加热导致引燃的物品依然是常规的扩散性燃烧。因此在基地中谨慎选择放置火球的位置，避免将其召唤在可燃物附近，造成损失。鬼魂作祟可以使火球提前消失。
+为防止意外烧毁物资应及时扑灭掉落物的冒烟闷烧状态，因为闷烧状态结束后会转变为常规的扩散性燃烧而非可控燃烧，通过燃烧状态下的特效可以看出这一点。
+学习“可控燃烧”、“燃烧周期”与“饥饿打火机”后的薇洛可以将点燃作为重要的战斗手段。可控燃烧与饥饿打火机的配合可以使得薇洛击杀生物时不会将掉落物烧为灰烬并及时扑灭闷烧状态下的掉落物；燃烧周期则使薇洛获得稳定且长时间的控制效果。恐慌中的生物不会反击，薇洛可以安全地击杀大部分生物。
+由于生物被点燃 1 秒后才会造成伤害导致恐惧，被薇洛点燃的生物依然有反击的可能性，注意躲避。此外，生物被点燃后再次使用可点燃的武器或技能攻击，并不会刷新或延长点燃时间，只有第一次点燃持续时间结束后才能进行第二次点燃。两次点燃造成的恐惧之间至少会间隔 1 秒。因此试图仅使用打火机不走位躲避来击杀高生命值生物是较为危险的行为，如
+高脚鸟
+薇洛的“火焰投掷”和“自燃术”会造成全额的火焰伤害。且不会引起点燃目标对薇洛的仇恨。
+自燃术的群体点燃会是薇洛处理大量小型生物并刷取余烬的重要手段。在面对聚集的生物时，余烬技能的点燃伤害和生物之间相互灼烧的伤害足够击杀掉大部分 100
+的小型生物。但由于火焰伤害本身有波动，生物之间的灼烧伤害也会根据生物的聚集程度产生变化，燃烧时间结束后可能依然有少部分存活。（关于火焰伤害，详见
+可控燃烧会防止掉落物直接变为灰烬，但无法避免将食物类转变为对应的熟食，会影响玩家制作
+火腿棒
+或晾晒
+皮肤套装
+“贵宾”
+“冒险家”
+“凯旋”
+“玫瑰”
+“龙蝇薇洛之颅”
+“角斗士”
+“下雪”
+“维多利亚”
+“可悲的”
+“岩浆”
+“悲凉玩偶”
+“欢乐”
+“江洋大盗”
+“假面舞会”
+“绿色系”
+“前往月亮”
+“古代”
+“春分”
+游戏内容
+薇洛的配音来自长笛。
+在被闪电击中时可以看到在薇洛的头发和裙子里有骨头。
+在游戏文件中存在一个薇洛的头骨。
+薇洛是饥荒联机版 2019 ~ 2020 更新计划中第二个重置的角色，第一个是
+薇诺娜
+当薇洛把伯尼拿在手上时，她会有一个特殊的闲置动画，触发时她会给伯尼一个大大的拥抱。
+物品收藏
+界面触发这个动作时，伯尼的皮肤为游戏中制作时默认选中的皮肤。
+背景故事
+薇洛的生日是 5 月 7 日，这也是 2019 年联机版薇洛重置更新的日期。
+薇洛最初被开发人员描述为十几岁，后来科雷官方公布薇洛为二十多岁。
+薇洛检查
+遮阳棚
+时提到她当过童子军，而且赢得了所有勋章。在检查松树先锋队帽子时，薇洛会说：好吧，其实我没“参加”过女童子军，但是参加过“速成”的女童子军
+文化背景
+“薇洛”的绰号可能来自斯蒂芬·金的小说《凶火》。因此，薇洛和伯尼的特点可能参考了故事中的主角“Charlie”，这个年轻女孩在被她的泰迪熊绊倒之后将其点燃，进而发现自己能操控火焰点燃物体的能力。
+薇洛的“维多利亚”皮肤可能参考了安徒生写的童话《卖火柴的小女孩》。
+薇洛在 2018 年
+万圣夜
+活动期间发布的“可悲的”皮肤可能参考了《亚当斯一家》中的Wednesday Addams和丽兹·波登的传说。
+在Facebook上证实威尔逊和薇洛的年龄。

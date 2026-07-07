@@ -1,0 +1,162 @@
+# 沃拓克斯
+来源: 灰机Wiki搜索
+
+角色信息
+原谅我，我不能握手。
+—— 沃拓克斯
+沃拓克斯（
+Wortox
+饥荒：联机版
+的DLC
+之一，需要购买或使用2700
+编制才可以使用。他是一个顽皮且善良的恶魔，能够利用生物灵魂的力量。
+以下是所有包含沃拓克斯的捆绑包列表：
+背景故事
+沃拓克斯经历了一番挫折后学到了一个道理：交友务必慎重。沃拓克斯曾经是个贪玩的小恶魔，他以前总是帮助坎普斯在永恒领域的各个角落恶作剧。当这对淘气包沉浸在他们的恶作剧中时，沃拓克斯慢慢开始看到了坎普斯心中的黑暗和恶作剧中的恶意。沃拓克斯不希望任何人受伤害，于是他及时住手。但在试图阻止他的邪恶朋友时，他意外唤醒了自己体内的一股可怕力量……
+特殊能力
+主条目：
+沃拓克斯可以使用灵魂来进行灵魂跳跃。可以释放或吃下以接受灵魂的滋养，恢复一定的饥饿值、生命值和理智值。
+获取洞察学习技能点可以解锁更多特殊效果。
+沃拓克斯食用
+时，仅能从食物属性中获得 0.5 倍的
+生命值
+饥饿值
+理智值
+变化，不论增减。
+严格来说是生命值、饥饿值和理智值
+吸收倍率
+为 0.5。
+值得一提的是：
+不属于食物。
+沃拓克斯受
+疯狂光环
+的影响减半。
+沃拓克斯被视作
+，因此会被
+等生物主动仇恨。
+沃拓克斯的
+最喜欢的食物
+切片熟石榴
+但由于沃拓克斯的饥饿值吸收倍率为 0.5，新鲜的石榴实际只能回复约 12.2
+[(9.375 + 15) × 0.5 = 12.1875]，新鲜的切片熟石榴只能回复 13.75
+[(12.5 + 15) × 0.5 = 13.75]。
+技能树
+{"metainfo":{"imgs":{"Selectable_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Selectable_over.png","Button_carny_long_hover":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Button_long_hover.png","Locked_skill":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/ae/Locked_skill.png","Frame":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c5/Frame.png","Frame_octagon":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Frame_octagon.png","Unlocked":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/31/Unlocked.png","Skilltree_backgroundart":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Skilltree_backgroundart.png","Button_carny_long_down":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/13/Button_long_down.png","Button_carny_long_normal":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/68/Button_long_normal.png","Unselected":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c4/Unselected.png","Selected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/ee/Selected_over.png","Locked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/46/Locked_over.png","Wortox_background":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/13/Wortox_background.png","Selected":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fa/Selected.png","Unselected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/d8/Unselected_over.png","Skill_icon_textbox_white":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/79/Skill_icon_textbox_white.png","Selectable":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/23/Selectable.png","Unlocked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/85/Unlocked_over.png"}},"defs":{"wortox_liftedspirits_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/32/Wortox_liftedspirits_2.png","connects":["wortox_liftedspirits_3","wortox_liftedspirits_4"],"title":"二级灵魂振奋","tags":["nice","nice1"],"group":"nice","pos":[-115,72],"icon":"wortox_liftedspirits_2","desc":"灵魂回声持续时间增加。"},"wortox_souldecoy_lock":{"root":true,"tags":["lock"],"group":"naughty","lock_open":{"And":{"left":{"ActivatedSkill":"wortox_souldecoy_2"},"right":{"GreaterThan":{"left":{"CountTags":"naughty1"},"right":4}}}},"pos":[225,106],"desc":"需要下方技能和5个淘气包或中立技能来解锁。"},"wortox_thief_lock":{"root":true,"tags":["lock"],"group":"naughty","lock_open":{"And":{"left":{"ActivatedSkill":"wortox_thief_2"},"right":{"GreaterThan":{"left":{"CountTags":"naughty1"},"right":4}}}},"pos":[175,95],"desc":"需要下方技能和5个淘气包或中立技能来解锁。"},"wortox_lifebringer_3":{"locks":["wortox_lifebringer_lock"],"ondeactivate":true,"tags":["nice"],"group":"nice","desc":"允许他人使用双尾心，这将把他们从远处或近处拉向你。\\n自己使用双尾心时会释放里面的灵魂。","title":"三级回生术","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/7e/Wortox_lifebringer_3.png","onactivate":true,"icon":"wortox_lifebringer_3","pos":[-225,140]},"wortox_allegiance_lunar_lock_1":{"pos":[-20,61.9],"tags":["allegiance","lock"],"group":"allegiance","lock_open":true,"root":true,"desc":"找到并击败天体英雄。"},"wortox_thief_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/31/Wortox_thief_2.png","title":"二级灵魂窃贼","tags":["naughty","naughty1"],"group":"naughty","pos":[175,61],"icon":"wortox_thief_2","desc":"灵魂被你吸引后存在的时间会更长。"},"wortox_nabbag":{"connects":["wortox_souljar_1"],"ondeactivate":true,"tags":["naughty","naughty1"],"group":"naughty","desc":"在坎普斯身边那么久总算没白混，你终于做出了一个强抢袋，可以满足自己盗窃物品的欲望了。它的威力取决于你的库存有多满。","title":"强抢贼","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/d6/Wortox_nabbag.png","onactivate":true,"root":true,"icon":"wortox_nabbag","pos":[115,32]},"wortox_liftedspirits_1":{"connects":["wortox_liftedspirits_2"],"tags":["nice","nice1"],"group":"nice","desc":"在灵魂回声中等待释放的灵魂会提高你的移动速度。\\n","title":"一级灵魂振奋","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/5/59/Wortox_liftedspirits_1.png","root":true,"icon":"wortox_liftedspirits_1","pos":[-115,32]},"wortox_thief_3":{"locks":["wortox_thief_lock"],"tags":["naughty"],"group":"naughty","desc":"被你吸引过来的灵魂会伤害沿途其他拥有灵魂的生物。","title":"一级灵魂穿刺","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/71/Wortox_thief_3.png","connects":["wortox_thief_4"],"icon":"wortox_thief_3","pos":[175,129]},"wortox_allegiance_shadow_lock_1":{"pos":[20,61.9],"tags":["allegiance","lock"],"group":"allegiance","lock_open":true,"root":true,"desc":"找到并击败远古织影者。"},"wortox_souljar_2":{"forced_focus":{"left":"wortox_allegiance_shadow"},"ondeactivate":true,"tags":["naughty","naughty1"],"group":"naughty","desc":"持有一个灵魂罐会增加5个可持有的灵魂上限，可以防止灵魂力量的过载。","title":"贪欲泛滥","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/db/Wortox_souljar_2.png","onactivate":true,"icon":"wortox_souljar_2","pos":[97,112]},"wortox_thief_1":{"connects":["wortox_thief_2"],"tags":["naughty","naughty1"],"group":"naughty","desc":"灵魂会从更远的距离被创造并吸引到你身边。","title":"一级灵魂窃贼","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/06/Wortox_thief_1.png","root":true,"icon":"wortox_thief_1","pos":[175,21]},"wortox_soulprotector_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/eb/Wortox_soulprotector_2.png","title":"二级灵魂触及","tags":["nice","nice1"],"group":"nice","pos":[-175,61],"icon":"wortox_soulprotector_2","desc":"掉落的灵魂会靠近受伤的玩家，并提高治疗距离。"},"wortox_inclination_nice":{"forced_focus":{"right":"wortox_inclination_meter"},"tags":["lock"],"group":"neutral","desc":"你的善良让你的怪物本性不再惹是生非。\\n吞噬或释放灵魂会大幅影响理智值。","infographic":true,"title":"好孩子倾向","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/77/Wortox_inclination_nice.png","root":true,"lock_open":true,"icon":"wortox_inclination_nice","pos":[-176,228.4]},"wortox_lifebringer_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/ac/Wortox_lifebringer_2.png","title":"二级回生术","tags":["nice","nice1"],"group":"nice","pos":[-225,72],"icon":"wortox_lifebringer_2","desc":"使用双尾心复活鬼魂朋友后，他们的生命值将不再受到惩罚。"},"wortox_souljar_3":{"ondeactivate":true,"tags":["naughty","naughty1"],"group":"naughty","desc":"持有的灵魂和灵魂罐中的灵魂会同时增加强抢袋的伤害和灵魂的伤害，至多可收集100个灵魂。","title":"贪心收藏家","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/32/Wortox_souljar_3.png","onactivate":true,"icon":"wortox_souljar_3","pos":[133,112]},"wortox_soulprotector_4":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/da/Wortox_soulprotector_4.png","title":"二级灵魂堡垒","tags":["nice"],"group":"nice","pos":[-175,169],"icon":"wortox_soulprotector_4","desc":"掉落的灵魂会更快靠近受伤的玩家，第二波治疗会更快到来，灵魂治疗多名玩家的效率也会提高。"},"wortox_inclination_naughty":{"forced_focus":{"left":"wortox_inclination_meter"},"tags":["lock"],"group":"neutral","desc":"你的贪婪暂时阻止了灵魂能量的过载。\\n吞噬或释放灵魂不会再影响理智。灵魂的治愈效果降低。\\n","infographic":true,"title":"淘气包倾向","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/01/Wortox_inclination_naughty.png","root":true,"lock_open":true,"icon":"wortox_inclination_naughty","pos":[176,228.4]},"wortox_inclination_meter":{"forced_focus":{"left":"wortox_inclination_nice","right":"wortox_inclination_naughty"},"infographic":true,"group":"neutral","desc":"根据所选好孩子或淘气包技能的多少，你会发现自己的倾向。选择一种倾向会打破平衡，你会更快接近该方向。","defaultfocus":true,"title":"天秤","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/d4/Wortox_scales.png","button_decorations":{"onskillschanged":true,"init":true},"root":true,"icon":"wortox_scales","pos":[0,199.9]},"wortox_souldecoy_1":{"connects":["wortox_souldecoy_2"],"tags":["naughty","naughty1"],"group":"naughty","desc":"灵魂跳跃的第一跳会留下一个灵魂诱饵，引起附近有灵魂生物的注意。","title":"一级灵魂诱饵","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/37/Wortox_souldecoy_1.png","root":true,"icon":"wortox_souldecoy_1","pos":[225,32]},"wortox_panflute_forget":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/00/Wortox_panflute_forget.png","title":"迷魂曲","tags":["neutral","nice1","naughty1"],"group":"neutral","pos":[50,0],"icon":"wortox_panflute_forget","desc":"你吹奏排箫唤醒的东西在短时间内不会对你产生敌意。"},"wortox_allegiance_shadow":{"locks":["wortox_allegiance_shadow_lock_1","wortox_allegiance_shadow_lock_2"],"ondeactivate":true,"tags":["shadow_favor","neutral","allegiance"],"group":"allegiance","desc":"女王会馈赠给你释放暗影收割者的力量来奖励你的忠诚。在灵魂回声中等待释放的灵魂会让造成的伤害分散到附近的敌人身上，或者两次击中一个目标，并使计时器失效。","title":"暗影收获者","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/7b/Wortox_favor_shadow.png","onactivate":true,"icon":"wortox_favor_shadow","pos":[20,129.9]},"wortox_souldecoy_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/e5/Wortox_souldecoy_2.png","title":"二级灵魂诱饵","tags":["naughty","naughty1"],"group":"naughty","pos":[225,72],"icon":"wortox_souldecoy_2","desc":"如果灵魂诱饵没有受到伤害，它们会存在更长时间，并对攻击诱饵的人造成伤害。"},"wortox_soulprotector_lock":{"root":true,"tags":["lock"],"group":"nice","lock_open":{"And":{"left":{"ActivatedSkill":"wortox_soulprotector_2"},"right":{"GreaterThan":{"left":{"CountTags":"nice1"},"right":4}}}},"pos":[-175,95],"desc":"需要下方技能和5个好孩子或中立技能来解锁。"},"wortox_souljar_1":{"connects":["wortox_souljar_2","wortox_souljar_3"],"ondeactivate":true,"tags":["naughty","naughty1"],"group":"naughty","desc":"学习如何制作和使用灵魂罐来储存灵魂以供之后使用。\\n没有带在身上的灵魂罐会随着时间的推移泄漏灵魂。","title":"灵魂罐","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/e2/Wortox_souljar_1.png","onactivate":true,"icon":"wortox_souljar_1","pos":[115,72]},"wortox_allegiance_lunar":{"locks":["wortox_allegiance_lunar_lock_1","wortox_allegiance_lunar_lock_2"],"ondeactivate":true,"tags":["lunar_favor","neutral","allegiance"],"group":"allegiance","desc":"神秘创始人会向你展示戴上亮茄头盔或亮茄盔甲的力量，来奖励你的好奇心。在灵魂回声中等待释放的灵魂会吸收袭来的伤害，并使计时器失效。","title":"月亮骗徒","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fd/Wortox_favor_lunar.png","onactivate":true,"icon":"wortox_favor_lunar","pos":[-20,129.9]},"wortox_panflute_soulcaller":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/17/Wortox_panflute_soulcaller.png","title":"悦耳牧歌","tags":["neutral","nice1","naughty1"],"group":"neutral","pos":[-50,0],"icon":"wortox_panflute_soulcaller","desc":"吹奏排箫发出悦耳音符，会让附近迷失的灵魂前来聆听。"},"wortox_panflute_playing":{"connects":["wortox_panflute_soulcaller","wortox_panflute_forget"],"ondeactivate":true,"tags":["neutral","nice1","naughty1"],"group":"neutral","desc":"你会定期感受到音乐召唤你吹奏排箫。感受到吹奏冲动后，吹奏一次排箫不会丢失耐久度。","title":"即兴排箫手","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/b/b5/Wortox_panflute_playing.png","onactivate":true,"root":true,"icon":"wortox_panflute_playing","pos":[0,0]},"wortox_thief_4":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c3/Wortox_thief_4.png","title":"二级灵魂穿刺","tags":["naughty"],"group":"naughty","pos":[175,169],"icon":"wortox_thief_4","desc":"被你吸引过来的灵魂会先反飞，然后再飞向你。"},"wortox_allegiance_lunar_lock_2":{"pos":[-20,95.9],"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"Eq":{"left":{"CountTags":"shadow_favor"},"right":0}},"root":true,"desc":"没有暗影亲和。"},"wortox_soulprotector_3":{"locks":["wortox_soulprotector_lock"],"tags":["nice"],"group":"nice","desc":"掉落的灵魂会在延迟后进行第二次治疗，治疗量较低。","title":"一级灵魂堡垒","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c5/Wortox_soulprotector_3.png","connects":["wortox_soulprotector_4"],"icon":"wortox_soulprotector_3","pos":[-175,129]},"wortox_liftedspirits_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/65/Wortox_liftedspirits_3.png","title":"回响","tags":["nice","nice1"],"group":"nice","pos":[-133,112],"icon":"wortox_liftedspirits_3","desc":"会发生两次灵魂回声。\\n这不会减少地图上的灵魂跳跃花费。"},"wortox_soulprotector_1":{"connects":["wortox_soulprotector_2"],"tags":["nice","nice1"],"group":"nice","desc":"掉落的灵魂会在更大的范围进行治疗。","title":"一级灵魂触及","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/9/94/Wortox_soulprotector_1.png","root":true,"icon":"wortox_soulprotector_1","pos":[-175,21]},"wortox_souldecoy_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/e2/Wortox_souldecoy_3.png","locks":["wortox_souldecoy_lock"],"title":"三级灵魂诱饵","tags":["naughty"],"group":"naughty","pos":[225,140],"icon":"wortox_souldecoy_3","desc":"灵魂诱饵造成会在时间耗尽或被击毁后爆炸，对受引诱或攻击你的敌人造成伤害。"},"wortox_allegiance_shadow_lock_2":{"pos":[20,95.9],"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"Eq":{"left":{"CountTags":"lunar_favor"},"right":0}},"root":true,"desc":"没有月亮亲和。"},"wortox_liftedspirits_4":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/03/Wortox_liftedspirits_4.png","forced_focus":{"right":"wortox_allegiance_lunar"},"title":"肆意移动","tags":["nice","nice1"],"group":"nice","pos":[-97,112],"icon":"wortox_liftedspirits_4","desc":"地图上进行灵魂跳跃的花费将根据当前世界陆地的探索程度而减少。"},"wortox_lifebringer_1":{"connects":["wortox_lifebringer_2"],"ondeactivate":true,"tags":["nice","nice1"],"group":"nice","desc":"学习如何将灵魂注入双尾心来复活鬼魂朋友。","title":"一级回生术","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/42/Wortox_lifebringer_1.png","onactivate":true,"root":true,"icon":"wortox_lifebringer_1","pos":[-225,32]},"wortox_lifebringer_lock":{"root":true,"tags":["lock"],"group":"nice","lock_open":{"And":{"left":{"ActivatedSkill":"wortox_lifebringer_2"},"right":{"GreaterThan":{"left":{"CountTags":"nice1"},"right":4}}}},"pos":[-225,106],"desc":"需要下方技能和5个好孩子或中立技能来解锁。"}}}
+如果沃拓克斯学习的
+好孩子技能
+淘气包技能
+多 3 个及以上，那么将获得“好孩子倾向” ；反之，如果学习的淘气包技能比好孩子技能多 3 个及以上，那么将获得“淘气包倾向”。
+如果学习了任意
+技能，获得倾向只需一侧技能比另一侧多 2 个及以上即可。
+好孩子倾向：
+好孩子沃拓克斯在食用灵魂时，扣除 10
+（原为扣除 5
+好孩子沃拓克斯在受到释放灵魂的治疗时，回复 5
+（原为回复 2.5
+好孩子沃拓克斯不再被视作
+淘气包倾向：
+淘气包沃拓克斯在食用灵魂时，不再扣除理智值。
+淘气包沃拓克斯受到灵魂治疗效果的默认效果减少至 15
+，且不会回复
+淘气包沃拓克斯所持有灵魂数量到达过载阈值时，延迟 10 秒才会过载。如果这段时间内将灵魂数量降低到过载阈值以内或提升过载阈值，就可以避免过载。
+沃拓克斯在灵魂过载、接近过载和灵魂数量较低时的台词，以及待机动画也会随倾向而有所变化。
+好孩子
+淘气包
+中规中矩
+沃拓克斯适合在营地附近种植
+，通过击杀
+可以轻易获取灵魂。
+生物死亡生成的灵魂消失时和沃拓克斯释放灵魂一样具有为玩家提供治疗的效果，所以，沃拓克斯有时不需要直接参与战斗也可以为队友提供增益。
+在会有大量生物死亡的时候（例如
+青蛙雨
+、挑战
+远古织影者
+时），沃拓克斯可以先将物品栏填满来避免吸收过多灵魂。
+沃拓克斯在灵魂跳跃的瞬间是无敌的，在关键时刻这可能会救你一命。
+沃拓克斯在杀害物品栏中的生物时也会获得灵魂。可以携带大量的活
+等小型可叠加生物，在需要时杀掉一部分来取得灵魂。
+灵魂穿刺可以反复对同一目标造成伤害，因此沃托克斯可以通过反复跳跃使灵魂来回流动，以对同一目标造成多次灵魂穿刺伤害，但要注意灵魂不被收集只能至多存在 8 秒（受
+二级灵魂窃贼
+技能影响）。并且灵魂穿刺对于有
+爆炸抗性
+的生物效果会降低，但仍然不俗。
+沃托克斯在开启
+灵魂罐
+后会立即结束灵魂回声，利用此特性可以更快地再生成灵魂诱饵，然后使上次生成的灵魂诱饵消失/引爆。
+皮肤套装
+“牛头人”
+“无邪”
+“冒险家”
+“龙”
+“下雪”
+“维多利亚”
+“绿色系”
+“无眼鹿拓克斯之角”
+“江洋大盗”
+“假面舞会”
+“凯旋”
+“贵宾”
+“玫瑰”
+“欢乐”
+“古代”
+“前往月亮”
+沃拓克斯是在“
+沃拓克斯发布
+”中加入游戏的。
+游戏内容
+沃拓克斯的配音来自小提琴。
+早在2012年，沃拓克斯的头像就存在于饥荒单机版的文件里了。
+他当时的外观与现在有所不同，从更接近人类的形象，演变为现在类似的山羊和犬科动物的形象。
+在一段时间中，如果玩家的
+到达上限，则可以看到他的头像剪影出现在“下个解锁角色”中。
+和其他DLC角色一样，沃拓克斯
+的形象会随使用不同皮肤而改变。
+沃拓克斯有一个独有的闲置动画，他会傻笑着蹦蹦跳跳。
+背景故事
+沃拓克斯的生日是3月28日，这也是2019年沃拓克斯被加入游戏的日期。
+科雷将沃拓克斯形容为“是一个有趣、爱恶作剧、心地善良的小家伙......忽略他为了活命而吞食灵魂这一事实的话。”
+与其他幸存者不同，沃拓克斯似乎不是被困在
+永恒领域
+的。根据检查台词来看他可能是穿过
+远古大门
+来到这里的。
+根据他检查
+岩浆虫尖牙
+的台词：“我妈妈把我换下的牙保存起来了。”，沃拓克斯有一位母亲，而且他也会换牙。
+诅咒作用于他的双手，他的手可能会不受控地吸收灵魂。
+沃拓克斯曾经也能正常食用普通的食物。
+沃拓克斯的一些台词可能揭露了恶魔种族的特性。
+他没有血液。
+他认为制作和食用有形的食物是不好的、难以理解的。
+幸运哨子
+的声音很敏感。
+他会受到
+的伤害。
+他不会哭泣。
+以眼还眼
+”宣传片中，像素化的沃拓克斯抱着
+盒中泰拉
+凭空出现，并很快恢复了正常外观。可能代表着是他将这一物品带入了
+永恒领域
+文化背景
+根据英文原文，沃拓克斯是一只魔精（imp），这是德国的民间传说一种体型很小的怪物，以恶作剧而闻名，后来被基督教看作是魔鬼的侍从。
+Wortox也是瑞典一支重金属乐队的名字。
+沃拓克斯的配音来自小提琴，这可能是由于小提琴与恶魔的文化联系。
+沃拓克斯的旧形象可能参考了《地狱男爵》，现形象可能参考了潘神——希腊神话中的牧神。
+沃拓克斯最喜欢的食物是石榴，这一设定可能参考了哈迪斯和珀耳塞福涅的神话，珀耳塞福涅在吃了石榴后被限制在冥界。
+沃拓克斯的“牛头人”皮肤参考了牛头人的传说。
+沃拓克斯的“维多利亚”皮肤参考了石像鬼。
+沃拓克斯的“绿色系”皮肤可能参考了潘神的传说。
+沃拓克斯的“假面舞会”皮肤可能参考了古希腊神话中的赫尔墨斯。
+Elaine Chen的
+：“我刚刚发现我几周前为Dany录制的可怜尖叫小提琴声音是给沃拓克斯的。”
+他是一个有趣、爱恶作剧、心地善良的小家伙......忽略他为了活命而吞食灵魂这一事实的话。
+沃拓克斯检查远古大门：“曾经跳跃穿过这东西！”，检查开启的远古大门：“恶魔就是这样来的。哼！”
+制作失败：“我这手是真的被诅咒了。”，检查物品栏中的乌鸦：“小心，别碰到我的手。”
+沃拓克斯检查
+花式回旋块茎
+：“我还能记得我吃饭的时期。也许吧。”
+检查物品栏中的蚊子：“亲爱的，我没血给你吸。”
+检查物品栏中的洋葱：“你不会看到我眼中的泪水。我天生不哭！”
+Encyclopaedia Metallum上的wortox乐队
+相关介绍

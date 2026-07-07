@@ -1,0 +1,228 @@
+# 衣物
+来源: 灰机Wiki搜索
+
+联机版
+单机版
+角色信息
+我要用我的头脑征服这个世界！
+—— 威尔逊
+威尔逊·柏斯科·希格斯伯里（
+Wilson Percival Higgsbury
+饥荒：联机版
+的可用
+之一，是饥荒的标志性角色，也是整个游戏背景故事的主角。他是一个机智中不失风趣的科学家，留有一个形似字母“W”形状的发型。
+背景故事
+禁忌的知识
+深夜，威尔逊正在家中的实验室忙活，突然听到收音机里有一个声音直接跟他说话。他吓了一跳：起初，他担心自己因为熬太多夜或是不小心吸入了化学烟雾而发疯了。但这个声音向他保证，这并不是他的臆想。不但如此，这个声音还给他提了个建议：如果威尔逊按照他们的规格制造出一台机器，那么他将获得秘密知识的奖励——这种秘密知识是没有人见过的。他有点鬼迷心窍了（毕竟，与一个神秘的声音做一个模糊的交易又有什么坏处呢？）威尔逊全身心地投入到了机器的建造中。当它终于完成时，这位绅士科学家迟疑了一下……如果他当时意志力再强一点，可能就会把他从即将到来的厄运中拯救出来了。但在那声音的坚持下，威尔逊还是按下开关，激活了他的发明……然后他就再也没有出现过了。
+至少在这个世界里再也没有。
+特殊能力
+威尔逊能够长出胡须，每隔一段时间生长一个阶段，胡须有两个基本功能:
+能够提供
+保暖值
+隔热值
+可以用
+剃须，使胡须长度降低一个阶段，掉落一定数量的
+，同时回复 10
+下表是威尔逊把胡须留到某一个阶段所需要的总天数，以及每个阶段所得的胡须数量及提供保暖、隔热值。
+如果威尔逊死亡，胡须长度就会重置。
+威尔逊的
+最喜欢的食物
+培根煎蛋
+技能树
+{"metainfo":{"imgs":{"Selectable_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Selectable_over.png","Button_carny_long_down":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/13/Button_long_down.png","Locked_skill":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/ae/Locked_skill.png","Unlocked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/85/Unlocked_over.png","Frame_octagon":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Frame_octagon.png","Unlocked":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/31/Unlocked.png","Wilson_background":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/8b/Wilson_background.png","Skilltree_backgroundart":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Skilltree_backgroundart.png","Button_carny_long_hover":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Button_long_hover.png","Unselected":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c4/Unselected.png","Selected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/ee/Selected_over.png","Button_carny_long_normal":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/68/Button_long_normal.png","Locked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/46/Locked_over.png","Selected":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fa/Selected.png","Unselected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/d8/Unselected_over.png","Skill_icon_textbox_white":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/79/Skill_icon_textbox_white.png","Selectable":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/23/Selectable.png","Frame":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c5/Frame.png"}},"defs":{"wilson_alchemy_8":{"description":"习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Cut Stone.png|43px|link=石砖]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Marble.png|43px|link=大理石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Marble.png|43px|link=大理石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Cut Stone.png|43px|link=石砖]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Marble.png|43px|link=大理石]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Moon Rock.png|43px|link=月岩]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/60/Wilson_alchemy_ore_3.png","title":"三级矿石转化","tags":["alchemy"],"group":"alchemy","pos":[-100,46],"icon":"wilson_alchemy_ore_3","desc":"将2块石砖转化为大理石。\\n将大理石转化为石砖。\\n将2块大理石转化为月岩。"},"wilson_beard_lock_1":{"connects":["wilson_beard_7"],"root":true,"tags":["beard","lock"],"group":"beard","lock_open":{"GreaterThan":{"left":{"CountTags":"beard1"},"right":2}},"pos":[84,58],"desc":"学习3项胡须技能后解锁。"},"wilson_torch_5":{"connects":["wilson_torch_6"],"description":"[[火炬]]照明范围 + 125%","tags":["torch","torch1"],"group":"torch","desc":"中幅提升火炬亮度。","title":"二级火炬范围","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/82/Wilson_torch_brightness_2.png","icon":"wilson_torch_brightness_2","pos":[-176,138]},"wilson_allegiance_lock_1":{"connects":["wilson_allegiance_shadow"],"root":true,"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"GreaterOrEqThan":{"left":{"CountSkills":"CountSkills"},"right":12}},"pos":[206,176],"desc":"学习12项技能后解锁"},"wilson_allegiance_lock_2":{"connects":["wilson_allegiance_shadow"],"root":true,"tags":["allegiance","lock"],"group":"allegiance","lock_open":true,"pos":[184,128],"desc":"找到并击败远古织影者。"},"wilson_alchemy_6":{"description":"习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Yellow Gem.png|43px|link=黄宝石]]<span class=\"inv_count\" style=\"display:inline-block\">3</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Green Gem.png|43px|link=绿宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Yellow Gem.png|43px|link=黄宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Orange Gem.png|43px|link=橙宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Green Gem.png|43px|link=绿宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Purple Gem.png|43px|link=紫宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Red Gem.png|43px|link=红宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Blue Gem.png|43px|link=蓝宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Iridescent Gem.png|43px|link=彩虹宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/e0/Wilson_alchemy_gem_3.png","title":"三级宝石转化","tags":["alchemy"],"group":"alchemy","pos":[-62,46],"icon":"wilson_alchemy_gem_3","desc":"将3颗黄宝石转化为一颗绿宝石。\\n将6颗不同颜色的宝石转化为一颗彩虹宝石。"},"wilson_beard_1":{"connects":["wilson_beard_2"],"description":"胡须提供的保暖值 + 20%，即第 1/2/3 阶段胡须的保暖增加至 18/54/162","tags":["beard","beard1"],"group":"beard","desc":"从你的胡须获得高保温性能。","title":"一级胡须保温","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c9/Wilson_beard_insulation_1.png","root":true,"icon":"wilson_beard_insulation_1","pos":[66,176]},"wilson_allegiance_lunar":{"locks":["wilson_allegiance_lock_1","wilson_allegiance_lock_3","wilson_allegiance_lock_5"],"ondeactivate":true,"tags":["allegiance","lunar","lunar_favor"],"group":"allegiance","desc":"神秘的创始人将以月光转换术的秘密来回报你的好奇心。","title":"月光创新者","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/80/Wilson_favor_lunar.png","onactivate":true,"description":"威尔逊获得[[月亮亲和]]，受到来自[[月亮阵营]]的伤害降低至 0.9 <span class=\"huiji-tt2\" data-type=\"child\" style=\"font-weight:bold;text-decoration:underline\">倍<span class=\"tt2-child huiji-css-hook\" style=\"background:inherit;display:none\">该倍率属于[[防御端标签伤害倍率]]，对[[物理伤害]]和[[位面伤害]]均有效。</span></span>，对[[暗影阵营]]造成 1.1 <span class=\"huiji-tt2\" data-type=\"child\" style=\"font-weight:bold;text-decoration:underline\">倍<span class=\"tt2-child huiji-css-hook\" style=\"background:inherit;display:none\">该倍率属于[[进攻端标签伤害倍率]]，对[[物理伤害]]和[[位面伤害]]均有效。</span></span>的伤害。<br>习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Infused Moon Shard.png|43px|link=注能月亮碎片]]<span class=\"inv_count\" style=\"display:inline-block\">3</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Pure Brilliance.png|43px|link=纯粹辉煌]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Pure Brilliance.png|43px|link=纯粹辉煌]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Infused Moon Shard.png|43px|link=注能月亮碎片]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>","icon":"wilson_favor_lunar","pos":[228,38]},"wilson_allegiance_lock_5":{"connects":["wilson_allegiance_lunar"],"root":true,"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"Eq":{"left":{"CountTags":"shadow_favor"},"right":0}},"pos":[228,84],"desc":"没有暗影亲和。"},"wilson_alchemy_7":{"connects":["wilson_alchemy_8"],"description":"习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Nitre.png|43px|link=硝石]]<span class=\"inv_count\" style=\"display:inline-block\">3</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Gold Nugget.png|43px|link=金块]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Gold Nugget.png|43px|link=金块]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Nitre.png|43px|link=硝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>","tags":["alchemy"],"group":"alchemy","desc":"将3颗硝石转化为一块金块。\\n将2块金块转化为硝石。","title":"二级矿石转化","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/3a/Wilson_alchemy_ore_2.png","icon":"wilson_alchemy_ore_2","pos":[-100,84]},"wilson_allegiance_lock_4":{"connects":["wilson_allegiance_shadow"],"root":true,"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"Eq":{"left":{"CountTags":"lunar_favor"},"right":0}},"pos":[184,84],"desc":"没有月亮亲和。"},"wilson_beard_2":{"connects":["wilson_beard_3"],"description":"胡须提供的保暖值 + 40%，即第 1/2/3 阶段胡须的保暖增加至 21/63/189","tags":["beard","beard1"],"group":"beard","desc":"从你的胡须获得更高的保温性能。","title":"二级胡须保温","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/76/Wilson_beard_insulation_2.png","icon":"wilson_beard_insulation_2","pos":[66,138]},"wilson_allegiance_shadow":{"locks":["wilson_allegiance_lock_1","wilson_allegiance_lock_2","wilson_allegiance_lock_4"],"ondeactivate":true,"tags":["allegiance","shadow","shadow_favor"],"group":"allegiance","desc":"女王会用暗影转化术的秘密犒赏你的忠诚。","title":"暗影廷臣","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/15/Wilson_favor_shadow.png","onactivate":true,"description":"威尔逊获得[[暗影亲和]]，受到来自[[暗影阵营]]的伤害降低至 0.9 <span class=\"huiji-tt2\" data-type=\"child\" style=\"font-weight:bold;text-decoration:underline\">倍<span class=\"tt2-child huiji-css-hook\" style=\"background:inherit;display:none\">该倍率属于[[防御端标签伤害倍率]]，对[[物理伤害]]和[[位面伤害]]均有效。</span></span>，对[[月亮阵营]]造成 1.1 <span class=\"huiji-tt2\" data-type=\"child\" style=\"font-weight:bold;text-decoration:underline\">倍<span class=\"tt2-child huiji-css-hook\" style=\"background:inherit;display:none\">该倍率属于[[进攻端标签伤害倍率]]，对[[物理伤害]]和[[位面伤害]]均有效。</span></span>的伤害。<br>习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Dreadstone.png|43px|link=绝望石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Pure Horror.png|43px|link=纯粹恐惧]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Pure Horror.png|43px|link=纯粹恐惧]]<span class=\"inv_count\" style=\"display:inline-block\">3</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Dreadstone.png|43px|link=绝望石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Pure Horror.png|43px|link=纯粹恐惧]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Nightmare Fuel.png|43px|link=噩梦燃料]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>","icon":"wilson_favor_shadow","pos":[184,38]},"wilson_alchemy_9":{"connects":["wilson_alchemy_10"],"description":"习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Beefalo Wool.png|43px|link=牛毛]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Beard Hair.png|43px|link=胡须]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Beard Hair.png|43px|link=胡须]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Beefalo Wool.png|43px|link=牛毛]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>","tags":["alchemy"],"group":"alchemy","desc":"将2份胡须转化为皮弗娄牛毛。\\n将2份皮弗娄牛毛转化为胡须。","title":"二级腐朽转化","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/1c/Wilson_alchemy_iky_2.png","icon":"wilson_alchemy_iky_2","pos":[-24,84]},"wilson_beard_6":{"description":"胡须生长速度增加，第 1/2/3 阶段胡须生长所需的时间缩短至 2/5/10 天","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/10/Wilson_beard_speed_3.png","title":"三级胡须生长","tags":["beard","beard1"],"group":"beard","pos":[104,100],"icon":"wilson_beard_speed_3","desc":"大幅加快你的宏伟胡须的生长速度。"},"wilson_torch_7":{"description":"右键可以抛出[[火炬]]，掉到地上后仍然提供照明，继续消耗耐久。任何具有灭火效果的东西命中投出的火炬后，火炬都会以物品形式掉落。","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/2e/Wilson_torch_throw.png","title":"丢火炬","tags":["torch"],"group":"torch","pos":[-196,20],"icon":"wilson_torch_throw","desc":"得益于科学制定的抛物线，着陆时总能以正确的一头朝上。"},"wilson_alchemy_10":{"description":"习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Hound's Tooth.png|43px|link=犬牙]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Bone Shards.png|43px|link=骨头碎片]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Bone Shards.png|43px|link=骨头碎片]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Hound's Tooth.png|43px|link=犬牙]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Rot.png|43px|link=腐烂物]]<span class=\"inv_count\" style=\"display:inline-block\">6</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Manure.png|43px|link=粪肥]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/0a/Wilson_alchemy_iky_3.png","title":"腐朽转化III","tags":["alchemy"],"group":"alchemy","pos":[-24,46],"icon":"wilson_alchemy_iky_3","desc":"将6份腐烂物转化为粪肥。\\n将2根犬牙转化为骨头碎片。\\n将2块骨头碎片转化为犬牙。"},"wilson_alchemy_2":{"connects":["wilson_alchemy_5"],"description":"习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Red Gem.png|43px|link=红宝石]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Blue Gem.png|43px|link=蓝宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Blue Gem.png|43px|link=蓝宝石]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Red Gem.png|43px|link=红宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Blue Gem.png|43px|link=蓝宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Red Gem.png|43px|link=红宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Purple Gem.png|43px|link=紫宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>","tags":["alchemy"],"group":"alchemy","desc":"将2颗红宝石转化为1颗蓝宝石。\\n将2颗蓝宝石转化为1颗红宝石。\\n将1颗蓝宝石和1颗红宝石转化为1颗紫宝石。","title":"一级宝石转化","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/7e/Wilson_alchemy_gem_1.png","icon":"wilson_alchemy_gem_1","pos":[-62,122]},"wilson_torch_6":{"description":"[[火炬]]照明范围 + 162.5%","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/33/Wilson_torch_brightness_3.png","title":"三级火炬范围","tags":["torch","torch1"],"group":"torch","pos":[-176,100],"icon":"wilson_torch_brightness_3","desc":"大幅提升火炬亮度。"},"wilson_allegiance_lock_3":{"connects":["wilson_allegiance_lunar"],"root":true,"tags":["allegiance","lock"],"group":"allegiance","lock_open":true,"pos":[228,128],"desc":"找到并击败天体英雄。"},"wilson_torch_2":{"connects":["wilson_torch_3"],"description":"[[火炬]]耐久消耗速率 - 32%（110 秒）","tags":["torch","torch1"],"group":"torch","desc":"中幅延长火炬燃烧时间。","title":"二级火炬寿命","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c1/Wilson_torch_time_2.png","icon":"wilson_torch_time_2","pos":[-214,138]},"wilson_beard_5":{"connects":["wilson_beard_6"],"description":"胡须生长速度增加，第 1/2/3 阶段胡须生长所需的时间缩短至 3/6/12 天","tags":["beard","beard1"],"group":"beard","desc":"中幅加快你的宏伟胡须的生长速度。","title":"二级胡须生长","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/5/56/Wilson_beard_speed_2.png","icon":"wilson_beard_speed_2","pos":[104,138]},"wilson_beard_3":{"description":"胡须提供的保暖值 + 70%，即第 1/2/3 阶段胡须的保暖增加至 25.5/76.5/229.5","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/5/5d/Wilson_beard_insulation_3.png","title":"三级胡须保温","tags":["beard","beard1"],"group":"beard","pos":[66,100],"icon":"wilson_beard_insulation_3","desc":"从你的胡须获得最高的保温性能。"},"wilson_alchemy_4":{"connects":["wilson_alchemy_9"],"description":"习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Morsel.png|43px|link=小肉]]<span class=\"inv_count\" style=\"display:inline-block\">3</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Meat.png|43px|link=肉]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Meat.png|43px|link=肉]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Morsel.png|43px|link=小肉]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>","tags":["alchemy"],"group":"alchemy","desc":"将3块小肉转化为1块肉。\\n将1块肉转化为2块小肉。","title":"一级腐朽转化","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/0c/Wilson_alchemy_iky_1.png","icon":"wilson_alchemy_iky_1","pos":[-24,122]},"wilson_torch_lock_1":{"connects":["wilson_torch_7"],"root":true,"tags":["torch","lock"],"group":"torch","lock_open":{"GreaterThan":{"left":{"CountTags":"torch1"},"right":2}},"pos":[-196,58],"desc":"学习3项火炬技能后解锁。"},"wilson_beard_7":{"description":"胡须可以像背包一样提供[[物品栏]]，只能储藏[[食物]]。1/2/3 级胡须分别有 1/2/3 个物品栏。","tags":["beard"],"group":"beard","desc":"在你的胡须中存放食物。","title":"胡须贮藏术","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/ea/Wilson_beard_inventory.png","onactivate":true,"icon":"wilson_beard_inventory","pos":[84,20]},"wilson_alchemy_5":{"connects":["wilson_alchemy_6"],"description":"习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Purple Gem.png|43px|link=紫宝石]]<span class=\"inv_count\" style=\"display:inline-block\">3</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Orange Gem.png|43px|link=橙宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Orange Gem.png|43px|link=橙宝石]]<span class=\"inv_count\" style=\"display:inline-block\">3</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Yellow Gem.png|43px|link=黄宝石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>","tags":["alchemy"],"group":"alchemy","desc":"将3颗紫宝石转化为1颗橙宝石。\\n将3颗橙宝石转化为1颗黄宝石。","title":"二级宝石转化","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c0/Wilson_alchemy_gem_2.png","icon":"wilson_alchemy_gem_2","pos":[-62,84]},"wilson_alchemy_1":{"connects":["wilson_alchemy_2","wilson_alchemy_3","wilson_alchemy_4"],"description":"习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Twigs.png|43px|link=树枝]]<span class=\"inv_count\" style=\"display:inline-block\">3</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Log.png|43px|link=木头]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Log.png|43px|link=木头]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Twigs.png|43px|link=树枝]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>","tags":["alchemy"],"group":"alchemy","desc":"将3条树枝转化为原木。\\n将1根原木转化为2条树枝。","title":"转化","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/87/Wilson_alchemy_1.png","root":true,"icon":"wilson_alchemy_1","pos":[-62,176]},"wilson_torch_3":{"description":"[[火炬]]耐久消耗速率 - 50%（150 秒）","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c6/Wilson_torch_time_3.png","title":"三级火炬寿命","tags":["torch","torch1"],"group":"torch","pos":[-214,100],"icon":"wilson_torch_time_3","desc":"大幅延长火炬燃烧时间。"},"wilson_beard_4":{"connects":["wilson_beard_5"],"description":"胡须生长速度增加，第 1/2/3 阶段胡须生长所需的时间缩短至 3/7/15 天","tags":["beard","beard1"],"group":"beard","desc":"小幅加快你的宏伟胡须的生长速度。","title":"一级胡须生长","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/f8/Wilson_beard_speed_1.png","root":true,"icon":"wilson_beard_speed_1","pos":[104,176]},"wilson_torch_4":{"connects":["wilson_torch_5"],"description":"[[火炬]]照明范围 + 56%","tags":["torch","torch1"],"group":"torch","desc":"小幅提升火炬亮度。","defaultfocus":true,"title":"一级火炬范围","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/9/9b/Wilson_torch_brightness_1.png","root":true,"icon":"wilson_torch_brightness_1","pos":[-176,176]},"wilson_alchemy_3":{"connects":["wilson_alchemy_7"],"description":"习得配方：<br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Rocks.png|43px|link=石头]]<span class=\"inv_count\" style=\"display:inline-block\">3</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Flint.png|43px|link=燧石]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span><br><span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Flint.png|43px|link=燧石]]<span class=\"inv_count\" style=\"display:inline-block\">2</span></span></span>[[file:Interface_arrow_right.png|link=|24px]]<span class=\"inv_back\" style=\"height:48px;width:48px\">[[File:Inventory slot background.png|48px|link=]]<span class=\"inv_item\" style=\"left:2.7px;top:2.7px\">[[file:Rocks.png|43px|link=石头]]<span class=\"inv_count\" style=\"display:inline-block\">1</span></span></span>","tags":["alchemy"],"group":"alchemy","desc":"将3块石头转化为1颗燧石。\\n将2颗燧石转化为石头。","title":"一级矿石转化","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/1d/Wilson_alchemy_ore_1.png","icon":"wilson_alchemy_ore_1","pos":[-100,122]},"wilson_torch_1":{"connects":["wilson_torch_2"],"description":"[[火炬]]耐久消耗速率 - 16%（90 秒）","tags":["torch","torch1"],"group":"torch","desc":"小幅延长火炬燃烧时间。","title":"一级火炬寿命","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/9/9a/Wilson_torch_time_1.png","root":true,"icon":"wilson_torch_time_1","pos":[-214,176]}}}
+习得配方：
+习得配方：
+习得配方：
+照明范围 + 56%
+胡须生长速度增加，第 1/2/3 阶段胡须生长所需的时间缩短至 3/7/15 天
+耐久消耗速率 - 50%（150 秒）
+习得配方：
+习得配方：
+胡须可以像背包一样提供
+物品栏
+，只能储藏
+。1/2/3 级胡须分别有 1/2/3 个物品栏。
+习得配方：
+胡须提供的保暖值 + 70%，即第 1/2/3 阶段胡须的保暖增加至 25.5/76.5/229.5
+胡须生长速度增加，第 1/2/3 阶段胡须生长所需的时间缩短至 3/6/12 天
+耐久消耗速率 - 32%（110 秒）
+照明范围 + 162.5%
+习得配方：
+右键可以抛出
+，掉到地上后仍然提供照明，继续消耗耐久。任何具有灭火效果的东西命中投出的火炬后，火炬都会以物品形式掉落。
+胡须生长速度增加，第 1/2/3 阶段胡须生长所需的时间缩短至 2/5/10 天
+习得配方：
+威尔逊获得
+暗影亲和
+，受到来自
+暗影阵营
+的伤害降低至 0.9
+该倍率属于
+防御端标签伤害倍率
+物理伤害
+位面伤害
+均有效。
+月亮阵营
+造成 1.1
+该倍率属于
+进攻端标签伤害倍率
+物理伤害
+位面伤害
+均有效。
+的伤害。
+习得配方：
+胡须提供的保暖值 + 40%，即第 1/2/3 阶段胡须的保暖增加至 21/63/189
+习得配方：
+威尔逊获得
+月亮亲和
+，受到来自
+月亮阵营
+的伤害降低至 0.9
+该倍率属于
+防御端标签伤害倍率
+物理伤害
+位面伤害
+均有效。
+暗影阵营
+造成 1.1
+该倍率属于
+进攻端标签伤害倍率
+物理伤害
+位面伤害
+均有效。
+的伤害。
+习得配方：
+胡须提供的保暖值 + 20%，即第 1/2/3 阶段胡须的保暖增加至 18/54/162
+习得配方：
+照明范围 + 125%
+耐久消耗速率 - 16%（90 秒）
+炼金术
+要到第 16 才会长至最长，由于默认的
+要 20 天才会来临，胡须对于冬天生存十分有帮助。玩家只要拥有完整的胡须和 1 个
+便能轻松地渡过冬天。
+胡须不会毁损（不像衣物），只要玩家不把胡子剃掉便能够提供保暖的效果。
+胡须提供的
+保暖值
+可以与保暖衣物叠加，因此可以保留最长阶段的胡须同时装备优秀的保暖衣物，以此来在冬天最大限度的减缓角色温度下降的速度。
+虽然保暖值在
+不会起到任何作用，但胡须自带了负
+隔热值
+，这变相的削减了隔热衣物的隔热效果，所以建议在夏天一开始就把胡须剃掉，在不学习
+胡须贮藏术
+技能的情况下，保留胡须只会造成威尔逊更容易热死且没有任何好处。
+威尔逊的胡子所提供的额外保暖效果让他可以在只有装备保暖衣物而没有热源的状况下行走一段时间。这点在追踪
+考拉象
+时是非常有用的，因为跟着它的踪迹通常会需要离开火源一段时间。
+因为有了额外的保暖来源，玩家可以多考虑一些过冬的其他准备。例如，与其为了制作
+透气背心
+而追踪考拉象，玩家可以多专注在是否收集了大量的
+以及食物来过冬。
+威尔逊的胡子可以存放
+肉类食物
+且不会被兔人发现，从而避免被兔人攻击。
+威尔逊技能树的
+炼金术
+分支非常有用。
+比起用
+剃掉胡须，收集胡须更快的方式是点出腐朽转化II技能，将获得的大量的
+转化为胡须。
+学习了宝石转化III技能的威尔逊，可以合成
+彩虹宝石
+维克巴顿
+以制作
+月之魔典
+；或合成彩虹宝石给
+华丽基座
+充电，给华丽基座充电是完成
+月亮线流程
+必不可少的一步。此外，还可以将其他宝石转化为更为有用的
+黄宝石
+绿宝石
+学习了腐朽转化I技能的威尔逊，在用
+或鸟笼中的
+交易前，可以将肉做成
+，以换取双倍的
+获取的
+烂电线
+与猪王交易后，通常会有大量的金块，学习了矿石转化II技能的威尔逊可以充分利用这些金块，将它们合成为
+，以大量制作
+，而火药在用于击杀部分
+时，有着非常不错的效果。
+皮肤套装
+“贵宾”
+“冒险家”
+“凯旋”
+“玫瑰”
+“猪威尔逊面罩”
+“角斗士”
+“下雪”
+“维多利亚”
+“疯狂科学家”
+“岩浆”
+“绿色系”
+“欢乐”
+“前往月亮”
+“理发师”
+“假面舞会”
+“江洋大盗”
+“春分”
+游戏细节
+威尔逊声音来自于“小号弱音器”。
+威尔逊是唯三能因为胡须而获得额外保暖数值的角色。另外两个角色是
+威尔逊是唯一一个可以藉由刮胡子来获得胡须的角色。
+由于伍迪的出现，威尔逊不再是唯一一个拥有完整胡子的角色。韦伯的出现也不再让他是唯一一个能够随着时间长出胡子的角色。
+威尔逊是唯一一个没有缺点的角色。即使在夏天他的胡子会让他难以降温。
+威尔逊在游戏档案中是有
+图片的。
+他的台词被作为其他可游玩角色在检视测试阶段所完成的新物品的台词时所使用。
+在科雷娱乐开始进行人物重做之前，威尔逊是唯二拥有背景故事宣传片的角色。
+威尔逊的头像可以在Steam聊天室中使用。
+《军团要塞2》中威尔逊的头发当作
+使用。
+击中时可以看到在威尔逊的头发中是有骨头的。
+威尔逊可以通过对自己使用
+清洁扫把
+来更换自己胡子的皮肤。
+热知识：威尔逊是最后一个重做的角色，在 2022 年的 2023/3 重做。
+测试版初期，暗影廷臣（Shadow Courtier）技能的名字是暗影亲和（Shadow Affinity）。
+炼金技能组和暗影廷臣解锁的配方，其产物均不能被
+拆解魔杖
+所拆解。
+背景故事
+威尔逊的生日是 4 月 23 日，这也是 2013 年饥荒单机版发布的日期。
+威尔逊大约三十多岁。
+在宣传片中，当威尔逊拿起收音机时（～00:40），画面里藏有一个
+隐藏的网址
+。点进去可以看见威尔逊做出来的机器，点机器上的拉杆可以把机器打开，并连结到官网的原稿展式区，上方还有麦斯威尔给读者的讯息。
+在被传送到
+永恒领域
+之前，威尔逊独自居住在新英格兰
+的树林里，而他独自生活的原因是他跟他的家人相处不好。
+虽然尚未得知他的出生地，但威尔逊很有可能是移民欧洲的人。
+根据威尔逊在饥荒：联机版中对于正式服装的描述，他讨厌正式的派对。
+威尔逊可能有一定的医学知识，在
+中威尔逊的能力是以更快的速度救活队友，在单机版中他检查
+时表示他可以进行截肢
+，他的“维多利亚”皮肤也将他描绘成一位医生。
+威尔逊的一些台词表示他可能很在乎自己的发型，例如检查
+时会说：“帽子总是会弄乱我的发型。”，检查
+时说的：“我讨厌弄湿我的头发。”等等。
+根据他对
+玛姆茜
+的检查台词，威尔逊有一个保姆。
+威尔逊在他的
+中提到“graduate school”，意为“研究生院”，这说明了威尔逊可能受过高等教育。
+文化背景
+在短片中环绕着威尔逊的那些设计图里藏有星球大战的钛战机等各式各样的文字，比如说“KLEI”（科雷）。
+威尔逊的名字可能来自《荒岛余生》中主人公的排球伴侣。
+单机版中
+的设计灵感也来源于此。
+绅士科学家是在文艺复兴后的欧洲出现的一个名词，指的是从事财务研究的业余男性科学家，将科学研究作为一种爱好。
+威尔逊的“岩浆”皮肤参考了《降世神通》中的
+祖寇王子
+在Facebook上证实威尔逊和薇洛的年龄。
+New England
+http://steelydan.tumblr.com/post/72595997989/screams-my-headcannon-is-now-cannon-the
+Klei Entertainment confirming Wilson's native origin.
+威尔逊检查假腿：“如果有任何人真的想装上它，我可以帮忙截肢。”
+威尔逊检查玛姆茜：“让我想起了我的老保姆。”

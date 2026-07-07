@@ -1,0 +1,194 @@
+# 四季
+来源: 灰机Wiki搜索
+
+巨人国
+饥荒：巨人国（
+Don't Starve: Reign of Giants
+的第一个
+可下载内容包
+。于2014年1月15日宣布，同年4月30日在PC（Windows/Linux/Mac）发布，同年7月22日在PlayStation 4平台发布。
+巨人国DLC的内容还与基础饥荒游戏捆绑在一起，作为“饥荒：巨人国”（Don't Starve：Giant Edition），用于其他平台，包括PlayStation Vita，PlayStation 3，PlayStation 4 Wii U，Xbox One和iOS。
+2014年2月27日，巨人国DLC通过Steam向玩游戏的论坛用户发布了beta测试版，经过两次更新后，2014年4月2日向所有Steam用户发布了抢先体验版。
+官方描述
+《饥荒：巨人国》是饥荒的拓展包，添加了新的角色、季节、生物、生物群系以及各种全新挑战。
+整个饥荒的世界已经扩展并变得更加不妥协！新的谜团，挑战和科学发明等着你去发现。用好你的资源，因为饥荒的荒野又学到了一些新招数。
+关键特性：
+新的可用角色：
+巨人国添加了两个可以让玩家发现和使用的新角色。扮演
+薇格弗德
+，一个舞台艺术家，在扮演她的角色——一个古代女武神上做的有些过分，或者
+，一个生活在曾试图吃掉他的蜘蛛体内的小男孩。
+全年饥荒：
+享受一年四季，你会经历春天的暴雨和夏天的酷热。
+更大更危险的世界：
+新的生物群系充满了新的生物和资源，它们会帮助你生存下去...或者杀了你。
+扩展存档栏：
+你们要求，我们制作。
+巨人国DLC旨在对生存模式世界和冒险模式世界添加更多内容。安装了此DLC的玩家可以在创建存档时勾选RofG选项，创建一个带有巨人国内容的生存模式世界并在这个世界中开始游戏。
+此DLC中的内容包括：
+完整的
+重新设计了
+生物群系
+恶地群系
+绿洲沙漠群系
+重置的
+猪王树林群系
+鼹鼠桦树林群系
+重置的
+混合地群系
+重置的
+繁花陨石区群系
+格罗姆雕像
+空心树桩
+迷你冰川
+鼹鼠丘
+麋鹿鹅蛋
+风滚草
+薇格弗德
+麋鹿鹅
+桦栗果精
+格罗姆
+伏特羊
+麋鹿鹅幼崽
+仙人掌
+桦栗树
+毒桦栗树
+物品和建筑
+可制作
+战斗头盔
+战斗长矛
+遮阳棚
+羽毛扇
+眼球伞
+保鲜背包
+吸热营火
+吸热火坑
+鼹鼠帽
+便便桶
+雪球发射器
+晨星锤
+天气风向标
+龙鳞宝箱
+远古铃铛
+西瓜帽
+花衬衫
+清凉夏装
+熊皮背心
+生的和熟
+桦栗果
+生和熟的
+生和熟的
+仙人掌肉
+带电的羊奶
+西瓜种子
+仙人掌花
+西瓜冰棍
+冰淇淋
+鳄梨酱
+辣椒炖肉
+什锦干果
+花沙拉
+格罗姆花
+格罗姆翅膀
+格罗姆的粘液
+伏特羊角
+麋鹿鹅羽毛
+韦伯的头骨
+现在被捕获的小动物（如
+等）若没被喂食就会饿死。
+独眼巨鹿
+现在可以冻结对手，并且攻击范围缩小。
+的攻击不再无视盔甲。
+许多现有的可装备物品现在提供不同程度的防水性。
+许多现有的物品和建筑物现在都是可燃的。
+小猪包
+坎普斯背包
+都是防水的（储存其中的物品不会变潮），此外，略微降低了小猪包对玩家移速的影响。
+现在装备
+会使它们的耐久度损失。
+火腿棒
+现在可以在
+冰雪切斯特
+中冷却。
+现在可能击中并伤害玩家。
+烹饪锅
+晾肉架
+上的待收取
+会开始变质，一些现存的食物在食用时会提升或降低玩家的感知温度。
+出现在
+生存模式
+中的概率增加。
+青蛙雨
+冒险模式
+之外也可能出现。
+在春季，
+会自发生成，
+会进入敌对状态，并且
+皮弗娄牛
+会保持发情状态。
+发条生物
+棋盘布景
+更多了。
+许多物品和建筑物都有新的配方和制作等级。
+电子元件
+不再独属于
+瓦格斯塔夫
+，而是可以由所有
+制作。
+现在可以被敲成骨头碎片。
+玩家死亡时，一具
+和玩家的物品将被留在原地。
+天气效果现在也在
+洞穴世界
+中生效。
+世界自定义菜单中添加了其他选项。冒险模式和不同的预设进行了调整以适应
+巨人国
+的变化。
+树木现在可以防止玩家过热和阻挡雨水。
+打火机
+可能会把它点燃。
+杀人蜂蜂窝
+蜘蛛巢
+蛞蝓龟窝
+可以直接用火炬、打火机或
+火魔杖
+点燃。
+冰魔杖
+可以直接用于灭火。
+可以被用作
+发光浆果
+独眼巨鹿眼球
+现在可堆叠。
+火腿棒变质时造成的伤害降低。
+蜘蛛丝
+可用于交易。
+巨人国的图标基于四个
+：顶部是独眼巨鹿的鹿角，左部是熊獾带獠牙的巨口，右部是麋鹿鹅的喙，底部是龙蝇的脚和尾巴。
+骨头碎片
+电子元件
+在该 DLC 中第一次引入。它们在
+猪镇DLC
+的几次更新中追加到原版游戏中。
+Don't Starve Reign of Giants Expansion Release Trailer
+Cinematic Release trailer for "Reign of Giants".
+Don't Starve Reign of Giants DLC - Autumn Teaser-1
+First teaser trailer for the DLC featuring autumnal leaves and the Bearger.
+Don't Starve Reign of Giants Expansion - Winter Teaser-1
+The Winter teaser trailer revealed Webber as a playable character and hinted at the Deerclops' new freezing ability.
+Don't Starve Reign of Giants Expansion - Spring Teaser
+The Spring teaser trailer featured the Moose giant.
+Don't Starve Reign of Giants Expansion - Summer Teaser
+The Summer teaser trailer was the last of its kind. It hinted at the Overheating mechanic and gave players a first glimpse of the Dragonfly.
+Don't Starve A Feet of Strength (Reign of Giants Update)
+Trailer for the first update of the beta, revealing Wigfrid as a playable character.
+Don't Starve Giant Steps (Reign of Giants Update)-0
+Trailer for the Steam Early Access launch.
+The Autumn poster for the DLC (Look to the top-left hand side of the picture the Bearger is hidden amongst the trees).
+Winter Poster. The Deerclops is clearly visible in the trees.
+Spring Poster. The Moose is hiding in the trees.
+Summer poster.  The Dragonfly's arms can be seen in the air behind the trees.
+A still photo of the Bearger.
+Moose embryo in Spring teaser.
+Face of the Dragonfly.
+Promo image for the DLC.
+The New Game menu showing DLC checkboxes.

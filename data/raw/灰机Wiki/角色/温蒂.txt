@@ -1,0 +1,163 @@
+# 温蒂
+来源: 灰机Wiki搜索
+
+联机版
+单机版
+角色信息
+阿比盖尔？回来！我还没和你玩够呢。
+—— 温蒂
+温蒂·卡特（
+Wendy Carter
+饥荒：联机版
+的可用
+之一，她是一个忧郁的小女孩，总是把各种事物同死亡联系起来。
+温蒂的特殊能力围绕着与她死去的孪生姐妹互动和共同作战展开，阿比盖尔的协助让她能轻松应对大部分非
+生物，是一个相对轻松和适合新人上手的角色。
+背景故事
+多希望你在
+温蒂的悲惨故事始于她亲爱的姐妹阿比盖尔的不幸离世。由于无法接受没有姐妹的生活，温蒂开始求助于神秘学，希望能找到与阿比盖尔沟通的方法。历经多次试错，蜡烛烧成了灰烬，灵牌被恼怒的丢掉，温蒂几近放弃，陷入绝望……直到最后，终于有了一个迹象出现。一首拉格泰姆似乎是来自远方的奇怪讯号，温蒂急切地追寻着它。果然，一个声音向她发出了指示……
+《温蒂的日记》
+1914年4月16日
+我一直都在梦里听见一阵奇怪的音乐...那首歌重复了一遍又一遍...是你吗？阿比盖尔？你在试图告诉我什么东西吗？
+特殊能力
+阿比盖尔
+主条目：
+阿比盖尔
+主条目：
+阿比盖尔之花
+温蒂能够召唤孪生姐妹
+阿比盖尔
+的亡魂。温蒂初始时物品栏中会携带一朵
+阿比盖尔之花
+，右键点击这朵花即可召唤阿比盖尔，召唤会恢复温蒂 15
+，将阿比盖尔之花挪到阿比盖尔身上并点击则可以收回阿比盖尔，收回会消耗温蒂 15
+阿比盖尔被召唤出来时，右键阿比盖尔之花将会弹出一个指令选择界面，可以选择收回、激怒或安抚阿比盖尔。
+阿比盖尔的属性会随着时间流逝升级，升级时会出现有花瓣自屏幕上方飘落的特效。如果阿比盖尔或温蒂死亡，则会被强制收回并回到初始的等级，同时温蒂会失去 30
+。如果世界上存在装满
+姐妹骨灰罐
+，则阿比盖尔的升级所需的时间缩短至原本的 1/4。
+灵体草药
+温蒂可以通过帮助
+小惊吓
+找回玩具来获取
+哀悼荣耀
+，哀悼荣耀可以用于制作阿比盖尔之花和
+灵体草药
+，灵体草药一共有 6 种，可以将其给于阿比盖尔或阿比盖尔之花，来为阿比盖尔提供增益，同时只能拥有一种增益。
+温蒂的
+伤害倍率
+为 0.75。
+温蒂的理智值不会因为
+玩家鬼魂
+小惊吓
+而下降，
+也不会主动攻击温蒂。
+温蒂可以建造
+姐妹骨灰罐
+，向其中添加 4 个
+即可产生 +25
+/分钟的理智光环，并加快阿比盖尔的升级速度。
+温蒂会使世界上的
+每天开始的时生成
+小惊吓
+的概率增加 5%。
+温蒂因疯狂光环和夜晚带来的理智下降速度比其他角色低 25%。
+温蒂的
+最喜欢的食物
+香蕉冻
+技能树
+{"metainfo":{"imgs":{"Selectable_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Selectable_over.png","Button_carny_long_hover":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Button_long_hover.png","Locked_skill":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/ae/Locked_skill.png","Frame":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c5/Frame.png","Frame_octagon":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Frame_octagon.png","Unlocked":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/31/Unlocked.png","Skilltree_backgroundart":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Skilltree_backgroundart.png","Button_carny_long_down":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/13/Button_long_down.png","Button_carny_long_normal":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/68/Button_long_normal.png","Unselected":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c4/Unselected.png","Selected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/ee/Selected_over.png","Wendy_background":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c2/Wendy_background.png","Locked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/46/Locked_over.png","Selected":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fa/Selected.png","Unselected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/d8/Unselected_over.png","Skill_icon_textbox_white":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/79/Skill_icon_textbox_white.png","Selectable":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/23/Selectable.png","Unlocked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/85/Unlocked_over.png"}},"defs":{"wendy_shadow_lock_1":{"pos":[-89,40],"tags":["allegiance","lock","wendy_alliegience"],"group":"wendy_alliegience","lock_open":true,"root":true,"desc":"找到并击败远古织影者。"},"wendy_sisturn_2":{"connects":["wendy_sisturn_3"],"ondeactivate":true,"tags":["sisturn","sisturn_upgrades"],"group":"sisturn_upgrades","desc":"温蒂对可怕事物的抵抗力增强了，她会把这种自信传递给附近的其他人。","title":"二级受佑姐妹骨灰罐","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cd/Wendy_sisturn_2.png","onactivate":true,"icon":"wendy_sisturn_2","pos":[140,154]},"wendy_shadow_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fb/Wendy_shadow_2.png","connects":["wendy_shadow_3"],"title":"二级暗影姐妹情","tags":["allegiance","shadow","shadow_favor","wendy_alliegience"],"group":"wendy_alliegience","desc":"温蒂可以制作一种注入了暗影魔法的超级药剂，为阿比盖尔提升惊扰伤害。\\n超级药剂的效果可以与普通药剂叠加。","icon":"wendy_shadow_2","pos":[32.27272727272727,40]},"wendy_gravestone_1":{"connects":["wendy_makegravemounds"],"ondeactivate":true,"tags":["gravestone"],"root":true,"desc":"温蒂可以用花装饰坟墓，让居住的鬼魂开心起来。\\n温蒂不再害怕邪恶花。","title":"坟墓美化","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/08/Wendy_gravestone_1.png","onactivate":true,"group":"gravestone","icon":"wendy_gravestone_1","pos":[10,143]},"wendy_makegravemounds":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/f3/Wendy_makegravemounds.png","title":"温蒂手作墓碑","tags":["gravestone"],"group":"gravestone","desc":"温蒂可以用墓碑安抚骷髅的亡魂。\\n她还可以制作灵魂容器，为友善的鬼影提供新的归宿。","icon":"wendy_makegravemounds","pos":[49,136]},"wendy_ghostcommand_1":{"connects":["wendy_ghostcommand_2"],"tags":["ghost_command"],"root":true,"desc":"温蒂可以提醒阿比盖尔，她是一个幽灵，可以从敌人视野消失，从而逃脱厄运。","title":"一级幽灵团队","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/e0/Wendy_ghostcommand_1.png","group":"ghost_command","icon":"wendy_ghostcommand_1","pos":[98,118]},"wendy_shadow_lock_2":{"pos":[-51,40],"tags":["allegiance","lock","wendy_alliegience"],"group":"wendy_alliegience","lock_open":{"Eq":{"left":{"CountTags":"lunar_favor"},"right":0}},"root":true,"desc":"没有月亮亲和。"},"wendy_sisturn_1":{"connects":["wendy_sisturn_2"],"tags":["sisturn","sisturn_upgrades"],"group":"sisturn_upgrades","desc":"寒冷的死亡气息能让花瓣在姐妹骨灰罐中保存得更久。","defaultfocus":true,"title":"一级受佑姐妹骨灰罐","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/3a/Wendy_sisturn_1.png","root":true,"icon":"wendy_sisturn_1","pos":[103,173]},"wendy_smallghost_1":{"connects":["wendy_smallghost_2"],"tags":["smallghost"],"root":true,"desc":"小惊吓丢失的玩具并不远。","title":"一级小惊吓任务","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/3a/Wendy_smallghost_1.png","group":"smallghost","icon":"wendy_smallghost_1","pos":[-173,133]},"wendy_ghostflower_hat":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/06/Wendy_ghostflower_hat.png","connects":["wendy_ghostflower_grave"],"title":"二级哀悼荣耀","tags":["ghostflower"],"group":"ghostflower","desc":"将自己置身在鬼魅般的大自然中，感受药剂的力量，尽管药效并不完整。","icon":"wendy_ghostflower_hat","pos":[-132,100]},"wendy_potion_container":{"connects":["wendy_potion_revive"],"ondeactivate":true,"tags":["potion","potion_upgrades"],"group":"potion_upgrades","desc":"温蒂可以制作一个篮子来装阿比盖尔的所有药剂和哀悼荣耀。","title":"野餐盒","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/5/54/Wendy_potion_container.png","onactivate":true,"root":true,"icon":"wendy_potion_container","pos":[-57,185]},"wendy_ghostcommand_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/3f/Wendy_ghostcommand_3.png","title":"三级幽灵团队","tags":["ghost_command"],"group":"ghost_command","desc":"阿比盖尔可以利用她作为幽灵的力量来惊吓和作祟。","icon":"wendy_ghostcommand_3","pos":[171,73]},"wendy_avenging_ghost":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/37/Wendy_avenging_ghost.png","root":true,"title":"鬼魂复仇","tags":["avengingghost"],"group":"avengingghost","desc":"当温蒂或她的朋友被杀死后，她们的鬼魂会复仇，并能在短时间内对活人的世界造成破坏。","icon":"wendy_avenging_ghost","pos":[-47,139]},"wendy_ghostflower_butterfly":{"connects":["wendy_ghostflower_hat"],"tags":["ghostflower"],"root":true,"desc":"用蝴蝶与飞蛾开启复活之旅。","title":"一级哀悼荣耀","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fb/Wendy_ghostflower_butterfly.png","group":"ghostflower","icon":"wendy_ghostflower_butterfly","pos":[-168,73]},"wendy_shadow_1":{"locks":["wendy_shadow_lock_1","wendy_shadow_lock_2"],"ondeactivate":true,"tags":["allegiance","shadow","shadow_favor","wendy_alliegience"],"group":"wendy_alliegience","desc":"阿比盖尔与暗影调和，获得一定的位面防御。","title":"一级暗影姐妹情","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/15/Wilson_favor_shadow.png","onactivate":true,"connects":["wendy_shadow_2"],"icon":"wendy_shadow_1","pos":[-9,40]},"wendy_potion_yield":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/f5/Wendy_potion_yield.png","title":"额外产出","tags":["potion","potion_upgrades"],"group":"potion_upgrades","desc":"有时，温蒂可以从同样的原料中多挤出一些药剂。","icon":"wendy_potion_yield","pos":[57,185]},"wendy_ghostflower_grave":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6a/Wendy_ghostflower_grave.png","title":"三级哀悼荣耀","tags":["ghostflower"],"group":"ghostflower","desc":"你可以把朋友带回来，但前提似乎是他们必须已经进入了永恒领域。","icon":"wendy_ghostflower_grave","pos":[-96,118]},"wendy_smallghost_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/b/b2/Wendy_smallghost_3.png","title":"三级小惊吓任务","tags":["smallghost"],"group":"smallghost","desc":"小惊吓会产出更多的哀悼荣耀。","icon":"wendy_smallghost_3","pos":[-101,173]},"wendy_lunar_lock_1":{"pos":[-89,78],"tags":["allegiance","lock","wendy_alliegience"],"group":"wendy_alliegience","lock_open":true,"root":true,"desc":"找到并击败天体英雄。"},"wendy_lunar_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/9/9c/Wendy_lunar_3.png","title":"三级月亮姐妹情","tags":["allegiance","lunar","lunar_favor","wendy_alliegience"],"group":"wendy_alliegience","desc":"温蒂可以在盈月或满月时使用月晷，为阿比盖尔充满月能，变身为虚影。在残月或新月期间，月晷可以让阿比盖尔恢复幽灵状态。\\n\t","icon":"wendy_lunar_3","pos":[73,78]},"wendy_ghostcommand_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/46/Wendy_ghostcommand_2.png","connects":["wendy_ghostcommand_3"],"title":"二级幽灵团队","tags":["ghost_command"],"group":"ghost_command","desc":"阿比盖尔可以冲刺到温蒂需要援助的任何地方。","icon":"wendy_ghostcommand_2","pos":[135,100]},"wendy_sisturn_3":{"ondeactivate":true,"tags":["sisturn","sisturn_upgrades"],"group":"sisturn_upgrades","desc":"月树花使阿比盖尔的人性更加接近永恒领域。\\n她像其他冒险家一样，对永恒领域中巨兽的抵抗力更高。但在被召唤后，她的幽灵治疗效果会减缓。","title":"三级受佑姐妹骨灰罐","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c9/Wendy_sisturn_3.png","onactivate":true,"icon":"wendy_sisturn_3","pos":[176,133]},"wendy_lunar_1":{"locks":["wendy_lunar_lock_1","wendy_lunar_lock_2"],"ondeactivate":true,"tags":["allegiance","lunar","lunar_favor","wendy_alliegience"],"group":"wendy_alliegience","desc":"阿比盖尔与月能调和，获得一定的位面防御。","title":"一级月亮姐妹情","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/80/Wilson_favor_lunar.png","onactivate":true,"connects":["wendy_lunar_2"],"icon":"wendy_lunar_1","pos":[-9,78]},"wendy_smallghost_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/7f/Wendy_smallghost_2.png","connects":["wendy_smallghost_3"],"title":"二级小惊吓任务","tags":["smallghost"],"group":"smallghost","desc":"小惊吓想起更多丢失的玩具要找。","icon":"wendy_smallghost_2","pos":[-138,154]},"wendy_shadow_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/f9/Wendy_shadow_3.png","title":"三级暗影姐妹情","tags":["allegiance","shadow","shadow_favor","wendy_alliegience"],"group":"wendy_alliegience","desc":"每当温蒂使用谋杀动作时，都会释放黑暗魔法，短时间内为阿比盖尔注入更多力量。","icon":"wendy_shadow_3","pos":[73,40]},"wendy_potion_duration":{"icon_url":"https://huiji-thumb.huijistatic.com/dontstarve/uploads/thumb/f/f8/Wendy_potion_3.png/43px-Wendy_potion_3.png","connects":["wendy_potion_yield"],"title":"药效强劲","tags":["potion","potion_upgrades"],"group":"potion_upgrades","desc":"原来持续一天的药剂现在可以持续两天。","icon":"wendy_potion_duration","pos":[18,190]},"wendy_lunar_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/66/Wendy_lunar_2.png","connects":["wendy_lunar_3"],"title":"二级月亮姐妹情","tags":["allegiance","lunar","lunar_favor","wendy_alliegience"],"group":"wendy_alliegience","desc":"温蒂可以制作一种注入了月能的超级药剂，在持续时间内为阿比盖尔提升位面伤害。\\n超级药剂的效果可以与普通药剂叠加。","icon":"wendy_lunar_2","pos":[32.27272727272727,78]},"wendy_lunar_lock_2":{"pos":[-51,78],"tags":["allegiance","lock","wendy_alliegience"],"group":"wendy_alliegience","lock_open":{"Eq":{"left":{"CountTags":"shadow_favor"},"right":0}},"root":true,"desc":"没有暗影亲和。"},"wendy_potion_revive":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/12/Wendy_potion_revive.png","connects":["wendy_potion_duration"],"title":"恐怖经历","tags":["potion","potion_upgrades"],"group":"potion_upgrades","desc":"温蒂学会酿造一种新的幽灵药剂，它能帮助阿比盖尔迅速回忆起自己的潜能。","icon":"wendy_potion_revive","pos":[-20,190]}}}
+温蒂理智下降更慢的特性和在阿比盖尔辅助下不俗的战斗力让她在早期成为探索
+洞穴世界
+的合适人选之一。
+尽管温蒂装备着高礼帽在夜间或洞穴时，理智值图标上不会显示代表下降的箭头，但实际上理智还是会缓慢下降。
+温蒂使用CTRL+单击攻击阿比盖尔会直接将阿比盖尔收回花中，这可以用于在紧急情况下快速回收阿比盖尔。
+阿比盖尔在夜间的大范围群体伤害非常适合对付
+穴居猴
+等生物，玩家可以由此轻易获取特定的资源。
+阿比盖尔在对付单个强大敌人时容易阵亡，比如
+树精守卫
+蜘蛛女王
+等高生命值高攻击力的敌人。温蒂可以通过参与战斗吸引攻击仇恨来为阿比盖尔分担敌人的攻击。
+对于后期一些的BOSS，比如
+天体后裔
+，让温蒂与阿比盖尔共同作战的操作/时间/练习成本很高，性价比极低，可以考虑不使用阿比盖尔进行战斗。
+个别怪物，如
+无眼鹿
+一角鲸
+，不会对阿比盖尔的攻击作出反应。可以利用这一点轻易将其击杀。
+由于阿比盖尔是飞行单位，
+的攻击不会对她产生任何伤害，温蒂可以在阿比盖尔的帮助下更轻松的击杀蚁狮。
+蚁狮的仇恨比较容易转移，因此本人挂机而让阿比盖尔单挑蚁狮并不是明智的选择。
+出于同样的原因，利用阿比盖尔可以更容易攻击海上的怪物，例如吸引
+邪天翁
+的仇恨，以及在
+盐水浅滩
+饼干切割机
+温蒂可以通过做出 "/dance"、"/robot"、"chicken" 等跳舞
+来固定阿比盖尔的位置，这可以让二级或三级的阿比盖尔在夜间充当一个微弱的固定光源。
+当温蒂试图接近处于激怒状态下、且无仇恨目标的阿比盖尔时，阿比盖尔会反方向远离温蒂。不妨尝试这样做，使阿比盖尔在探险时充当先锋。
+位面武器（如
+亮茄剑
+暗影收割者
+）的位面伤害不受温蒂的伤害倍率影响，这可以为温蒂在战斗中提升输出效率。
+皮肤套装
+“贵宾”
+“冒险家”
+“凯旋”
+“玫瑰”
+“食人花温蒂之颅”
+“角斗士”
+“下雪”
+“维多利亚”
+“超自然”
+“岩浆”
+“怀旧”
+“绿色系”
+“前往月亮”
+“欢乐”
+“假面舞会”
+“古代”
+“江洋大盗”
+游戏内容
+温蒂的配音来自中音长笛。
+在游戏文件中存在一个温蒂的头骨。
+在被闪电击中时可以看到在温蒂的头发、裙子和花朵里有骨头。
+温蒂的
+有一朵戴在左边的黄色花朵，与阿比盖尔戴在右边的红色花朵相对应。
+温蒂有一个独有的闲置动画，她会拿出一朵花并摘下其上的一朵花瓣。
+温蒂重做
+刚上线时短暂地有过一个版本，阿比盖尔的伤害不随时间变化，而是随温蒂的生命值降低而提升，也没有如今的脆弱诅咒效果。后来这一设计因违背了“温蒂和阿比盖尔一同战斗”的本意而被移除，改为了随时间变化以及脆弱诅咒效果，开发者声称“生命值越低，伤害越高”的概念将被赋予未来的新角色，即后来的
+背景故事
+温蒂的生日是11月11日。
+温蒂的年龄据称在8至10岁之间。
+可以通过检查威廉·卡特解密中的各种日期以及温蒂的床头柜来缩小范围。杰克在第三个威廉·卡特拼图中提到双胞胎的信一定写在第四个解密的1904年8月之前。这意味着温蒂和阿比盖尔的出生日期不晚于1904年8月。此外，温蒂的日记条目的日期很可能是在她进入
+永恒领域
+之前写的，日期为1914年4月16日。这意味着她的年龄最小为9岁8个月，最大为10岁，还没到11岁生日。
+结合这些信息可以推断温蒂的出生日期是1903年11月11日。
+温蒂重做时发布的图像基本证明了温蒂和阿比盖尔是
+麦斯威尔
+的侄女，这一点在此前也有诸多暗示。例如在单机版中温蒂检查麦斯威尔NPC的台词“他让我觉得有一种奇怪的亲切感。”，以及
+威廉·卡特谜题
+中杰克·卡特的来信。
+麦斯威尔检查阿比盖尔之花的台词也能佐证这一点，“嗯？好熟悉的场景。”
+出于某种不知名的原因，温蒂会将黄宝石和她母亲联系起来。比如检查
+黄宝石
+的“这让我想起了我妈妈。”，还有检查
+黄色月眼
+的“母亲的眼睛是什么颜色？”。
+尽管有很多玩家争论阿比盖尔和温蒂谁是姐姐谁是妹妹的问题，但作为双胞胎，她们肯定是同时出生、一样大的，科雷娱乐的官方微博也证实了这一点。
+加载屏幕
+的插图揭露了温蒂仍在哀悼阿比盖尔的原因：“温蒂对于孪生姐妹的死一直没有释怀，因为她害怕关于阿比盖尔的记忆会消失。”
+温蒂说话时总是带着诗意，甚至有些莎士比亚的风格。
+文化背景
+温蒂的“维多利亚”皮肤参考了英国维多利亚时代的复杂葬礼服饰。
+温蒂的“岩浆”皮肤可能参考了希腊神话中的不死鸟菲尼克斯（Phoenix），虽然在游戏中和一些场合被翻译为“凤凰”或“火凤凰”，但实际上和中国神话中的凤凰毫无关系。
+温蒂的“超自然”皮肤以及同一主题加载屏幕插图“超自然温蒂”的可能参考了电影《闪灵》中的场景。
+在官方的直播中，Toni说红色的头饰源自于都市传说"The Velvet Ribbon"。
+官方在艺术直播#126中画的温蒂与阿比盖尔。
+JoeW关于温蒂年龄的
+：“注意，我们宣布温蒂的年龄在8至10岁之间，之前我们希望它由细节整理得出。但现在我们决定让它明确起来。”。发布于2019年11月3日
+科雷娱乐
+在微博上证实温蒂和阿比盖尔的年龄问题。
+[1]

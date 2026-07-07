@@ -9,8 +9,7 @@ __pycache__/
 dist/
 build/
 
-# === 数据文件（体积大，本地构建） ===
-data/raw/
+# === 数据文件 ===
 data/chroma_db/
 pdf_pages/
 

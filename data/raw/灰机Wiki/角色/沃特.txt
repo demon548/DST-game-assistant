@@ -1,0 +1,496 @@
+# 沃特
+来源: 灰机Wiki搜索
+
+角色信息
+谁都知道鱼人好客，浮浪噗。
+—— 沃特
+沃特（
+Wurt
+饥荒：联机版
+的DLC
+之一，需要购买或使用2700
+编制才可以使用。她是一个好奇心旺盛的年轻鱼人。
+以下是所有包含沃特的捆绑包列表：
+背景故事
+新篇章
+沃特是一个鱼人小女孩，她想让自己的族人重回昔日的辉煌（假设他们真的有过昔日的辉煌……这方面的证据有点欠缺）。她比别的鱼人更加开放，喜欢跟随其他冒险家们四处走动，去了解他们。她特别喜欢看书，因为里面有漂亮的图片；还喜欢有一种被人类称为 “糖果”的神奇物品。虽然她很喜欢和其他鱼人在沼泽里一起生活，但因为她在所有鱼人中个头最小、年纪最轻，这让她感到很孤独。她很喜欢在冒险家中找到一些和自己年龄相近的朋友，这让她感到很新奇。
+特殊能力
+宏大规划
+沃特可以制作
+鱼人工艺屋
+鱼人堡垒
+来分别生成
+忠诚鱼人守卫
+，沃特可以通过喂食来雇佣它们，让它们帮助战斗、砍伐树木或开采岩石。
+沃特可以制作
+皇家手工套装
+并添加一定材料将其建造为
+皇家地毯
+并扶持一只鱼人成为
+鱼人之王
+。鱼人之王会为
+鱼人族
+带来新的变化并且可以与沃特等进行交易。
+其中沃特的变化为：+ 100
+上限，+ 50
+上限，+ 50
+上限并获得外观变化。
+沃特可以制作
+聪明的伪装
+沼泽地皮
+（无需解锁）
+沃特在沼泽地块、
+月亮沼泽地块
+暗影沼泽地块
+上时，获得 移动速度×1.3 的效果。
+素食主义
+沃特只能吃
+通用食物
+种子食物
+素食食物
+好东西食物
+，并且素食食物会额外 + 33%
+沃特吃
+海带叶
+熟海带叶
+海带补丁
+超臭榴莲
+时不会降低生命值和理智值。
+沃特的
+最喜欢的食物
+超臭榴莲
+鱼人族
+如果沃特的
+物品栏
+中存在
+小鱼块
+熟小鱼块
+变质的小鱼块
+熟鳗鱼
+生鱼肉
+变质的鱼
+死龙虾
+美味的龙虾
+时，沃特会 -
+4.4
+实为 40/9
+/分钟。而如果沃特的物品栏中没有上述物品且存在
+淡水鱼
+活鳗鱼
+时，沃特会 +
+3.3
+实为 10/3
+/分钟，并且这些物品在其
+基本物品栏
+鼠标栏
+腐烂速度
+（星空除外）会降至原来的 25%。
+沃特佩戴
+反而会 -
+1.3
+实为 4/3
+/分钟，佩戴
+海花环
+牛奶帽
+反而会 +
+1.3
+实为 4/3
+/分钟。
+不会影响沃特的理智值，其手部装备也不会因潮湿滑落。
+麋鹿鹅
+的缴械技能和
+的普通攻击也不会使沃特的手部装备掉落。
+时不会失去任何装备或物品，并且只会 + 50
+沃特可以清楚地分辨出附近 15
+距离单位
+1 距离单位等于 1/4
+边长，即一般情况下放置墙壁的最小间隔，也是建筑对齐网格的默认间隔。
+内隐藏的
+沃特受到攻击时，攻击者附近 20（春季时为 26.6）距离单位内至多 8 只的属于
+鱼人族
+（玩家除外）且无仇恨目标的其他实体会仇恨攻击者。
+明眼青蛙
+不会主动仇恨沃特。
+会主动仇恨沃特，
+也会拒绝与沃特的交易。
+沃特可以理解鱼人族的语言。
+沃特可以阅读
+薇克巴顿
+，但不会触发原有效果。取而代之的是根据沃特所读的书，沃特会提升或降低理智值：
+技能树
+"color": [
+"#dd6b66",
+"#759aa0",
+"#e69d87",
+"#8dc1a9",
+"#ea7e53",
+"#eedd78",
+"#73a373",
+"#73b9bc",
+"#7289ab",
+"#91ca8c",
+"#f49f42"
+"backgroundColor": "rgba(51,51,51,1)",
+"textStyle": {},
+"title": {
+"textStyle": {
+"color": "#eeeeee"
+"subtextStyle": {
+"color": "#aaaaaa"
+"line": {
+"itemStyle": {
+"borderWidth": 1
+"lineStyle": {
+"width": 2
+"symbolSize": 4,
+"symbol": "circle",
+"smooth": false
+"radar": {
+"itemStyle": {
+"borderWidth": 1
+"lineStyle": {
+"width": 2
+"symbolSize": 4,
+"symbol": "circle",
+"smooth": false
+"bar": {
+"itemStyle": {
+"barBorderWidth": 0,
+"barBorderColor": "#ccc"
+"pie": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"scatter": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"boxplot": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"parallel": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"sankey": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"funnel": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"gauge": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"candlestick": {
+"itemStyle": {
+"color": "#fd1050",
+"color0": "#0cf49b",
+"borderColor": "#fd1050",
+"borderColor0": "#0cf49b",
+"borderWidth": 1
+"graph": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"lineStyle": {
+"width": 1,
+"color": "#aaa"
+"symbolSize": 4,
+"symbol": "circle",
+"smooth": false,
+"color": [
+"#dd6b66",
+"#759aa0",
+"#e69d87",
+"#8dc1a9",
+"#ea7e53",
+"#eedd78",
+"#73a373",
+"#73b9bc",
+"#7289ab",
+"#91ca8c",
+"#f49f42"
+"label": {
+"color": "#eee"
+"map": {
+"itemStyle": {
+"areaColor": "#eee",
+"borderColor": "#444",
+"borderWidth": 0.5
+"label": {
+"color": "#000"
+"emphasis": {
+"itemStyle": {
+"areaColor": "rgba(255,215,0,0.8)",
+"borderColor": "#444",
+"borderWidth": 1
+"label": {
+"color": "rgb(100,0,0)"
+"geo": {
+"itemStyle": {
+"areaColor": "#eee",
+"borderColor": "#444",
+"borderWidth": 0.5
+"label": {
+"color": "#000"
+"emphasis": {
+"itemStyle": {
+"areaColor": "rgba(255,215,0,0.8)",
+"borderColor": "#444",
+"borderWidth": 1
+"label": {
+"color": "rgb(100,0,0)"
+"categoryAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"valueAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"logAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"timeAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"toolbox": {
+"iconStyle": {
+"borderColor": "#999"
+"emphasis": {
+"iconStyle": {
+"borderColor": "#666"
+"legend": {
+"textStyle": {
+"color": "#eeeeee"
+"tooltip": {
+"axisPointer": {
+"lineStyle": {
+"color": "#eeeeee",
+"width": "1"
+"crossStyle": {
+"color": "#eeeeee",
+"width": "1"
+"timeline": {
+"lineStyle": {
+"color": "#eeeeee",
+"width": 1
+"itemStyle": {
+"color": "#dd6b66",
+"borderWidth": 1
+"controlStyle": {
+"color": "#eeeeee",
+"borderColor": "#eeeeee",
+"borderWidth": 0.5
+"checkpointStyle": {
+"color": "#e43c59",
+"borderColor": "#c23531"
+"label": {
+"color": "#eeeeee"
+"emphasis": {
+"itemStyle": {
+"color": "#a9334c"
+"controlStyle": {
+"color": "#eeeeee",
+"borderColor": "#eeeeee",
+"borderWidth": 0.5
+"label": {
+"color": "#eeeeee"
+"visualMap": {
+"color": [
+"#bf444c",
+"#d88273",
+"#f6efa6"
+"dataZoom": {
+"backgroundColor": "rgba(47,69,84,0)",
+"dataBackgroundColor": "rgba(255,255,255,0.3)",
+"fillerColor": "rgba(167,183,204,0.4)",
+"handleColor": "#a7b7cc",
+"handleSize": "100%",
+"textStyle": {
+"color": "#eeeeee"
+"markPoint": {
+"label": {
+"color": "#eee"
+"emphasis": {
+"label": {
+"color": "#eee"
+{"metainfo":{"imgs":{"Selectable_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Selectable_over.png","Button_carny_long_hover":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Button_long_hover.png","Locked_skill":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/ae/Locked_skill.png","Unlocked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/85/Unlocked_over.png","Frame_octagon":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Frame_octagon.png","Skilltree_backgroundart":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Skilltree_backgroundart.png","Unlocked":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/31/Unlocked.png","Unselected":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c4/Unselected.png","Button_carny_long_normal":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/68/Button_long_normal.png","Button_carny_long_down":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/13/Button_long_down.png","Selected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/ee/Selected_over.png","Wurt_background":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/76/Wurt_background.png","Locked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/46/Locked_over.png","Selected":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fa/Selected.png","Unselected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/d8/Unselected_over.png","Skill_icon_textbox_white":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/79/Skill_icon_textbox_white.png","Selectable":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/23/Selectable.png","Frame":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c5/Frame.png"}},"defs":{"wurt_mermkingtrident":{"ondeactivate":true,"tags":["swampmaser","mermking_quest"],"group":"swampmaster","desc":"为国王献上这种最适合海上使用的武器，你的鱼人将以三连拍的方式灵巧攻击。","title":"国王的三叉戟任务","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/5/53/Wurt_mermkingtrident.png","onactivate":true,"icon":"wurt_mermkingtrident","pos":[5.75,96]},"wurt_amphibian_thickskin_1":{"connects":["wurt_amphibian_thickskin_2"],"ondeactivate":true,"tags":["amphibian","wetness_defense"],"group":"amphibian","desc":"用潮湿作为保护。伤害会消耗潮湿度，而不是生命值。","title":"一级光滑表皮","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/43/Wurt_amphibian_thickskin_1.png","onactivate":true,"icon":"wurt_amphibian_thickskin_1","pos":[-210.5,58]},"wurt_mosquito_craft_1":{"connects":["wurt_mosquito_craft_2"],"tags":["swampmaser","mosquito"],"group":"swampmaster","desc":"学习制作一个可爱的伙伴，让蚊子对你保持中立。","defaultfocus":true,"title":"匿名蚊子","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/2d/Wurt_mosquito_craft_1.png","root":true,"icon":"wurt_mosquito_craft_1","pos":[-46.5,172]},"wurt_civ_1":{"connects":["wurt_civ_1_2"],"tags":["swampmaser","civ"],"root":true,"desc":"学习制作食堂海带盘，以吸引鱼人更快增长并召唤鱼人采取行动。","title":"一级集体喂食","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/70/Wurt_civ_1.png","group":"swampmaster","icon":"wurt_civ_1","pos":[-32.25,58]},"wurt_shadow_allegiance_1":{"connects":["wurt_shadow_allegiance_2"],"ondeactivate":true,"tags":["allegiance","shadow","shadow_favor"],"group":"allegiance","desc":"你的鱼人追随者可能会死去，但他们的暗影会继续存在。\\n使用纯粹恐惧为堕落鱼人的暗影注入位面力量。","title":"暗影复活鱼人","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/7d/Wurt_shadow_allegiance_1.png","onactivate":true,"locks":["wurt_allegiance_lock_1","wurt_allegiance_lock_2","wurt_allegiance_lock_4"],"icon":"wurt_shadow_allegiance_1","pos":[222.5,58]},"wurt_allegiance_lock_1":{"desc":"学习12项技能后解锁","tags":["allegiance","lock"],"root":true,"lock_open":{"GreaterOrEqThan":{"left":{"CountSkills":"CountSkills"},"right":12}},"group":"allegiance","pos":[203.5,172]},"wurt_mosquito_craft_2":{"connects":["wurt_mosquito_craft_3"],"ondeactivate":true,"tags":["swampmaser","mosquito"],"group":"swampmaster","desc":"学习制作基于蚊子的物品：蚊子炸弹、嗡嗡肥料和蚊血注射液。","title":"一级痒术","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/eb/Wurt_mosquito_craft_2.png","onactivate":true,"icon":"wurt_mosquito_craft_2","pos":[-46.5,134]},"wurt_allegiance_lock_4":{"pos":[222.5,96],"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"Eq":{"left":{"CountTags":"lunar_favor"},"right":0}},"root":true,"desc":"没有月亮亲和。"},"wurt_civ_1_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c2/Wurt_civ_1_2.png","title":"二级集体喂食","tags":["swampmaser","civ"],"group":"swampmaster","desc":"学习制作高级食堂海带盘，它装着更多的海带叶，以实现更快的增长并召唤鱼人采取行动。","icon":"wurt_civ_1_2","pos":[-32.25,20]},"wurt_allegiance_lock_3":{"pos":[184.5,134],"tags":["allegiance","lock"],"group":"allegiance","lock_open":true,"root":true,"desc":"找到并击败天体英雄。"},"wurt_civ_3":{"connects":["wurt_civ_3_2"],"tags":["swampmaser","civ"],"root":true,"desc":"学习制作一个鱼人军械库，为你的忠诚鱼人守卫配备沼泽斗士头盔。","title":"一级硬脑袋","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/d3/Wurt_civ_3.png","group":"swampmaster","icon":"wurt_civ_3","pos":[43.75,58]},"wurt_merm_king_hunger_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/25/Wurt_merm_king_hunger_2.png","connects":["wurt_merm_king_hunger_3"],"title":"二级饱君","tags":["swampmaser","merm_king_max_hunger"],"group":"swampmaster","desc":"再增加鱼人王的最大饥饿值。","icon":"wurt_merm_king_hunger_2","pos":[58,134]},"wurt_merm_king_hunger_1":{"connects":["wurt_merm_king_hunger_2"],"tags":["swampmaser","merm_king_max_hunger"],"root":true,"desc":"增加鱼人王的最大饥饿值。","title":"一级饱君","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/af/Wurt_merm_king_hunger_1.png","group":"swampmaster","icon":"wurt_merm_king_hunger_1","pos":[58,172]},"wurt_amphibian_healing_2":{"ondeactivate":true,"tags":["amphibian","wetness_healing","marsh_wetness"],"group":"amphibian","desc":"潮湿时可以更有效地恢复生命值。当你走过腐烂或变异的沼泽地皮时，它也会让你的湿度缓慢增加。","title":"二级水疗","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/ae/Wurt_amphibian_healing_2.png","onactivate":true,"icon":"wurt_amphibian_healing_2","pos":[-172.5,20]},"wurt_amphibian_healing_1":{"connects":["wurt_amphibian_healing_2"],"ondeactivate":true,"tags":["amphibian","wetness_healing"],"group":"amphibian","desc":"在潮湿的环境中会慢慢回复生命值。你越潮湿，回复的生命值就越多。","title":"一级水疗","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/5/5b/Wurt_amphibian_healing_1.png","onactivate":true,"icon":"wurt_amphibian_healing_1","pos":[-172.5,58]},"wurt_mermkingcrown":{"connects":["wurt_mermkingtrident"],"ondeactivate":true,"tags":["swampmaser","mermking_quest"],"group":"swampmaster","desc":"给他一顶逝去已久的国王戴过的王冠，你的鱼人就会更聪明地战斗，从而活得更久。","title":"国王的皇冠任务","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/70/Wurt_mermkingcrown.png","onactivate":true,"icon":"wurt_mermkingcrown","pos":[5.75,134]},"wurt_mermkingshoulders":{"connects":["wurt_mermkingcrown"],"ondeactivate":true,"tags":["swampmaser","mermking_quest"],"group":"swampmaster","desc":"为国王的雕塑般的肩膀上添加石甲，让你的鱼人士兵更加强壮。","title":"国王的肩甲任务","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6c/Wurt_mermkingshoulders.png","onactivate":true,"root":true,"icon":"wurt_mermkingshoulders","pos":[5.75,172]},"wurt_amphibian_thickskin_2":{"ondeactivate":true,"tags":["amphibian","wetness_defense","marsh_wetness"],"group":"amphibian","desc":"更有效地利用湿度作为保护。当你走过腐烂或变异的沼泽地皮时，它也会让你的湿度缓慢增加。","title":"二级光滑表皮","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/4b/Wurt_amphibian_thickskin_2.png","onactivate":true,"icon":"wurt_amphibian_thickskin_2","pos":[-210.5,20]},"wurt_merm_flee":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/5/58/Wurt_merm_flee.png","group":"swampmaster","title":"理智的沼泽战士","tags":["swampmaser","merm_flee"],"root":true,"desc":"鱼人守卫会在生命值较低时退出战斗，等待治疗。","icon":"wurt_merm_flee","pos":[-80.7,39]},"wurt_amphibian_sanity_2":{"connects":["wurt_amphibian_temperature"],"ondeactivate":true,"tags":["amphibian","wetness_sanity"],"group":"amphibian","desc":"在潮湿时慢慢回复一大部分理智值。","title":"二级精神流淌","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/f0/Wurt_amphibian_sanity_2.png","onactivate":true,"icon":"wurt_amphibian_sanity_2","pos":[-191.5,134]},"wurt_mosquito_craft_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6a/Wurt_mosquito_craft_3.png","title":"二级痒术","tags":["swampmaser","mosquito"],"group":"swampmaster","desc":"精通基于蚊子类物品的使用方法。\\n\\n有了小痒痒的帮助，你就能从空气里抓蚊子。","icon":"wurt_mosquito_craft_3","pos":[-46.5,96]},"wurt_civ_3_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/02/Wurt_civ_3_2.png","title":"二级硬脑袋","tags":["swampmaser","civ"],"group":"swampmaster","desc":"学习制作一个高级鱼人军械库，提供沼泽战士头盔。","icon":"wurt_civ_3_2","pos":[43.75,20]},"wurt_pathfinder":{"ondeactivate":true,"tags":["swampmaser","pathfinder"],"group":"swampmaster","desc":"沃特附近的冒险家将像她一样在沼泽上移动。","title":"沼泽探路人","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/2c/Wurt_pathfinder.png","onactivate":true,"root":true,"icon":"wurt_pathfinder","pos":[92.2,39]},"wurt_civ_2_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/29/Wurt_civ_2_2.png","title":"二级勤奋鱼人","tags":["swampmaser","civ"],"group":"swampmaster","desc":"学习制作一个不那么劣质的工具棚，提供不那么劣质的工具。","icon":"wurt_civ_2_2","pos":[5.75,20]},"wurt_allegiance_lock_2":{"pos":[222.5,134],"tags":["allegiance","lock"],"group":"allegiance","lock_open":true,"root":true,"desc":"找到并击败远古织影者。"},"wurt_civ_2":{"connects":["wurt_civ_2_2"],"tags":["swampmaser","civ"],"root":true,"desc":"学习制作一个劣质工具棚，为你的鱼人工人配备劣质工具。","title":"一级勤奋鱼人","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/07/Wurt_civ_2.png","group":"swampmaster","icon":"wurt_civ_2","pos":[5.75,58]},"wurt_merm_king_hunger_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/23/Wurt_merm_king_hunger_3.png","title":"三级饱君","tags":["swampmaser","merm_king_hunger_rate"],"group":"swampmaster","desc":"减缓鱼人王的消化速度，这样他就会更久之后才能感到饥饿。","icon":"wurt_merm_king_hunger_3","pos":[58,96]},"wurt_allegiance_lock_5":{"pos":[184.5,96],"tags":["allegiance","lock"],"group":"allegiance","lock_open":{"Eq":{"left":{"CountTags":"shadow_favor"},"right":0}},"root":true,"desc":"没有暗影亲和。"},"wurt_shadow_allegiance_2":{"ondeactivate":true,"tags":["allegiance","shadow"],"group":"allegiance","desc":"没有一片土地能幸免于沼泽黑暗而美丽的腐蚀。","title":"大地腐蚀","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/b/b4/Wurt_shadow_allegiance_2.png","onactivate":true,"icon":"wurt_shadow_allegiance_2","pos":[222.5,20]},"wurt_amphibian_sanity_1":{"connects":["wurt_amphibian_sanity_2"],"ondeactivate":true,"tags":["amphibian","wetness_sanity"],"group":"amphibian","desc":"在潮湿时慢慢回复部分理智值。你越潮湿，回复的理智值就越多。","title":"一级精神流淌","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c7/Wurt_amphibian_sanity_1.png","onactivate":true,"root":true,"icon":"wurt_amphibian_sanity_1","pos":[-191.5,172]},"wurt_lunar_allegiance_1":{"connects":["wurt_lunar_allegiance_2"],"ondeactivate":true,"tags":["allegiance","lunar","lunar_favor"],"group":"allegiance","desc":"通过喂食月亮碎片，赐予你的鱼人月亮变异的美妙礼物。\\n使用纯粹辉煌 赋予你的变异鱼人位面力量。","title":"月亮变异鱼人","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c0/Wurt_lunar_allegiance_1.png","onactivate":true,"locks":["wurt_allegiance_lock_1","wurt_allegiance_lock_3","wurt_allegiance_lock_5"],"icon":"wurt_lunar_allegiance_1","pos":[184.5,58]},"wurt_amphibian_temperature":{"connects":["wurt_amphibian_thickskin_1","wurt_amphibian_healing_1"],"ondeactivate":true,"tags":["amphibian","wetness_temperature"],"group":"amphibian","desc":"大大降低湿度对体温的影响。它还一定程度上减少了由于热源造成的湿度损失。","title":"全天候鳞片","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/ee/Wurt_amphibian_temperature.png","onactivate":true,"icon":"wurt_amphibian_temperature","pos":[-191.5,96]},"wurt_lunar_allegiance_2":{"ondeactivate":true,"tags":["allegiance","lunar"],"group":"allegiance","desc":"将任何一片土地变成甜美的沼泽。","title":"大地变异","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/01/Wurt_lunar_allegiance_2.png","onactivate":true,"icon":"wurt_lunar_allegiance_2","pos":[184.5,20]}}}
+两栖动物
+鱼人国度
+若雇主的
+幸运值
+\(L_{幸运值}\)
+，则最终概率为
+$$\begin{cases}\min(1,0.33+L_{幸运值}\times0.5) & L_{幸运值} > 0  \\0.33                          & L_{幸运值} \le 0  \\\end{cases}$$
+若攻击者/雇主的
+幸运值
+\(L_{幸运值}\)
+，则最终概率为
+$$\begin{cases}\min(1,0.5+L_{幸运值}\times0.2) & L_{幸运值} > 0  \\0.5                          & L_{幸运值} \le 0  \\\end{cases}$$
+沃特可以尽早移植
+石果灌木丛
+公牛海带
+，这两种作物可以在冬季生长，为沃特提供稳定的素食来源。
+炽热太阳鱼
+冰鲷鱼
+在沃特的
+基本物品栏
+中可以存活 4 天左右，这意味着沃特可以将这两种鱼当作
+的替代品使用，只需在鱼死亡前将其
+或放回
+锡鱼罐
+即可。
+在冬天下雪后提示隐藏触手的白色标记容易和雪混在一起难以分辨。
+在每次
+鱼人守卫
+进行转化
+（包括变身为
+变异鱼人
+变异鱼人守卫
+纯粹辉煌
+加强、退化为普通鱼人或鱼人守卫、死亡后转变为
+暗影鱼人
+时，可以回复所有生命值，配合
+理智的沼泽战士
+技能可以更好地使鱼人大军获得持续的战斗力。
+鱼人守卫
+忠诚鱼人守卫
+对于前往
+鱼人军械库
+高级鱼人军械库
+、拾取地面物品以获取
+沼泽斗士头盔
+沼泽战士头盔
+的行为优先级很高，即使被攻击、正在攻击仇恨目标时也会继续尝试获取，可以利用此特性聚集
+鱼人守卫
+，但跟随于沃特的
+鱼人守卫
+在超出跟随范围时仍会传送至沃特的身边。
+皮肤套装
+“贵宾”
+“深渊”
+“凯旋”
+“玫瑰”
+“深海小朋友”
+“维多利亚”
+“沃特菌蟾蜍帽”
+“欢乐”
+“江洋大盗”
+“下雪”
+“绿色系”
+“假面舞会”
+“古代”
+“前往月亮”
+“冒险家”
+“狂奔者”
+沃特是在“
+沃特发布和2019年万圣夜
+”中加入游戏的。
+游戏内容
+经开发者 Dan Sorce 证实，沃特的声音是锯齿声和漱口声的结合。
+在 2021 年 5 月 6 日的更新中，游戏文件中添加了沃特的头骨。
+当她刚刚加入游戏时，她有很多台词暗示她和其他
+一样可以在黑暗中看见东西。这些台词大部分都在后续更新中被修改了，但还有一些保留了下来，比如
+待补充
+沃特的消息在官方公布前就由一位 Klei 工作人员的 Steam 库泄露了出去。
+沃特有一个特殊的闲置动画，她会挠一挠自己的角。
+剧情信息
+沃特的生日是 10 月 17 日。
+沃特以一种独特的方式称呼各种生物，比如将
+（Merm）叫做“鱼人”（Mermfolk），将
+发条生物
+WX-78
+叫做“铁人”（Ironfolk），将人类称为“无鳞生物”（scale-less）。
+在官方直播 Rhymes with Play 中，开发者表示沃特有角是因为她是一只
+忠诚鱼人守卫
+文化背景
+沃特的“深渊”皮肤参考了一些种类的鮟鱇鱼。
+沃特的“贵宾”皮肤参考了金鱼。
+沃特的“玫瑰”皮肤参考了墨西哥钝口螈。
+沃特的“维多利亚”皮肤参考了
+里的山羊人，可能暗示了鱼人与山羊人之间的联系。
+沃特的“毒菌蟾蜍”皮肤参考了游戏里的巨兽
+毒菌蟾蜍
+沃特的“江洋大盗”皮肤参考了一些种类的龙虾。
+沃特的“下雪”皮肤参考了鹿角兔，一种北美洲伐木工传说里的生物，这也可能是游戏里
+的原型。
+沃特的“绿色系”皮肤参考了叶海龙。

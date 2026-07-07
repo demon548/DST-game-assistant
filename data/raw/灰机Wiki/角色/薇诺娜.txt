@@ -1,0 +1,445 @@
+# 薇诺娜
+来源: 灰机Wiki搜索
+
+"color": [
+"#dd6b66",
+"#759aa0",
+"#e69d87",
+"#8dc1a9",
+"#ea7e53",
+"#eedd78",
+"#73a373",
+"#73b9bc",
+"#7289ab",
+"#91ca8c",
+"#f49f42"
+"backgroundColor": "rgba(51,51,51,1)",
+"textStyle": {},
+"title": {
+"textStyle": {
+"color": "#eeeeee"
+"subtextStyle": {
+"color": "#aaaaaa"
+"line": {
+"itemStyle": {
+"borderWidth": 1
+"lineStyle": {
+"width": 2
+"symbolSize": 4,
+"symbol": "circle",
+"smooth": false
+"radar": {
+"itemStyle": {
+"borderWidth": 1
+"lineStyle": {
+"width": 2
+"symbolSize": 4,
+"symbol": "circle",
+"smooth": false
+"bar": {
+"itemStyle": {
+"barBorderWidth": 0,
+"barBorderColor": "#ccc"
+"pie": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"scatter": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"boxplot": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"parallel": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"sankey": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"funnel": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"gauge": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"candlestick": {
+"itemStyle": {
+"color": "#fd1050",
+"color0": "#0cf49b",
+"borderColor": "#fd1050",
+"borderColor0": "#0cf49b",
+"borderWidth": 1
+"graph": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"lineStyle": {
+"width": 1,
+"color": "#aaa"
+"symbolSize": 4,
+"symbol": "circle",
+"smooth": false,
+"color": [
+"#dd6b66",
+"#759aa0",
+"#e69d87",
+"#8dc1a9",
+"#ea7e53",
+"#eedd78",
+"#73a373",
+"#73b9bc",
+"#7289ab",
+"#91ca8c",
+"#f49f42"
+"label": {
+"color": "#eee"
+"map": {
+"itemStyle": {
+"areaColor": "#eee",
+"borderColor": "#444",
+"borderWidth": 0.5
+"label": {
+"color": "#000"
+"emphasis": {
+"itemStyle": {
+"areaColor": "rgba(255,215,0,0.8)",
+"borderColor": "#444",
+"borderWidth": 1
+"label": {
+"color": "rgb(100,0,0)"
+"geo": {
+"itemStyle": {
+"areaColor": "#eee",
+"borderColor": "#444",
+"borderWidth": 0.5
+"label": {
+"color": "#000"
+"emphasis": {
+"itemStyle": {
+"areaColor": "rgba(255,215,0,0.8)",
+"borderColor": "#444",
+"borderWidth": 1
+"label": {
+"color": "rgb(100,0,0)"
+"categoryAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"valueAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"logAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"timeAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"toolbox": {
+"iconStyle": {
+"borderColor": "#999"
+"emphasis": {
+"iconStyle": {
+"borderColor": "#666"
+"legend": {
+"textStyle": {
+"color": "#eeeeee"
+"tooltip": {
+"axisPointer": {
+"lineStyle": {
+"color": "#eeeeee",
+"width": "1"
+"crossStyle": {
+"color": "#eeeeee",
+"width": "1"
+"timeline": {
+"lineStyle": {
+"color": "#eeeeee",
+"width": 1
+"itemStyle": {
+"color": "#dd6b66",
+"borderWidth": 1
+"controlStyle": {
+"color": "#eeeeee",
+"borderColor": "#eeeeee",
+"borderWidth": 0.5
+"checkpointStyle": {
+"color": "#e43c59",
+"borderColor": "#c23531"
+"label": {
+"color": "#eeeeee"
+"emphasis": {
+"itemStyle": {
+"color": "#a9334c"
+"controlStyle": {
+"color": "#eeeeee",
+"borderColor": "#eeeeee",
+"borderWidth": 0.5
+"label": {
+"color": "#eeeeee"
+"visualMap": {
+"color": [
+"#bf444c",
+"#d88273",
+"#f6efa6"
+"dataZoom": {
+"backgroundColor": "rgba(47,69,84,0)",
+"dataBackgroundColor": "rgba(255,255,255,0.3)",
+"fillerColor": "rgba(167,183,204,0.4)",
+"handleColor": "#a7b7cc",
+"handleSize": "100%",
+"textStyle": {
+"color": "#eeeeee"
+"markPoint": {
+"label": {
+"color": "#eee"
+"emphasis": {
+"label": {
+"color": "#eee"
+角色信息
+勤劳的双手和辛勤的工作可以修复一切。
+—— 薇诺娜
+薇诺娜（
+Winona
+饥荒：联机版
+的可用
+之一，她是一位勤劳的
+沃科拉广播公司
+前员工，厌恶懒惰和上流社会的繁文缛节。她也是
+的姐姐。
+薇诺娜的主要特点来自她的冒险家物品，她可以制作一些装置和道具来辅助生存。
+背景故事
+薇诺娜为了家人赴汤蹈火，在所不惜。多年前她的妹妹查理神秘失踪，成为一宗悬案。但她拒绝让案件变成冰冷的卷宗，只身前去寻找她的下落。十多年来，她努力追踪每一条线索、探查拜访任何可能与此案有关的人，直到所有的线索都开始串联起来。有一家收音机厂，创办者是一名古怪的老头。他行事隐秘，机智过人。她怀疑他这可能就是她一直以来寻找的答案。她在工厂工作后不久，工厂就因一扇故障的传送门而毁掉了。薇诺娜得知有人被困在传送门中消失了，于是急忙修复了传送门，希望能救出他们。结果她竟然在门中面对面的看到了失踪的妹妹。很不幸，查理当时似乎被暗影的力量控制了，她把薇诺娜也拖进了永恒领域。
+特殊能力
+建造者
+薇诺娜的饥饿值不低于 49.95
+时，其建造动作和收回动作所需要的时间减半（0.5 秒）。首次建造，或者与上次建造的时间 > 60 秒且与上次建造的距离 > 4
+距离单位
+1 距离单位等于 1/4
+边长，即一般情况下放置墙壁的最小间隔，也是建筑对齐网格的默认间隔。
+时，薇诺娜会扣除 5
+薇诺娜的饥饿值低于 49.95
+时，其建造动作和收回动作所需要的时间翻倍（2 秒）。
+薇诺娜建造
+天体传送门
+月亮虹吸器
+隐士之家
+支柱脚手架
+绝望石支柱脚手架
+以及修补支柱、支柱瓦砾、绝望石支柱和绝望石支柱瓦砾所需要的时间减半（0.5 秒）。
+免疫一次黑暗
+薇诺娜可以免疫“
+”的第一次袭击。
+小发明
+薇诺娜拥有五件专属的物品 / 建筑：
+可靠的胶布
+：可以修补
+可缝补的物品
+漂浮平台
+，也是制作其他专属物品 / 建筑的必要材料。
+薇诺娜的聚光灯
+：为玩家提供光照，需要电力支持。
+薇诺娜的投石机
+：远程攻击造成范围伤害，需要电力支持。
+薇诺娜的发电机
+：消耗
+等为周围的薇诺娜的聚光灯和薇诺娜的投石机等用电器提供电力支持。
+薇诺娜的宝石发电机
+：消耗六色宝石等为周围的用电器提供电力支持。
+薇诺娜的
+最喜欢的食物
+蔬菜鸡尾酒
+薇诺娜可以识别出
+瓦格斯塔夫工具
+的正确名称。
+技能树
+{"metainfo":{"imgs":{"Selectable_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Selectable_over.png","Button_carny_long_hover":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Button_long_hover.png","Locked_skill":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/ae/Locked_skill.png","Unlocked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/85/Unlocked_over.png","Frame_octagon":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Frame_octagon.png","Unlocked":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/31/Unlocked.png","Skilltree_backgroundart":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Skilltree_backgroundart.png","Button_carny_long_down":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/13/Button_long_down.png","Winona_background":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/de/Winona_background.png","Unselected":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c4/Unselected.png","Selected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/ee/Selected_over.png","Button_carny_long_normal":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/68/Button_long_normal.png","Locked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/46/Locked_over.png","Selected":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fa/Selected.png","Unselected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/d8/Unselected_over.png","Skill_icon_textbox_white":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/79/Skill_icon_textbox_white.png","Selectable":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/23/Selectable.png","Frame":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c5/Frame.png"}},"defs":{"winona_catapult_boost_1":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/00/Winona_catapult_boost_1.png","locks":["winona_lowshelf_lock","winona_portable_structures_lock"],"title":"齐射","tags":["midshelf"],"group":"midshelf","pos":[35,65],"icon":"winona_catapult_boost_1","desc":"你的称手遥控器范围内的所有投石机会在短时间内提高开火频率。"},"winona_lowshelf_lock":{"connects":["winona_catapult_speed_1","winona_catapult_aoe_1","winona_battery_efficiency_1"],"tags":["lock"],"group":"lowshelf","desc":"学习下面架子上的3个技能，即可解锁上面架子上的技能。","button_decorations":{"onlocked":true,"onunlocked":true,"init":true},"forced_focus":{"down":"winona_spotlight_heated"},"lock_open":{"GreaterThan":{"left":{"CountTags":"lowshelf"},"right":2}},"root":true,"pos":[-220,35]},"winona_spotlight_heated":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/2e/Winona_spotlight_heated.png","root":true,"title":"热光灯","tags":["lowshelf"],"group":"lowshelf","pos":[-125,5],"icon":"winona_spotlight_heated","desc":"升级你的聚光灯，使其在温度低时散发热量。"},"winona_charlie_1":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/66/Winona_charlie_1.png","title":"一级寻觅暗影","tags":["charlie"],"group":"charlie","pos":[-170,165],"icon":"winona_charlie_1","desc":"女王传授了一种附魔眼镜的设计，能显示隐藏的暗影魔法痕迹。她想让你找到她吗？"},"winona_shadow_1":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/9/9e/Winona_shadow_1.png","connects":["winona_shadow_2"],"title":"噩梦发电机","tags":["charlie"],"group":"charlie","pos":[-120,165],"icon":"winona_shadow_1","desc":"了解如何利用噩梦燃料作为发电机的燃料来源。"},"winona_battery_efficiency_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/25/Winona_battery_efficiency_3.png","forced_focus":{"down":"winona_battery_idledrain"},"title":"三级大发电机","tags":["midshelf"],"group":"midshelf","pos":[200,65],"icon":"winona_battery_efficiency_3","desc":"提高发电机和宝石发电机100%的效率。"},"winona_lunar_3_lock":{"root":true,"tags":["lock"],"group":"wagstaff","lock_open":{"And":{"left":{"ActivatedSkill":"winona_portable_structures"},"right":{"ActivatedSkill":"winona_lunar_2"}}},"pos":[60,165],"desc":"需要便携移动和辉煌宝石发电机技能才能解锁。"},"winona_lunar_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/b/bb/Winona_lunar_3.png","locks":["winona_lunar_3_lock","winona_portable_structures_lock"],"title":"启迪袭击","tags":["wagstaff"],"group":"wagstaff","pos":[60,205],"icon":"winona_lunar_3","desc":"用你的称手遥控器为灌注了月亮精华的投石机选择一个攻击的目标。"},"winona_wagstaff_1":{"ondeactivate":true,"tags":["wagstaff"],"group":"wagstaff","desc":"从神秘的创始人的设计中汲取灵感，建造一个设备来寻找隐藏的补给藏物。\\n获得对所有在藏物箱发现的技术的精通。","title":"一级创始人宝物猎人","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/36/Winona_wagstaff_1.png","onactivate":true,"icon":"winona_wagstaff_1","pos":[170,165]},"winona_portable_structures":{"connects":["winona_gadget_recharge"],"ondeactivate":true,"tags":["lowshelf"],"group":"lowshelf","desc":"轻松拆卸您的机器，学习如何制作称手遥控器来远程控制投石机。","defaultfocus":true,"title":"便携移动","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/4a/Winona_portable_structures.png","onactivate":true,"root":true,"icon":"winona_portable_structures","pos":[0,5]},"winona_wagstaff_2":{"locks":["winona_wagstaff_2_lock"],"tags":["wagstaff"],"group":"wagstaff","desc":"扩大检查专用镜的视野，寻找更高级的补给藏物。\\n获得对所有在高级藏物箱发现的技术的精通。","button_decorations":{"onlocked":true,"onunlocked":true,"init":true},"title":"二级创始人宝物猎人","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fe/Winona_wagstaff_2.png","forced_focus":{"left":"winona_lunar_2"},"icon":"winona_wagstaff_2","pos":[220,205]},"winona_catapult_volley_1":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/a5/Winona_catapult_volley_1.png","locks":["winona_lowshelf_lock","winona_portable_structures_lock"],"title":"精确瞄准","tags":["midshelf"],"group":"midshelf","pos":[-35,65],"icon":"winona_catapult_volley_1","desc":"你的称手遥控器范围内的所有投石机都会朝你选定的目标开火。"},"winona_battery_efficiency_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/1d/Winona_battery_efficiency_2.png","connects":["winona_battery_efficiency_3"],"title":"二级大发电机","tags":["midshelf"],"group":"midshelf","pos":[150,65],"icon":"winona_battery_efficiency_2","desc":"提高发电机和宝石发电机50%的效率。"},"winona_midshelf_lock":{"button_decorations":{"onlocked":true,"onunlocked":true,"init":true},"connects":["winona_shadow_1","winona_charlie_1","winona_lunar_1","winona_wagstaff_1"],"root":true,"tags":["lock"],"group":"midshelf","lock_open":{"GreaterThan":{"left":{"Add":{"left":{"CountTags":"lowshelf"},"right":{"CountTags":"midshelf"}}},"right":5}},"pos":[-220,135],"desc":"学习下面架子上的6个技能，即可解锁上面架子上的技能。"},"winona_lunar_2":{"connects":["winona_lunar_3"],"tags":["wagstaff"],"group":"wagstaff","desc":"了解如何利用纯粹辉煌作为宝石发电机的燃料来源。","title":"辉煌宝石发电机","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/db/Winona_lunar_2.png","forced_focus":{"right":"winona_wagstaff_2"},"icon":"winona_lunar_2","pos":[110,205]},"winona_catapult_aoe_1":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/4f/Winona_catapult_aoe_1.png","connects":["winona_catapult_aoe_2"],"title":"一级高爆弹","tags":["midshelf"],"group":"midshelf","pos":[-100,105],"icon":"winona_catapult_aoe_1","desc":"改装你的投石机，让它的伤害区域增加25%。"},"winona_catapult_speed_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/a7/Winona_catapult_speed_2.png","connects":["winona_catapult_speed_3"],"title":"二级快速开火","tags":["midshelf"],"group":"midshelf","pos":[-150,65],"icon":"winona_catapult_speed_2","desc":"升级你的投石机，开火频率提高10%。"},"winona_catapult_speed_1":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/d5/Winona_catapult_speed_1.png","connects":["winona_catapult_speed_2"],"title":"一级快速开火","tags":["midshelf"],"group":"midshelf","pos":[-100,65],"icon":"winona_catapult_speed_1","desc":"升级你的投石机，开火频率提高5%。"},"winona_lunar_1":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/f6/Winona_lunar_1.png","connects":["winona_lunar_2"],"title":"启迪宝石发电机","tags":["wagstaff"],"group":"wagstaff","pos":[120,165],"icon":"winona_lunar_1","desc":"了解如何利用启迪碎片作为宝石发电机的燃料来源。"},"winona_charlie_2_lock":{"root":true,"tags":["lock"],"group":"charlie","lock_open":{"And":{"left":{"ActivatedSkill":"winona_charlie_1"},"right":{"Not":{"ActivatedSkill":"winona_wagstaff_2"}}}},"pos":[-210,165],"desc":"需要一级寻觅暗影技能，并没有二级创始人宝物猎人才能解锁。"},"winona_spotlight_range":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/5/59/Winona_spotlight_range.png","root":true,"title":"宽敞聚光灯","tags":["lowshelf"],"group":"lowshelf","pos":[-75,5],"icon":"winona_spotlight_range","desc":"升级你的聚光灯，使其照亮更大的区域。"},"winona_charlie_2":{"locks":["winona_charlie_2_lock"],"ondeactivate":true,"tags":["charlie"],"group":"charlie","desc":"更善于寻找暗影魔法的踪迹。\\n女王会守护着你。","button_decorations":{"onlocked":true,"onunlocked":true,"init":true},"title":"二级寻觅暗影","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/b/b0/Winona_charlie_2.png","onactivate":true,"forced_focus":{"right":"winona_shadow_2"},"icon":"winona_charlie_2","pos":[-220,205]},"winona_battery_idledrain":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/71/Winona_battery_idledrain.png","root":true,"title":"节能模式","tags":["lowshelf"],"group":"lowshelf","pos":[125,5],"icon":"winona_battery_idledrain","desc":"发电机和宝石发电机在不用时不再消耗能源。\\n与发电机连接的机器在睡眠模式下不会耗电。"},"winona_portable_structures_lock":{"connects":["winona_catapult_volley_1","winona_catapult_boost_1"],"root":true,"tags":["lock"],"group":"midshelf","lock_open":{"And":{"left":{"GreaterThan":{"left":{"CountTags":"lowshelf"},"right":2}},"right":{"ActivatedSkill":"winona_portable_structures"}}},"pos":[0,85],"desc":"需要学习便携移动技能并可以打开这个架子才能解锁。"},"winona_catapult_speed_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Winona_catapult_speed_3.png","title":"三级快速开火","tags":["midshelf"],"group":"midshelf","pos":[-200,65],"icon":"winona_catapult_speed_3","desc":"升级你的投石机，开火频率提高20%。"},"winona_battery_efficiency_1":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/dd/Winona_battery_efficiency_1.png","connects":["winona_battery_efficiency_2"],"title":"一级大发电机","tags":["midshelf"],"group":"midshelf","pos":[100,65],"icon":"winona_battery_efficiency_1","desc":"提高发电机和宝石发电机25%的效率。"},"winona_wagstaff_2_lock":{"root":true,"tags":["lock"],"group":"wagstaff","lock_open":{"And":{"left":{"ActivatedSkill":"winona_wagstaff_1"},"right":{"Not":{"ActivatedSkill":"winona_charlie_2"}}}},"pos":[210,165],"desc":"需要一级创始人宝物猎人技能，并没有二级寻觅暗影才能解锁。"},"winona_gadget_recharge":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/ca/Winona_gadget_recharge.png","title":"快速充电","tags":["lowshelf"],"group":"lowshelf","pos":[50,5],"icon":"winona_gadget_recharge","desc":"放在发电机或宝石发电机旁的小工具充电速度会加快100%。"},"winona_shadow_3_lock":{"root":true,"tags":["lock"],"group":"charlie","lock_open":{"And":{"left":{"ActivatedSkill":"winona_portable_structures"},"right":{"ActivatedSkill":"winona_shadow_2"}}},"pos":[-60,165],"desc":"需要便携移动和纯粹恐惧发电机技能才能解锁。"},"winona_catapult_aoe_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/25/Winona_catapult_aoe_3.png","title":"三级高爆弹","tags":["midshelf"],"group":"midshelf","pos":[-200,105],"icon":"winona_catapult_aoe_3","desc":"改装你的投石机，让它的伤害区域增加100%。"},"winona_catapult_aoe_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/e8/Winona_catapult_aoe_2.png","connects":["winona_catapult_aoe_3"],"title":"二级高爆弹","tags":["midshelf"],"group":"midshelf","pos":[-150,105],"icon":"winona_catapult_aoe_2","desc":"改装你的投石机，让它的伤害区域增加50%。"},"winona_shadow_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/ff/Winona_shadow_3.png","locks":["winona_shadow_3_lock","winona_portable_structures_lock"],"title":"暗影袭击","tags":["charlie"],"group":"charlie","pos":[-60,205],"icon":"winona_shadow_3","desc":"用你的称手遥控器为灌注了暗影力量的投石机选择一个攻击的目标。"},"winona_shadow_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/0a/Winona_shadow_2.png","forced_focus":{"left":"winona_charlie_2"},"title":"纯粹恐惧发电机","tags":["charlie"],"group":"charlie","pos":[-110,205],"icon":"winona_shadow_2","desc":"了解如何利用纯粹恐惧作为发电机的燃料来源。"}}}
+薇诺娜快速制作的技能在大规模制作物品（如制作墙壁和
+犬牙陷阱
+）时尤为有效，一次合成大量物品可以有效减少时间和饥饿消耗。
+薇诺娜免疫一次黑暗的特殊能力再次获得照明即可重置，可借助
+萤火虫
+或熄灭提灯来节省照明。
+可以为薇诺娜提供大量
+蜘蛛丝
+，从而弥补可靠的胶布一次性使用的缺陷。
+可靠的胶布虽然可以修补漏水，但不会像
+船补丁
+一样同时恢复船只的耐久，因而无法完全代替船补丁在与
+帝王蟹
+的战斗中发挥作用。
+投石器的攻击不会伤害到
+切斯特
+，可以将投石器的仇恨固定在切斯特或哈奇身上，控制投石器持续对一个位置进行攻击。
+来大量获取宝石对薇诺娜的收益极高。
+皮肤套装
+“贵宾”
+“玫瑰”
+“凯旋”
+“冒险家”
+“壁虎薇诺娜之颅”
+“角斗士”
+“绿色系”
+“维多利亚”
+“岩浆”
+“工装”
+“创造物”
+“修理工”
+“欢乐”
+“下雪”
+“江洋大盗”
+“前往月亮”
+“古代”
+“假面舞会”
+“春分”
+“咆哮者”
+薇诺娜是在“
+额外更新
+”中加入游戏的。
+游戏内容
+在2017年3月下旬的一次更新中，她的台词文件不小心被放进了饥荒联机版，在被玩家发现并引起一番讨论后，这些文件在下一次更新时被删除了。
+在2017年9月6日，科雷公布薇诺娜将会作为正式角色加入游戏，一周后薇诺娜被正式加入了游戏。
+薇诺娜是饥荒联机版第一个独有角色。
+但薇诺娜的台词文件中却有检查
+冒险模式
+物品的台词。
+测试版中，薇诺娜在
+珍宝柜
+中的描述是“薇诺娜之前是个脾气暴躁且喜欢将所有机械化的工厂线工人。”。
+击中时可以看到在薇诺娜的头发里有骨头。
+薇诺娜躲避来自黑暗的攻击时是没有动画的。
+薇诺娜是饥荒联机版2019-2020更新计划中第一位被重置的角色。
+在重置前，薇诺娜的特殊能力为“能干的建造者 免疫一次来自黑暗的攻击 带着她自己的工具”
+薇诺娜有一个独有的闲置动画，她会伸展一下胳膊。
+背景故事
+薇诺娜的生日是9月13日，这也是2017年她被加入游戏的日期。
+薇诺娜在
+威廉·卡特谜题
+中被首次提及，查理在写给麦斯威尔的信中写道她有一个姐姐。但并未提及薇诺娜的名字。
+米修斯谜题
+中，有一小段文字13/9/17，这也是薇诺娜的发布日期。
+她也有可能是在短片“
+那边是什么？
+”中透过
+远古大门
+看到的黑色模糊身影。
+在2017年3月泄露的台词文件中，她的台词提到了她以前曾是个煤矿工人，但并不喜欢这份工作。在她正式上线时，她的台词有了些微的更改，删除了其中煤矿工人的部分。
+泄露的台词文件中还有提到了美国1929-1933年的经济大萧条（如：检查
+烹饪锅
+时会提到胡佛炖汤），但在正式上线时被改掉了。这可能是因为沃科拉工厂火灾发生于1919年，她在
+就进入了
+永恒领域
+从薇诺娜检查
+曼德拉草
+的台词来看，她可能觉得查理多少有些烦人。
+从她检查
+麦斯威尔雕像
+的台词来看（“所以这就是‘老麦’啊。”），薇诺娜可能听说过麦斯威尔，但从未见过他本人。（由
+来看很可能是从查理口中得知的。）
+薇诺娜进入永恒领域因为她试图营救查理（还有
+瓦格斯塔夫
+），出自在
+中检查远古大门的台词“我可能不擅长拯救任务。”。
+薇诺娜检查
+的台词表明她可能住在群租房里。
+在薇诺娜未使用的冒险模式物品台词中，她将
+探测杖
+认成是
+沃科拉的收音机
+，她还说“只剩少数几个人会使用它了，我便是其中之一。”。这是薇诺娜在沃科拉工作的最早线索。
+在检查探测杖底座时，她会说“就跟在老板的车间里时一样。”，这可能是在谈论沃科拉的创始人
+瓦格斯塔夫
+在泄露的薇诺娜台词文件中，她对解锁的探测杖底座有着不同的检查对话：“这...老板是这么失踪的？”
+（Is... this how the bossman disappeared?）
+，现在版本的检查对话被改为了“至少我没装错。”。
+从她对纵火的薇诺娜和烧毁的雨量计台词的检查台词
+。以及麦斯威尔检查纵火的薇诺娜
+的台词来看，她似乎对火感到不适，这可能是因为沃科拉工厂的命运。
+薇诺娜是第3个有官方发布的背景短片的角色。
+文化背景
+薇诺娜的形象设计与第二次世界大战期间美国的女工人文化偶像“铆工罗西”十分相似。
+薇诺娜检查跟随的曼德拉草：“有个小妹妹大概就是这种感觉。”
+薇诺娜检查冬帽：“特别适合在群租房里过冬时戴。”
+薇诺娜检查有猪人的猪屋：“比市中心的群租房还挤。”
+薇诺娜检查纵火的薇诺娜：“<名字>，我们被烧掉的东西还不够多吗？”，薇诺娜检查被烧毁的雨量计：“火啊，你为什么要带走我爱的一切？”
+麦斯威尔检查纵火的薇诺娜：“我万万没想到放火的会是你，<名字>。”

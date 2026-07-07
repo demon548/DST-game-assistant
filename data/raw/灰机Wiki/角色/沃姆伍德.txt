@@ -1,0 +1,485 @@
+# 沃姆伍德
+来源: 灰机Wiki搜索
+
+"color": [
+"#dd6b66",
+"#759aa0",
+"#e69d87",
+"#8dc1a9",
+"#ea7e53",
+"#eedd78",
+"#73a373",
+"#73b9bc",
+"#7289ab",
+"#91ca8c",
+"#f49f42"
+"backgroundColor": "rgba(51,51,51,1)",
+"textStyle": {},
+"title": {
+"textStyle": {
+"color": "#eeeeee"
+"subtextStyle": {
+"color": "#aaaaaa"
+"line": {
+"itemStyle": {
+"borderWidth": 1
+"lineStyle": {
+"width": 2
+"symbolSize": 4,
+"symbol": "circle",
+"smooth": false
+"radar": {
+"itemStyle": {
+"borderWidth": 1
+"lineStyle": {
+"width": 2
+"symbolSize": 4,
+"symbol": "circle",
+"smooth": false
+"bar": {
+"itemStyle": {
+"barBorderWidth": 0,
+"barBorderColor": "#ccc"
+"pie": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"scatter": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"boxplot": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"parallel": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"sankey": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"funnel": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"gauge": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"candlestick": {
+"itemStyle": {
+"color": "#fd1050",
+"color0": "#0cf49b",
+"borderColor": "#fd1050",
+"borderColor0": "#0cf49b",
+"borderWidth": 1
+"graph": {
+"itemStyle": {
+"borderWidth": 0,
+"borderColor": "#ccc"
+"lineStyle": {
+"width": 1,
+"color": "#aaa"
+"symbolSize": 4,
+"symbol": "circle",
+"smooth": false,
+"color": [
+"#dd6b66",
+"#759aa0",
+"#e69d87",
+"#8dc1a9",
+"#ea7e53",
+"#eedd78",
+"#73a373",
+"#73b9bc",
+"#7289ab",
+"#91ca8c",
+"#f49f42"
+"label": {
+"color": "#eee"
+"map": {
+"itemStyle": {
+"areaColor": "#eee",
+"borderColor": "#444",
+"borderWidth": 0.5
+"label": {
+"color": "#000"
+"emphasis": {
+"itemStyle": {
+"areaColor": "rgba(255,215,0,0.8)",
+"borderColor": "#444",
+"borderWidth": 1
+"label": {
+"color": "rgb(100,0,0)"
+"geo": {
+"itemStyle": {
+"areaColor": "#eee",
+"borderColor": "#444",
+"borderWidth": 0.5
+"label": {
+"color": "#000"
+"emphasis": {
+"itemStyle": {
+"areaColor": "rgba(255,215,0,0.8)",
+"borderColor": "#444",
+"borderWidth": 1
+"label": {
+"color": "rgb(100,0,0)"
+"categoryAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"valueAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"logAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"timeAxis": {
+"axisLine": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisTick": {
+"show": true,
+"lineStyle": {
+"color": "#eeeeee"
+"axisLabel": {
+"show": true,
+"color": "#eeeeee"
+"splitLine": {
+"show": true,
+"lineStyle": {
+"color": [
+"#aaaaaa"
+"splitArea": {
+"show": false,
+"areaStyle": {
+"color": [
+"#eeeeee"
+"toolbox": {
+"iconStyle": {
+"borderColor": "#999"
+"emphasis": {
+"iconStyle": {
+"borderColor": "#666"
+"legend": {
+"textStyle": {
+"color": "#eeeeee"
+"tooltip": {
+"axisPointer": {
+"lineStyle": {
+"color": "#eeeeee",
+"width": "1"
+"crossStyle": {
+"color": "#eeeeee",
+"width": "1"
+"timeline": {
+"lineStyle": {
+"color": "#eeeeee",
+"width": 1
+"itemStyle": {
+"color": "#dd6b66",
+"borderWidth": 1
+"controlStyle": {
+"color": "#eeeeee",
+"borderColor": "#eeeeee",
+"borderWidth": 0.5
+"checkpointStyle": {
+"color": "#e43c59",
+"borderColor": "#c23531"
+"label": {
+"color": "#eeeeee"
+"emphasis": {
+"itemStyle": {
+"color": "#a9334c"
+"controlStyle": {
+"color": "#eeeeee",
+"borderColor": "#eeeeee",
+"borderWidth": 0.5
+"label": {
+"color": "#eeeeee"
+"visualMap": {
+"color": [
+"#bf444c",
+"#d88273",
+"#f6efa6"
+"dataZoom": {
+"backgroundColor": "rgba(47,69,84,0)",
+"dataBackgroundColor": "rgba(255,255,255,0.3)",
+"fillerColor": "rgba(167,183,204,0.4)",
+"handleColor": "#a7b7cc",
+"handleSize": "100%",
+"textStyle": {
+"color": "#eeeeee"
+"markPoint": {
+"label": {
+"color": "#eee"
+"emphasis": {
+"label": {
+"color": "#eee"
+联机版
+单机版
+角色信息
+你好，朋友。
+—— 沃姆伍德
+沃姆伍德（
+Wormwood
+饥荒：联机版
+的DLC
+之一，需要购买或使用2700
+编制才可以使用，购买
+单机版
+猪镇DLC
+也会赠送这个角色。他是一个善良幼稚的古怪植物生命，胸前嵌有一块来自月亮的绿色宝石。以下是所有包含沃姆伍德的捆绑包列表：
+背景故事
+月之根须
+虽然他的出身环境并不寻常，但沃姆伍德来到这个世界后还是充满了乐观和好奇心，愿意结交新的朋友、学习了解生活的方方面面。但随着时间的流逝，他经历了冰冷的拒绝，也终于知道了头上那轮月亮一直都知道的事情：孤独者沃姆伍德并不属于这里。
+特殊能力
+特殊物品
+沃姆伍德拥有四件专属配方：
+活木头
+：消耗 20
+制作，作为沃姆伍德专属物品还有其他物品的制作材料。
+荆棘外壳
+：提供防御，在被攻击时会对周围怪物造成伤害。穿着这件盔甲可以避免
+尖刺灌木
+仙人掌
+荆棘陷阱
+的伤害。
+荆棘陷阱
+：类似
+犬牙陷阱
+，触发时对周围所有非友方生物造成伤害（友方生物不会受到伤害，但会触发并消耗使用次数）。
+肥料包
+：恢复沃姆伍德 40
+（立即恢复 8 点，在接下来 32 秒内每 2 秒恢复 2 点）同时开始开花，也可以作为肥料灌溉作物。
+园艺才能
+沃姆伍德可以不使用
+耕地机
+园艺锄
+，直接将
+种植在地上。这样种出的农作物进入腐烂状态所需的时间为一般农作物的 1.5 倍。并且沃姆伍德不需要任何装备便可以精确找出
+农作物
+的压力来源。
+食物和肥料
+沃姆伍德食用
+时，不会从食物属性中获得任何
+生命值
+变化，不论增减。
+严格来说是
+生命值吸收倍率
+为 0。
+这意味着多数可显著恢复生命值的料理（如
+海鲜牛排
+）对他价值更低，但也让他可以食用原本会减少生命值的食物（如
+采摘的红蘑菇
+）而不损失生命值。
+部分食物对生命值的特殊变化效果仍然有效，例如
+彩虹糖豆
+持续恢复生命值、
+恐怖国王饼
+交换生命值和理智值等。
+沃姆伍德可以用
+给自己施肥，效果取决于肥料的营养物质：
+会瞬间恢复生命值。
+会提供 +2
+/2秒 的生命值缓慢恢复效果。
+催长剂
+会触发开花。服用更多催长剂会加快开花速度，或者在绽放期使用延长绽放期的时间。
+使用每种含堆肥、粪肥的肥料具体恢复值如下：
+或使用带有催长剂的
+为自己施肥后，沃姆伍德会开始开花，这期间沃姆伍德的移动速度和饥饿值下降速度会增加如下表所示：
+沃姆伍德开花的状态一共有四个阶段，其中包含一个开花值升高或降低的速率，即每秒获得或流失的开花值，默认为 1。使用催长剂可提升该速率，每 8 点催长剂提升 1/16 速率，进入下一阶段时重置为 1。开花的 3 阶段为绽放状态，进入此阶段时立刻获得 1440 点开花值，并且速率不再会因使用催长剂而变化。除此之外，绽放状态时的开花值会逐渐下降，其中春季不会掉开花值，夏秋两季开花值下降的速率为 1，冬季为 2，此时使用催长剂会获得开花值，每 8 点催长剂增加 60 点开花值。
+由开花前到绽放状态，沃姆伍德会依次经历三次阶段转换，当绽放状态下开花值清零时再反向经历同样的三次阶段转换。若从高阶段下降至低阶段期间使用催长剂，沃姆伍德的开花值速率会从当前阶段开始再次由降低转为升高。
+在处于绽放阶段时：沃姆伍德会获得额外的 30 点
+隔热值
+，此外沃姆伍德会持续
+距离单位
+1 距离单位等于 1/4
+边长，即一般情况下放置墙壁的最小间隔，也是建筑对齐网格的默认间隔。
+农作物
+会主动追随沃姆伍德且保持中立。
+在沃姆伍德附近被种植，无论是不是沃姆伍德做的，沃姆伍德都会因此恢复理智值（包括但不限于：
+桦栗果
+发芽的石果
+公牛海带茎
+蘑菇农场
+中种植蘑菇）。
+当沃姆伍德自己种植任何植物时，恢复 10
+当 20
+距离单位
+1 距离单位等于 1/4
+边长，即一般情况下放置墙壁的最小间隔，也是建筑对齐网格的默认间隔。
+内其他玩家种植植物时，沃姆伍德在 5 秒内一共恢复
+0 ~ 2
+计算公式为 $2\times(1-\frac{d}{20})^2$，$d$ 为与沃姆伍德的距离
+，距离越远恢复越少。恢复效果会被沃姆伍德自己砍倒
+、采摘
+、铲起植物所打断。
+当植物在沃姆伍德附近被摧毁，无论是不是沃姆伍德做的，沃姆伍德都会因此损失理智值。
+当沃姆伍德自己砍倒树时，损失 15
+当沃姆伍德自己采摘花、铲起植物时，损失 5
+当 20 距离单位内植物被烧毁（包括物品形态的植物，且堆叠的物品只损失一次理智），或其他玩家采摘花、砍倒树、铲起植物时，沃姆伍德在 5 秒内一共损失
+0 ~ 2
+计算公式为 $2\times(1-\frac{d}{20})^2$，$d$ 为与沃姆伍德的距离
+，距离越远损失越少。损失效果会被沃姆伍德自己种植植物所打断。
+不会影响沃姆伍德的理智值。
+眼球草
+刺针旋花
+火荨麻
+和春季发情的
+对沃姆伍德是中立的，
+不会因为沃姆伍德采摘它身上的
+而攻击沃姆伍德。
+沃姆伍德受到的
+火焰伤害
+比其他角色高 25%，且被点燃后的燃烧时间比其他角色长 1 秒（共 4.3 秒）。
+沃姆伍德不会
+留下尸体
+沃姆伍德的
+最喜欢的食物
+熟香蕉
+技能树
+{"metainfo":{"imgs":{"Selectable_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Selectable_over.png","Wormwood_background":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/45/Wormwood_background.png","Locked_skill":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/ae/Locked_skill.png","Unlocked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/85/Unlocked_over.png","Frame_octagon":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Frame_octagon.png","Unlocked":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/31/Unlocked.png","Skilltree_backgroundart":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/cb/Skilltree_backgroundart.png","Button_carny_long_down":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/13/Button_long_down.png","Button_carny_long_hover":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/6f/Button_long_hover.png","Unselected":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c4/Unselected.png","Selected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/ee/Selected_over.png","Button_carny_long_normal":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/68/Button_long_normal.png","Locked_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/46/Locked_over.png","Selected":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fa/Selected.png","Unselected_over":"https://huiji-public.huijistatic.com/dontstarve/uploads/d/d8/Unselected_over.png","Skill_icon_textbox_white":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/79/Skill_icon_textbox_white.png","Selectable":"https://huiji-public.huijistatic.com/dontstarve/uploads/2/23/Selectable.png","Frame":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c5/Frame.png"}},"defs":{"wormwood_syrupcrafting":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/5/5d/Wormwood_syrupcrafting.png","title":"可怜的树液","tags":["crafting"],"group":"crafting","pos":[-23,145],"icon":"wormwood_syrupcrafting","desc":"学习制作泻根糖浆来诱导其他生物排便。"},"wormwood_mushroomplanter_ratebonus2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/1/10/Wormwood_mushroomplanter_ratebonus2.png","connects":["wormwood_mushroomplanter_upgrade","wormwood_syrupcrafting"],"title":"蘑菇精通 II","tags":["crafting"],"group":"crafting","pos":[-83,115],"icon":"wormwood_mushroomplanter_ratebonus2","desc":"种植在蘑菇农场中的蘑菇生长得更快。"},"wormwood_allegiance_lunar_plant_gear_1":{"locks":["wormwood_allegiance_lock_lunar_2","wormwood_allegiance_count_lock_2"],"ondeactivate":true,"tags":["allegiance","lunar","lunar_favor"],"group":"allegiance2","desc":"使用亮茄盔甲时，把攻击你的敌人定在原地。\\n将荆棘外壳与亮茄盔甲融合，即可打造出荆棘茄甲。","title":"月亮守卫 I","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/ff/Wormwood_allegiance_lunar_plant_gear_1.png","onactivate":true,"connects":["wormwood_allegiance_lunar_plant_gear_2"],"icon":"wormwood_allegiance_lunar_plant_gear_1","pos":[224.5,201]},"wormwood_juicyberrybushcrafting":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/a/a6/Wormwood_juicyberrybushcrafting.png","title":"多汁浆果丛制造","tags":["crafting"],"group":"crafting","pos":[-168,78],"icon":"wormwood_juicyberrybushcrafting","desc":"牺牲生命值来制作多汁的浆果丛。"},"wormwood_blooming_max_upgrade":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/85/Wormwood_blooming_speed3.png","connects":["wormwood_blooming_photosynthesis"],"title":"花朵力量","tags":["blooming"],"group":"gathering","pos":[212,30],"icon":"wormwood_blooming_speed3","desc":"沃姆伍德的施肥效果增加30%。"},"wormwood_lureplantbulbcrafting":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/7/73/Wormwood_lureplantbulbcrafting.png","title":"食人花制造","tags":["crafting"],"group":"crafting","pos":[-228,78],"icon":"wormwood_lureplantbulbcrafting","desc":"牺牲生命值来制作食人花。"},"wormwood_blooming_photosynthesis":{"ondeactivate":true,"tags":["blooming"],"group":"gathering","desc":"完全盛开时在日光下，生命值会慢慢恢复。","title":"光合作用","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/4/47/Wormwood_blooming_photosynthesis.png","onactivate":true,"icon":"wormwood_blooming_photosynthesis","pos":[227,80]},"wormwood_berrybushcrafting":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/9/9f/Wormwood_berrybushcrafting.png","connects":["wormwood_reedscrafting","wormwood_juicyberrybushcrafting"],"title":"浆果丛制造","tags":["crafting"],"group":"crafting","pos":[-148,30],"icon":"wormwood_berrybushcrafting","desc":"牺牲生命值来制作浆果丛。"},"wormwood_blooming_farmrange1":{"connects":["wormwood_quick_selffertilizer"],"ondeactivate":true,"tags":["blooming"],"group":"gathering","desc":"在完全盛开期间，可以在更大范围内照料农田植物。\\n更快地收获农田植物。","title":"农场工人","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/6/64/Wormwood_blooming_farmrange1.png","onactivate":true,"icon":"wormwood_blooming_farmrange1","pos":[62,99]},"wormwood_allegiance_lunar_plant_gear_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/9/93/Wormwood_allegiance_lunar_plant_gear_2.png","title":"月亮守卫 II","tags":["allegiance","lunar","lunar_favor"],"group":"allegiance2","pos":[224.5,241],"icon":"wormwood_allegiance_lunar_plant_gear_2","desc":"使用亮茄近战武器攻击时，召唤藤蔓加入战斗。"},"wormwood_quick_selffertilizer":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/00/Wormwood_quick_selffertilizer.png","connects":["wormwood_blooming_trapbramble","wormwood_bugs"],"title":"肥料护理","tags":["blooming"],"group":"gathering","pos":[102,135],"icon":"wormwood_quick_selffertilizer","desc":"更快地使用肥料包治疗。"},"wormwood_mushroomplanter_upgrade":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c6/Wormwood_mushroomplanter_upgrade.png","connects":["wormwood_moon_cap_eating"],"title":"蘑菇增产器","tags":["crafting"],"group":"crafting","pos":[-83,165],"icon":"wormwood_mushroomplanter_upgrade","desc":"在蘑菇农场中种植的蘑菇产量更高。"},"wormwood_blooming_speed2":{"connects":["wormwood_blooming_max_upgrade","wormwood_blooming_overheatprotection"],"tags":["blooming"],"group":"gathering","desc":"更快地达到完全盛开状态。","title":"成长冲刺 II","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/b/b1/Wormwood_blooming_speed2.png","onactivate":true,"icon":"wormwood_blooming_speed2","pos":[162,30]},"wormwood_blooming_overheatprotection":{"ondeactivate":true,"tags":["blooming"],"group":"gathering","desc":"开花时获得更好的过热保护。","title":"遮荫植物","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/9/99/Wormwood_blooming_overheatprotection.png","onactivate":true,"icon":"wormwood_blooming_overheatprotection","pos":[172,80]},"wormwood_mushroomplanter_ratebonus1":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/81/Wormwood_mushroomplanter_ratebonus1.png","connects":["wormwood_mushroomplanter_ratebonus2"],"title":"蘑菇精通I","tags":["crafting"],"group":"crafting","pos":[-28,85],"icon":"wormwood_mushroomplanter_ratebonus1","desc":"种植在蘑菇农场中的蘑菇生长得稍快一些。"},"wormwood_moon_cap_eating":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/fc/Wormwood_moon_cap_eating.png","title":"月亮蘑菇云","tags":["crafting"],"group":"crafting","pos":[-63,210],"icon":"wormwood_moon_cap_eating","desc":"了解如何在蘑菇农场中种植月亮蘑菇，并在食用它们时释放诱导睡眠的孢子。"},"wormwood_bugs":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/3/3c/Wormwood_bugs.png","title":"平易近蜂","tags":["blooming"],"group":"gathering","pos":[50,170],"icon":"wormwood_bugs","desc":"除非被激怒，否则蜜蜂和蝴蝶会容忍沃姆伍德。"},"wormwood_blooming_trapbramble":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/b/bd/Wormwood_blooming_trapbramble.png","connects":["wormwood_armor_bramble"],"title":"荆棘陷阱专家","tags":["blooming"],"group":"gathering","pos":[144,165],"icon":"wormwood_blooming_trapbramble","desc":"完全盛开时，自动重置附近的荆棘陷阱。"},"wormwood_allegiance_lock_lunar_1":{"pos":[-201,130],"tags":["allegiance","lock"],"group":"allegiance1","lock_open":true,"root":true,"desc":"找到并击败天体英雄。"},"wormwood_reedscrafting":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/f/f0/Wormwood_reedscrafting.png","connects":["wormwood_lureplantbulbcrafting"],"title":"猴尾草制造","tags":["crafting"],"group":"crafting","pos":[-198,30],"icon":"wormwood_reedscrafting","desc":"牺牲生命值来制作猴尾草。"},"wormwood_blooming_speed1":{"connects":["wormwood_blooming_speed2"],"tags":["blooming"],"group":"gathering","desc":"稍快一点达到完全盛开状态。","title":"成长冲刺 I","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/ef/Wormwood_blooming_speed1.png","onactivate":true,"icon":"wormwood_blooming_speed1","pos":[112,30]},"wormwood_allegiance_lunar_mutations_1":{"locks":["wormwood_allegiance_lock_lunar_1","wormwood_allegiance_count_lock_1"],"ondeactivate":true,"tags":["allegiance","lunar","lunar_favor"],"group":"allegiance1","desc":"利用你的月亮根须将胡萝卜转化为胡萝卜鼠。\\n你创造出的胡萝卜鼠会叼回它们在地上找到的食物。","title":"月亮耕耘者 I","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/e/e9/Wormwood_lunar_mutations_1.png","onactivate":true,"connects":["wormwood_allegiance_lunar_mutations_2","wormwood_allegiance_lunar_mutations_3"],"icon":"wormwood_lunar_mutations_1","pos":[-201,195]},"wormwood_allegiance_lunar_mutations_2":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/c/c0/Wormwood_lunar_mutations_2.png","title":"月亮耕耘者 II","tags":["allegiance","lunar","lunar_favor"],"group":"allegiance1","pos":[-228,236],"icon":"wormwood_lunar_mutations_2","desc":"发掘你的月之根须，将荧光果变成球状光虫。\\n你创造的球状光虫会跟随你。\\n球状光虫越聚集，发出的光亮就越大。"},"wormwood_allegiance_lunar_mutations_3":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/9/93/Wormwood_lunar_mutations_3.png","title":"月亮耕耘者 III","tags":["allegiance","lunar","lunar_favor"],"group":"allegiance1","pos":[-174,236],"icon":"wormwood_lunar_mutations_3","desc":"发掘你的月之根须，将火龙果变成沙拉蝾螈！\\n你创造的沙拉蝾螈会攻击你在攻击的事物。\\n变身的沙拉蝾螈达到最大数量后会获得生命值加成。"},"wormwood_allegiance_count_lock_1":{"locks":["wormwood_allegiance_lock_lunar_1"],"tags":["allegiance","lock"],"group":"allegiance1","lock_open":{"GreaterOrEqThan":{"left":{"CountTags":"crafting"},"right":5}},"pos":[-201,160],"desc":"学习足够的左分枝技能来解锁。"},"wormwood_saplingcrafting":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/8/86/Wormwood_saplingcrafting.png","connects":["wormwood_berrybushcrafting"],"title":"树苗制造","tags":["crafting"],"group":"crafting","pos":[-98,30],"icon":"wormwood_saplingcrafting","desc":"牺牲生命值来制作月亮树苗。"},"wormwood_identify_plants2":{"connects":["wormwood_saplingcrafting","wormwood_mushroomplanter_ratebonus1","wormwood_blooming_speed1","wormwood_blooming_farmrange1"],"ondeactivate":true,"tags":[],"group":"gathering","desc":"学会辨识刚刚种下的种子，以确定它们会长成什么样子。","defaultfocus":true,"title":"种子侦探","icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/04/Wormwood_identify_plants.png","onactivate":true,"root":true,"icon":"wormwood_identify_plants","pos":[7,20]},"wormwood_armor_bramble":{"icon_url":"https://huiji-public.huijistatic.com/dontstarve/uploads/0/01/Wormwood_armor_bramble.png","title":"荆棘外壳专家","tags":["blooming"],"group":"gathering","pos":[127,207],"icon":"wormwood_armor_bramble","desc":"你每打出三次连击，并不受到伤害时，都会触发荆棘外壳的尖刺爆发。"},"wormwood_allegiance_lock_lunar_2":{"pos":[224.5,131],"tags":["allegiance","lock"],"group":"allegiance2","lock_open":true,"root":true,"desc":"找到并击败天体英雄。"},"wormwood_allegiance_count_lock_2":{"locks":["wormwood_allegiance_lock_lunar_2"],"tags":["allegiance","lock"],"group":"allegiance2","lock_open":{"GreaterOrEqThan":{"left":{"CountTags":"blooming"},"right":5}},"pos":[224.5,164],"desc":"学习足够的右分枝技能来解锁。"}}}
+根技能
+左分枝
+右分枝
+若沃姆伍德的
+幸运值
+\(L_{幸运值}\)
+，则概率为
+$$\begin{cases}\min(1,0.2+L_{幸运值}\times0.2) & L_{幸运值} > 0  \\0.2                          & L_{幸运值} \le 0  \\\end{cases}$$
+沃姆伍德挖起草丛或
+时会扣 5 点理智，再把它种植下去会恢复 10 点理智。如此反复即可消耗铲子耐久来快速恢复理智。
+在活木短缺时，没有有效快速回血手段的沃姆伍德可以让
+沃拓克斯
+释放灵魂来给沃姆伍德回血。
+沃拓克斯
+释放的灵魂回生命值会被其他玩家均摊去一部分，所以在通过此方法大量刷取活木时最好保证
+沃拓克斯
+灵魂回血范围内只有沃姆伍德，但是这并不会差太多。
+彩虹糖豆
+可以为沃姆伍德回复总共 120 点生命值。
+他还可以靠食用
+恐怖国王饼
+壶装乐观混合剂
+瓶装乐观混合剂
+来回复生命值。
+在前期注意收集
+，可以在第一个冬天到来前为基地提供数量可观的农产品。
+在游戏中后期，沃姆伍德和
+薇克巴顿
+配合可以快速大量生产农产品。
+沃姆伍德召唤的生物，死亡后都会掉落它们的制作材料，以此方式可以实现制作材料的返鲜。
+由于施肥动作的优先级高于食用，沃姆伍德通常无法直接食用
+腐烂物
+变质的鱼
+格罗姆的黏液
+受潮的营养砖
+等可食用的
+濒临溺水
+时无法给自己施肥，此时沃姆伍德可以食用可食用肥料并正常享受除了生命值变化之外的效果，例如
+腐烂物
+获得 -10
+格罗姆的黏液
+获得 9.375
+与 -50
+受潮的营养砖
+获得  18.75
+受潮的营养砖
+没有负面影响，因此其它玩家也可以直接喂给沃姆伍德。
+皮肤套装
+“空洞”
+“玫瑰”
+“前往绿洲”
+“凯旋”
+“南瓜灯”
+“维多利亚”
+“沃姆蝾螈头饰”
+“欢乐”
+“前往月亮”
+“下雪”
+“绿色系”
+“古代”
+“贵宾”
+“冒险家”
+沃姆伍德是在“
+沃姆伍德发布
+”中加入游戏的。
+游戏内容
+沃姆伍德的配音来自狄洁里都号角，这是一种澳大利亚土著的木管乐器。
+沃姆伍德原本是单机版
+猪镇DLC
+的角色，也是目前唯一一个加入了联机版的猪镇角色。
+沃姆伍德说话时会使用特殊的Henny Penny字体。
+在单机版中沃姆伍德的台词的颜色是绿色的。
+沃姆伍德管蘑菇也叫做朋友，尽管它们实际上是真菌而非植物。
+和其他DLC角色一样，沃姆伍德
+的形象会随使用不同皮肤而改变。
+沃姆伍德有一个独有的闲置动画，他会像宣传片那样用手比划蝴蝶。
+背景故事
+沃姆伍德的生日是6月6日，这也是2019年沃姆伍德被加入联机版的日期。
+绿宝石
+时，沃姆伍德会说：“看上去很眼熟...”。表明他胸前的宝石可能是绿宝石。
+文化背景
+沃姆伍德制作活木的动画可能参考了电影《复仇者联盟3：无限战争》，其中格鲁特切断了自己的手臂来作为斧柄。
+沃姆伍德的名字和从天而降的背景可能参考了《圣经·启示录》中第三位天使吹响号角所带来的灾难，一颗名为茵陈（wormwood）的星星坠入了水中使三分之一的水变苦。
