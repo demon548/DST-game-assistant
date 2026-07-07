@@ -38,7 +38,7 @@ embeddings = HuggingFaceEmbeddings(
 )
 
 # ---- 高级组件 ----
-from agent_workflow import Agent, AgentStep, is_chinese, translate
+from agent_workflow import Agent, AgentStep, is_chinese, translate_and_rewrite
 from context_memory import ConversationMemory
 from input_validator import validate as validate_input
 from safety_classifier import classify as safety_classify
@@ -237,15 +237,16 @@ class EnhancedRAGAssistant(RAGAssistant):
             )]
             search_query = expanded_query
 
-        # ---- ③ 语言检测 + 翻译 ----
+        # ---- ③ 语言检测 + 翻译 + 领域改写 ----
         translate_log = []
         if not is_chinese(search_query):
             original = search_query
             try:
-                search_query = translate(search_query, self.llm)
+                result, debug_info = translate_and_rewrite(search_query, self.llm)
+                search_query = result
                 translate_log = [AgentStep(
-                    "🌐 语言翻译",
-                    f"检测到非中文输入\n  原文(截断): {original[:80]}\n  翻译结果: {search_query[:120]}",
+                    "🌐 多语言翻译+改写",
+                    debug_info,
                     (_t.time() - t_rw) * 1000
                 )]
             except Exception:

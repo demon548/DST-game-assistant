@@ -284,9 +284,97 @@ def is_chinese(text: str) -> bool:
     return bool(re.search(r'[一-鿿]', text))
 
 
-def translate(text: str, llm) -> str:
+# ---- 多语言→中文游戏术语映射 ----
+MULTILINGUAL_MAP = {
+    # 英文→中文
+    'bearger': '熊獾',
+    'deerclops': '巨鹿',
+    'dragonfly': '龙蝇',
+    'bee queen': '蜂后',
+    'klaus': '克劳斯',
+    'fuelweaver': '影织者',
+    'shadow sword': '暗影剑',
+    'dark sword': '暗影剑',
+    'ham bat': '火腿棒',
+    'pierogi': '波兰水饺',
+    'meatballs': '肉丸',
+    'dragonpie': '火龙果派',
+    'cave': '洞穴',
+    'ruins': '远古遗迹',
+    'atrium': '中庭',
+    'lunar island': '月岛',
+    'celestial champion': '天体英雄',
+    'crock pot': '烹饪锅',
+    'science machine': '科学机器',
+    'alchemy engine': '炼金引擎',
+    'sanity': '理智',
+    'health': '生命值',
+    'hunger': '饱食度',
+    'thermal stone': '暖石',
+    'eyebrella': '眼球伞',
+    'beefalo hat': '牛毛帽',
+    'winter': '冬季',
+    'summer': '夏季',
+    'spring': '春季',
+    'autumn': '秋季',
+    'farming': '种田',
+    'giant crop': '巨大作物',
+    'combat': '战斗攻略',
+    'beginner': '新手',
+    'survival guide': '生存指南',
+    'walkthrough': '攻略',
+    'crafting': '合成',
+    'recipe': '食谱',
+    'boss': 'Boss攻略',
+}
+
+
+def translate_and_rewrite(text: str, llm) -> tuple[str, str, str]:
+    """
+    多语言处理完整链路:
+      ① 多语言词表直接映射
+      ② LLM 翻译 + 改写为饥荒领域检索表达
+    返回: (translation, rewrite, debug_info)
+    """
+    debug_parts = [f"原文: {text[:100]}"]
+    lower = text.lower()
+
+    # ① 先检查词表映射
+    direct_matches = []
+    for en, zh in MULTILINGUAL_MAP.items():
+        if en in lower:
+            direct_matches.append(zh)
+    if direct_matches:
+        direct_str = ' '.join(direct_matches)
+        debug_parts.append(f"词表匹配: {direct_str}")
+
+    # ② LLM 翻译 + 领域改写
     from langchain_core.prompts import ChatPromptTemplate
     prompt = ChatPromptTemplate.from_template(
-        "翻译为中文检索关键词（输出精简关键词）:\n\n{text}\n\n关键词:"
+        """将下面的问题翻译为中文，并改写为适合饥荒Wiki检索的查询。
+
+规则:
+- 翻译成中文
+- 补充饥荒游戏关键词（如"新手"→"新手开荒攻略"、"怎么开始"→"新手入门指南"）
+- 输出精简的检索关键词，而非完整句子
+- 不添加不存在的信息
+
+输入: {text}
+
+中文检索关键词:"""
     )
-    return (prompt | llm).invoke({"text": text}).content.strip()
+    translated = (prompt | llm).invoke({"text": text}).content.strip()
+    debug_parts.append(f"翻译+改写: {translated}")
+
+    # ③ 如果词表有匹配，拼到翻译结果后面
+    if direct_matches:
+        translated = translated + ' ' + ' '.join(direct_matches)
+
+    debug_info = '\n'.join(debug_parts)
+    return translated, debug_info
+
+
+# 保持旧接口兼容
+def translate(text: str, llm) -> str:
+    result, _ = translate_and_rewrite(text, llm)
+    return result
