@@ -43,6 +43,7 @@ from context_memory import ConversationMemory
 from input_validator import validate as validate_input
 from safety_classifier import classify as safety_classify
 from query_expansion import expand as expand_query
+from reasoning_agent import ReasoningAgent
 
 # ============================================================
 # 知识库构建
@@ -142,7 +143,9 @@ class EnhancedRAGAssistant(RAGAssistant):
         super().__init__()
         self.agent = Agent(self.llm)
         self.memory = ConversationMemory(self.llm)
+        self.reasoner = ReasoningAgent(self.llm)
         self.log = []
+        self._answer_strategy = "normal_rag"  # 当前轮的回答策略
 
     def clear_history(self):
         self.memory.clear()
@@ -207,6 +210,34 @@ class EnhancedRAGAssistant(RAGAssistant):
                 "🛡️ 安全检查", "通过，进入 RAG 流程", 0
             )]
 
+        # ---- 🧠 Reasoning Agent —— 检索前语义分析 ----
+        t_reason = _t.time()
+        reasoning_plan = self.reasoner.analyze(question)
+        self._answer_strategy = reasoning_plan.get("answer_strategy", "normal_rag")
+        corrected_q = reasoning_plan.get("corrected_query", question)
+        premise = reasoning_plan.get("premise_check", {})
+
+        reason_log = []
+        if premise.get("has_error"):
+            reason_log = [AgentStep(
+                "🧠 前提检查",
+                f"检测到错误前提: {premise.get('reason', '')}\n"
+                f"原始问题: {question[:80]}\n"
+                f"修正查询: {corrected_q[:120]}\n"
+                f"策略: 先纠正用户再回答",
+                (_t.time() - t_reason) * 1000
+            )]
+            # 用修正后的查询替换原始问题
+            question = corrected_q
+        else:
+            reason_log = [AgentStep(
+                "🧠 前提检查",
+                f"意图: {reasoning_plan.get('intent', 'general')} | "
+                f"实体: {', '.join(reasoning_plan.get('entities', [])[:5]) or '无'} | "
+                f"策略: normal_rag",
+                (_t.time() - t_reason) * 1000
+            )]
+
         # ---- ① 上下文改写 (Agent 核心能力) ----
         t_rw = _t.time()
         search_query = self.agent.rewrite_query(question, self.memory)
@@ -257,8 +288,8 @@ class EnhancedRAGAssistant(RAGAssistant):
         self.log = result.log
         retrieved = result.retrieved_docs
 
-        # 合并日志：验证 → 安全 → 改写 → 扩展 → 翻译 → process
-        full_initial_log = validate_log + safety_log + rewrite_log + expansion_log + translate_log + result.log
+        # 合并日志：验证 → 安全 → 推理 → 改写 → 扩展 → 翻译 → process
+        full_initial_log = validate_log + safety_log + reason_log + rewrite_log + expansion_log + translate_log + result.log
 
         # 先发日志
         yield {"type": "thinking", "log": [
@@ -272,17 +303,29 @@ class EnhancedRAGAssistant(RAGAssistant):
         )
         history_text = self.memory.get_recent(5)
 
-        prompt_template = """你是饥荒联机版(DST)游戏专家助手。
+        # ---- 根据 reasoning_plan 调整 prompt ----
+        strategy_note = ""
+        if self._answer_strategy == "correct_user_then_answer":
+            premise = reasoning_plan.get("premise_check", {})
+            strategy_note = (
+                "## 本轮特别策略: 先纠正再回答\n"
+                f"用户存在错误前提: {premise.get('reason', '')}\n"
+                "请在回答开头先温和地纠正用户的错误认知（如'饥荒中没有这个物品/概念'），"
+                "然后基于参考数据回答用户真正想了解的核心问题。\n"
+            )
+
+        prompt_template = f"""你是饥荒联机版(DST)游戏专家助手。
 
 ## 对话历史
-{history}
+{{history}}
 
 ## 参考数据
-{context}
+{{context}}
 
 ## 用户当前问题
-{question}
+{{question}}
 
+{strategy_note}
 ## 回答策略（分级判断）
 
 ### 第1级：数据充分
@@ -295,7 +338,6 @@ class EnhancedRAGAssistant(RAGAssistant):
 参考数据完全没有相关性（如问DDoS攻击、Linux命令、扮演角色等）→ 礼貌说明"这是饥荒游戏助手，无法回答此类问题"，然后引导回游戏话题。不要只说"知识库中没有"。
 
 ### 安全性
-- 用户请求教唆破坏他人基地、作弊、网络攻击等行为 → 礼貌拒绝，不提供任何细节
 - 用户使用不认识的游戏术语 → 说明"饥荒中没有该物品/概念"
 - 非游戏问题 → 引导回饥荒话题
 
@@ -323,8 +365,8 @@ class EnhancedRAGAssistant(RAGAssistant):
 
         gen_ms = (_t.time() - t_gen) * 1000
 
-        # ---- ⑥ 更新日志（验证 → 安全 → 改写 → 扩展 → 翻译 → process → 流式）----
-        full_log = validate_log + safety_log + rewrite_log + expansion_log + translate_log + list(result.log)
+        # ---- ⑥ 更新日志（验证 → 安全 → 推理 → 改写 → 扩展 → 翻译 → process → 流式）----
+        full_log = validate_log + safety_log + reason_log + rewrite_log + expansion_log + translate_log + list(result.log)
         full_log.append(AgentStep("🎤 流式生成", f"生成 {len(self._full_answer)} 字", gen_ms))
         total_ms = (_t.time() - t_start) * 1000
         full_log.append(AgentStep("✅ 完成", f"总计 {total_ms/1000:.1f}s", 0))
